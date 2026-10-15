@@ -4,6 +4,10 @@
 
 An end-to-end analytics portfolio using authentic Olist marketplace data: **Python · DuckDB SQL · Power BI Import · DAX**. It turns **99,441 orders** into a tested order/item model, two interactive report pages and a management brief with evidence-based operational recommendations. The project runs locally without a Fabric trial or cloud service.
 
+**[Open the interactive Power BI report — restricted access](https://app.powerbi.com/groups/me/reports/3024903c-5ef5-4b54-b097-dd8cfa57c3cd?ctid=9a97c27d-b83e-4694-b353-54bdbf18ab5b&pbi_source=linkShare)**
+
+Microsoft sign-in and existing report permission are required. Anonymous viewing is currently unavailable in the hosting tenant; the public dashboard previews below require no account.
+
 | Strongest verified finding | Business implication |
 |---|---|
 | **93.2% on time** across 96,203 eligible delivered orders, Jan 2017–Aug 2018 | Establish a precisely defined delivery baseline; this is not a success rate across all placed orders |
