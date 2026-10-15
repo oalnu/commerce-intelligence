@@ -1,0 +1,28 @@
+{
+  "all": {
+    "orders": 99441,
+    "eligible": 96470,
+    "late": 6534,
+    "delivered": 96478,
+    "median_days": 10.217476851851853,
+    "p90_days": 23.096377314814816,
+    "average_review": 4.086386346822333,
+    "reviewed": 98673,
+    "low_reviews": 14494,
+    "delivered_merchandise_brl": "13221498.11",
+    "delivered_freight_brl": "2198275.64"
+  },
+  "core": {
+    "orders": 99092,
+    "eligible": 96203,
+    "late": 6531,
+    "delivered": 96211,
+    "median_days": 10.209988425925927,
+    "p90_days": 23.063881944444447,
+    "average_review": 4.088630123055019,
+    "reviewed": 98330,
+    "low_reviews": 14382,
+    "delivered_merchandise_brl": "13181027.13",
+    "delivered_freight_brl": "2192092.88"
+  }
+}

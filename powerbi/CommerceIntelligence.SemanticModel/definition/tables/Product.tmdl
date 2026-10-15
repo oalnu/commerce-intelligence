@@ -1,0 +1,61 @@
+table Product
+	lineageTag: f3862d06-0f84-58e2-b71a-2344a9e0db80
+
+	column 'Product ID'
+		dataType: string
+		isHidden
+		lineageTag: dd62dbab-145e-512a-8c36-78cc096131ac
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column 'Category Key'
+		dataType: string
+		isHidden
+		lineageTag: c5b5628f-78e8-54bd-8de3-cb212c010cff
+		summarizeBy: none
+		sourceColumn: category_key
+
+	column Category
+		dataType: string
+		lineageTag: 9821dedc-7b9d-5449-851c-921f5556120a
+		summarizeBy: none
+		sourceColumn: category
+
+	column 'Weight G'
+		dataType: int64
+		lineageTag: 826a1cb1-dde6-55a0-9e63-9db6964bda45
+		summarizeBy: none
+		sourceColumn: weight_g
+
+	column 'Length Cm'
+		dataType: int64
+		lineageTag: daefd1db-eaf1-5c89-bc18-37c9955dfba6
+		summarizeBy: none
+		sourceColumn: length_cm
+
+	column 'Height Cm'
+		dataType: int64
+		lineageTag: 52450a0f-e68b-5404-8d20-c8820f37b270
+		summarizeBy: none
+		sourceColumn: height_cm
+
+	column 'Width Cm'
+		dataType: int64
+		lineageTag: 5475036a-36af-520b-933f-04d4755c0831
+		summarizeBy: none
+		sourceColumn: width_cm
+
+	partition Product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/dim_product.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"product_id", type text}, {"category_key", type text}, {"category", type text}, {"weight_g", Int64.Type}, {"length_cm", Int64.Type}, {"height_cm", Int64.Type}, {"width_cm", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

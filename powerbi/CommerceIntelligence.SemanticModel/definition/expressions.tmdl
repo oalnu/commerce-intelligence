@@ -1,0 +1,7 @@
+expression DataRoot = "__SET_DATA_ROOT_OR_RUN_PIPELINE__" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: aacdaf2a-65ee-5621-b14f-8963d33f201e
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,745 @@
+{
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 226,
+      "sha256": "659d9ae837caeb039ccbcaa9bec9ad7e6682f4b83a7aaf543f66eeab6ae3637e"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 609,
+      "sha256": "0b2e58ac37257f5d954d525d6c0d405c9b28111b33b814ea3e419da69e31ee2c"
+    },
+    {
+      "file": "assets/architecture.png",
+      "bytes": 73408,
+      "sha256": "2d2cbaba8f3b7f07d51c5a8ac7bedf5f157badf3121ca997ed66513ced6aaa63"
+    },
+    {
+      "file": "assets/architecture.svg",
+      "bytes": 4911,
+      "sha256": "404bdb413928688a1d35c4601ebe0ed7f888f873fbc74bd2d46d493dfddae65d"
+    },
+    {
+      "file": "assets/powerbi_seed/definition/report.json",
+      "bytes": 1195,
+      "sha256": "1b1f2d76cfb9de0901315d2f12fafacadfb8d5c7eddd24d17aae9918bb48cefe"
+    },
+    {
+      "file": "assets/powerbi_seed/definition/version.json",
+      "bytes": 152,
+      "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+    },
+    {
+      "file": "assets/powerbi_seed/StaticResources/SharedResources/BaseThemes/Fluent2-CY26SU08.json",
+      "bytes": 99561,
+      "sha256": "5095b493358f0307e2f0a690a48c78ee93886bb70b578e3bfc48186cfc0319af"
+    },
+    {
+      "file": "assets/screenshots/01_delivery_experience.png",
+      "bytes": 516857,
+      "sha256": "fb77a75a05881797d2048510c6188650327f0d99a95dbdf4f03cabb922b4975e"
+    },
+    {
+      "file": "assets/screenshots/02_improvement_priorities.png",
+      "bytes": 545155,
+      "sha256": "d2d709214f1472d4f97a7e2eca581ba313f2521fa3ea3e7667fa489d34e60ac2"
+    },
+    {
+      "file": "config/source_manifest.json",
+      "bytes": 3316,
+      "sha256": "97e21071b087ca2dad3512b508b8928b881bff40760f2cc560ab84d72211c1d4"
+    },
+    {
+      "file": "DATA_LICENSE.md",
+      "bytes": 1960,
+      "sha256": "f22094bbef8f5b57f61caca00e2c544cbb13b78ac3de191ca12d7b150696aa93"
+    },
+    {
+      "file": "docs/architecture.mmd",
+      "bytes": 674,
+      "sha256": "570a1cbd252ee6780166a594af68aeafebe0a844043a5279aba2316c55b35364"
+    },
+    {
+      "file": "docs/interview_guide.md",
+      "bytes": 6817,
+      "sha256": "0c274a190142981e4ed394f9ecf890062f494c2f0735bc8c77a41eaa6540f5f6"
+    },
+    {
+      "file": "docs/measure_dictionary.json",
+      "bytes": 9034,
+      "sha256": "a7471bd9169d097f4283b2f5cefc8b355979f4eddc7b178f2081ecb3a9bd68d3"
+    },
+    {
+      "file": "docs/model_and_metrics.md",
+      "bytes": 8051,
+      "sha256": "0e1f29e032c685b269d19875b83e11d8a3c038788e84dda530158073d82a4ff3"
+    },
+    {
+      "file": "docs/publication.md",
+      "bytes": 2822,
+      "sha256": "cab0ac65b4ac1c00e7e597ce0b5c6943cada0e374e711600480b9a956bd68321"
+    },
+    {
+      "file": "docs/semantic_model.mmd",
+      "bytes": 733,
+      "sha256": "a1716fcc09cb4277734b889f4fb4a031de9951bdbb691c29fcf4ff8664f65938"
+    },
+    {
+      "file": "docs/validation.md",
+      "bytes": 4923,
+      "sha256": "d5e79ac0675ef50c36a0a82b8275a068c15ba58a2fb71037544da493ab7d4d11"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 641,
+      "sha256": "3e0d2ea7122d597f833a9d10f98bd6388453bf590c0abf11d8878f07decc197c"
+    },
+    {
+      "file": "output/pdf/management_summary.pdf",
+      "bytes": 6983,
+      "sha256": "cdba97fb6fcad0d1892b464b53c53803f737b0ec4c99c12e385d752fb65999e7"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.pbip",
+      "bytes": 299,
+      "sha256": "e9e01c0216c4fe9644715034eccd786583fd8828c21134d5564151156e00ae0e"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/.platform",
+      "bytes": 314,
+      "sha256": "17ef0e2e32bf002e2be789b544730d460050066b82e27bed7e9eb054d2b54b86"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/page.json",
+      "bytes": 2140,
+      "sha256": "7f35f09ea07bb88b0dcb8c4ec37c746675ba51a6089f82cfd19acf60b992a4c6"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/147dbce226325641aefa/visual.json",
+      "bytes": 4015,
+      "sha256": "ad1803104dd5e0cbdb69b23d95d94ca5d0e99cdf8018f287792e43e6f474c2bb"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/2e986321921c5e1cab04/visual.json",
+      "bytes": 6950,
+      "sha256": "f7dab00cc06ca78f04b8601ab16cc49f5bbd96c7226afe03e77b8ba35af53b2d"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/3ef76602c5e95092b29f/visual.json",
+      "bytes": 6965,
+      "sha256": "8cbeea7854f88ec0abd56888e315407a0462ac1db872e4862fd1e7350d181302"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/4b31fc9effe351a986b9/visual.json",
+      "bytes": 6944,
+      "sha256": "4186786d74f80558efaa35a4e9f683a75811cf0afeb60b351c13902b1539e33a"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/5ee3a2a174cc5509aa99/visual.json",
+      "bytes": 4089,
+      "sha256": "77974e5a76e1b205b0596676eb3bcfd1e2d85a32047d326a14c313e4e51b58eb"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/7494e8c61a7456879481/visual.json",
+      "bytes": 3560,
+      "sha256": "e127b8d557bd897a5df0726f364f2f3592d81e357185d9a1184a896d1a0b5a75"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/8144713d4a7856519de3/visual.json",
+      "bytes": 14407,
+      "sha256": "ee60a561b80d36464657e511668bb57e203fbc4a1db49d073ddb60dd4978a966"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/8d0ae7227d1f5d0c9824/visual.json",
+      "bytes": 13963,
+      "sha256": "ec02174e5e44d5dbfcbc658c0096ae936a8f3e7a2e2b0c1ea56e15b1a8b12854"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/a50dd214a38c5dd79beb/visual.json",
+      "bytes": 5798,
+      "sha256": "5555a9e6e43137a858f9d3101b69ff41a8303acc69897e91dc5d2a9ee08d5584"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/b3f8da2624e6580a8958/visual.json",
+      "bytes": 18701,
+      "sha256": "29af5c6fb03aa23ec4dcf6cfa3d243256986580ea3f060e7535c37901d49b688"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/eb314b6a194e557f9406/visual.json",
+      "bytes": 5739,
+      "sha256": "5db85b93bb159fa63c3d5f5adb253a0250b6368849e60cad7810b3cd1a274134"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/ede9fe6ecb1e5015a5ee/visual.json",
+      "bytes": 4230,
+      "sha256": "410956e0bd129e7143a17aab8a224be7a3c7c9dccec9f05cfe167646c17c3bf0"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/f742d617c4b05b69ae5a/visual.json",
+      "bytes": 6948,
+      "sha256": "b92c5c926dd418103f933da92653a580131aa1d626e364514bb6149112942fe5"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/delivery_overview/visuals/f8e6f4f0d63d5c0cb493/visual.json",
+      "bytes": 4491,
+      "sha256": "8d29a99adc5010024a4eaf75141da51c2c8257696b46619aff01f86d64fab94b"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/page.json",
+      "bytes": 2146,
+      "sha256": "7b05c284acf4986294b94ad580ce3a34a608a7a2263dbf37602d1b72c206beda"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/01da12d0eb6053a1a852/visual.json",
+      "bytes": 4089,
+      "sha256": "b43916f02b60f9e14de66386f4ea7da52abdb61b4758d6640a9259575d216103"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/09b860d582965295becf/visual.json",
+      "bytes": 11903,
+      "sha256": "e8e278f949311eb1116e6b8285e5ea32de6d081c67fcf5935f951e212536167c"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/17e4c699ce6b5a25b8df/visual.json",
+      "bytes": 14827,
+      "sha256": "54e6dd285322fb049b57c5c0469089931004541b4010c3f5ddce7da1965a2a6d"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/2d0a154081c35550a9f4/visual.json",
+      "bytes": 14511,
+      "sha256": "55f248598112d2170575c393c670443d3086b59b52eb67e882a31f6e4ecb0519"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/4a280c92ad1f5250a6c5/visual.json",
+      "bytes": 6950,
+      "sha256": "457ec0837523c02baa43b0183bc049f4f679dd4347832b8f1f39f82f1484502b"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/56d541277bc55159b221/visual.json",
+      "bytes": 5739,
+      "sha256": "4b503916c9a651f09820ada3f1209c6e6d10ab780dc7bf074da7ad04af312a91"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/603a2e20174f526789b2/visual.json",
+      "bytes": 4492,
+      "sha256": "56f6e20dde181e55611377a31e8568dc1ee8c6a71936ac9240c236490fd22d61"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/63fa7de892af5c079596/visual.json",
+      "bytes": 4015,
+      "sha256": "55bdfa96bb030f74016f0d9f64ddf99fbc92c9b9710621110f6d4f3c353d32b3"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/869fa21f29f75999a83d/visual.json",
+      "bytes": 6948,
+      "sha256": "804f7e587c0760baaa7d91dbf05184fc7216c3aaac6941e2008d85f6f61fc5db"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/da5935529f2152c6b058/visual.json",
+      "bytes": 4232,
+      "sha256": "2f1ab21bb1fd1cf6143d4a4434466c5c59e7e0fe09c802b1885f19e598bcb464"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/db61f6579b655690966e/visual.json",
+      "bytes": 5798,
+      "sha256": "d316ab6fed60b01df5314f603cb7e63d0a538900564c5d30b6ab8c5ac5a4cb52"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/e37bdd8e737b59f5a4cf/visual.json",
+      "bytes": 6981,
+      "sha256": "d87d0e8c08b8da1ab1628b47e520e9439f00f2ea2874510ffdfdb534df4f6b03"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/ea0d66d4852c579b8c04/visual.json",
+      "bytes": 3560,
+      "sha256": "cc637d1d39d66bb602d70431bd3e0c30a1cc6b75a6494201d4cfc1ef10f906af"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/improvement_priorities/visuals/f5a56c351e2451c5ab90/visual.json",
+      "bytes": 6917,
+      "sha256": "cba38e95fa0559fe4b8ffd3226affac633c858ad5e5d78cbf6077e072496f977"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/pages/pages.json",
+      "bytes": 249,
+      "sha256": "a800baa52d3a699bf1fc08fa92882dcb3d8c0da55b80ed0278d16902012abed9"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/report.json",
+      "bytes": 1481,
+      "sha256": "08acc531e04a73cca13930045bdd7799c8629734830abcf72814e05d93ceb0f2"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition/version.json",
+      "bytes": 152,
+      "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/definition.pbir",
+      "bytes": 254,
+      "sha256": "9686b47af7a3c8ea40e263c0f9ec2c469493996b152f61ded4a43843832341e6"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.Report/StaticResources/SharedResources/BaseThemes/Fluent2-CY26SU08.json",
+      "bytes": 99561,
+      "sha256": "5095b493358f0307e2f0a690a48c78ee93886bb70b578e3bfc48186cfc0319af"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/.platform",
+      "bytes": 321,
+      "sha256": "3d174ebb3bdef9645b48ae538e5852e213deee74fa58d1da7a22db4daa414e76"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/cultures/en-US.tmdl",
+      "bytes": 16804,
+      "sha256": "ada3b832a80c9f9da440c10c2ca3c8d0f1423d02dfe3bc1ac894f317753f2f39"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/database.tmdl",
+      "bytes": 39,
+      "sha256": "822c914b643bca32bb20abd8a762df8204a1b9ef02acc2bc7348727f6699cb96"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/expressions.tmdl",
+      "bytes": 273,
+      "sha256": "0148f7e861b46c5a554c505890818be2ad290b6eac0ba0b5ad067acdc38dc343"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/model.tmdl",
+      "bytes": 613,
+      "sha256": "31b8d882a4ed7a81998bcce04422720ab8e8a2308f18f2754c9f288b6fa01933"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/relationships.tmdl",
+      "bytes": 826,
+      "sha256": "75537b161e25c6ad6a76a48e9a4129c638f3a74d434bf6490eb4fee3647aaad4"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Category.tmdl",
+      "bytes": 876,
+      "sha256": "19d9ba2ae9680b0694d1940493a016eeaec93521e7143b47bfe42f3455cf7329"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Date.tmdl",
+      "bytes": 1890,
+      "sha256": "49cab0c28ed3e8a730b72c77c571378a9474a000c1e2b7c1cd7f125d55b6d29f"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Item.tmdl",
+      "bytes": 1583,
+      "sha256": "ec93c8abc4aaf457a5db8d01894a5bcabf85ad0f8ef7368ea5eb4b6bad39e306"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Order.tmdl",
+      "bytes": 17965,
+      "sha256": "b95ad49940389644a471fc26dc5e73c930fae32a62342e484de4933a2d0a2011"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Product.tmdl",
+      "bytes": 1727,
+      "sha256": "b6fd8464201732ae80efbc77b5ae10d2474daecc47e2d284757823ba1b8d385d"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Seller.tmdl",
+      "bytes": 1211,
+      "sha256": "c32cb8d4deec5d2c409085d0ae58bca19098e51d95ee9b84ee6c316eedc55d08"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Stage.tmdl",
+      "bytes": 886,
+      "sha256": "59c9374dda0c933b42926997110173603f33347d4c509bb3b34d1d58c06bf69c"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/State.tmdl",
+      "bytes": 858,
+      "sha256": "dfea36f5b9185f848c447a668fad320c1e483d35df5abe58bc4bc7680b1a2c96"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition/tables/Status.tmdl",
+      "bytes": 694,
+      "sha256": "09316d715e708d6ebf42d09ebde5638616126e23963845c5c7280451979e549b"
+    },
+    {
+      "file": "powerbi/CommerceIntelligence.SemanticModel/definition.pbism",
+      "bytes": 170,
+      "sha256": "73a1ae4c89d7488f553788adc772a04c805d1c9e0d7333e2b2b5476aad8e5a5f"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8421,
+      "sha256": "d4d622cc4d509dce40c5e64f93da44f00ed873b97b9443ae203a6f020146371a"
+    },
+    {
+      "file": "RELEASE_NOTES.md",
+      "bytes": 2051,
+      "sha256": "d5bdb281a0dc9ccaede28272801ea3f7dda2ee90197d0a3cc17aa6a459daf71c"
+    },
+    {
+      "file": "reports/analysis/01_monthly_performance.csv",
+      "bytes": 2023,
+      "sha256": "1e474e17028d586741ca887bd4276d32d053efb8e68c5047f16e53af653b4c99"
+    },
+    {
+      "file": "reports/analysis/01_monthly_performance.json",
+      "bytes": 5587,
+      "sha256": "7f624be2c8cb343dfd0a11d1eab6a2cf5fc01ec22e89771c1e6e3acdd3b9a82a"
+    },
+    {
+      "file": "reports/analysis/02_state_priorities.csv",
+      "bytes": 2092,
+      "sha256": "4c225b82d80e0f013679896ce397d06b9549c2371f12d5404a0a7209f6b04c51"
+    },
+    {
+      "file": "reports/analysis/02_state_priorities.json",
+      "bytes": 6712,
+      "sha256": "8ec7428773dbb634ed364b3056c38e7cd328c1e9599e93cf1934d4c1d72bf89b"
+    },
+    {
+      "file": "reports/analysis/03_review_association.csv",
+      "bytes": 578,
+      "sha256": "1aee8079ca0427b6fb94b8bc7d443859da61daee6cab210a71d1df3e3df7a553"
+    },
+    {
+      "file": "reports/analysis/03_review_association.json",
+      "bytes": 1257,
+      "sha256": "0600460367b89f1b060f09d1d6f29008f7b07ea98a0b1ec592c860871dca4c62"
+    },
+    {
+      "file": "reports/analysis/04_category_priorities.csv",
+      "bytes": 7134,
+      "sha256": "7c102c6398eeb733440fdc40648732b6e70906b40275b7cf0e89362e23b9dd1c"
+    },
+    {
+      "file": "reports/analysis/04_category_priorities.json",
+      "bytes": 20512,
+      "sha256": "1a917c6c577c04e2bcf48ff2fd4dbc035a50642d2342ac09b6bb88cdbb36919b"
+    },
+    {
+      "file": "reports/analysis/05_seller_priorities.csv",
+      "bytes": 24778,
+      "sha256": "98e410f44a1c9e393fa7eccfee5b7a8359575f454202e75fb08f72771e80ed6d"
+    },
+    {
+      "file": "reports/analysis/05_seller_priorities.json",
+      "bytes": 69482,
+      "sha256": "d0dd01ff27641f5ff838e1c11b7c439424e438fefd351fffcb57cefc1b3c8bfb"
+    },
+    {
+      "file": "reports/analysis/06_timing_and_coverage.csv",
+      "bytes": 258,
+      "sha256": "9b307b4b943b6e15a9d54fc7a6d69238480aeeaf4c3848a2de128e30294cd9d6"
+    },
+    {
+      "file": "reports/analysis/06_timing_and_coverage.json",
+      "bytes": 352,
+      "sha256": "3416c7e611d3fc4f243ebd99280f8c6a942f5734b1aae07373ed8b9c824492ef"
+    },
+    {
+      "file": "reports/analysis/07_within_state_month.csv",
+      "bytes": 141,
+      "sha256": "124d4609af36c1217f9ccc7b9e8dab2b836c492c1d10c3ebd1e4e89029f77b5f"
+    },
+    {
+      "file": "reports/analysis/07_within_state_month.json",
+      "bytes": 199,
+      "sha256": "b2c1e366743a2e0ef093450ba77deb833a3f1895d924a3a0f31188e2e9cb9c45"
+    },
+    {
+      "file": "reports/analysis/independent_cohort_audit.json",
+      "bytes": 9356,
+      "sha256": "8809f3f8d510a4b30903c0903fe23e278a89ede57c8ffd28516e70f05747ac6d"
+    },
+    {
+      "file": "reports/management_summary.md",
+      "bytes": 2470,
+      "sha256": "3cc5a76a8c3963c274ef1dcca0e21274145a798fb1ada65597917264b052700a"
+    },
+    {
+      "file": "reports/powerbi/final_artifact_check.json",
+      "bytes": 1632,
+      "sha256": "781fc392a3c0fbc58ca669c457876df32e9e167ab63f3a04adfd4c8c5db41974"
+    },
+    {
+      "file": "reports/powerbi/model_baselines.json",
+      "bytes": 958,
+      "sha256": "90a9fb33b8a7f3eb390649d6ada13e09c3b9095f54b1f2042fcd2cea86a73df1"
+    },
+    {
+      "file": "reports/powerbi/model_diagnostics.json",
+      "bytes": 449,
+      "sha256": "7f4024672ea5bb4467552a030eba03eea54f16362d7a852851f021f8f346a89e"
+    },
+    {
+      "file": "reports/powerbi/model_month_state.json",
+      "bytes": 127845,
+      "sha256": "1c2545a2c144da11453cc7a720ac77075d2cff6f4ad6d1e2f39ebbad280fc2fa"
+    },
+    {
+      "file": "reports/powerbi/model_relationships.json",
+      "bytes": 1406,
+      "sha256": "4a9a183d8c91b2657682fdbcb9b95075508ff5297187d183e850e14c8d1833da"
+    },
+    {
+      "file": "reports/powerbi/model_review_context.json",
+      "bytes": 1305,
+      "sha256": "b3a165abd44fba86d0e22f6d61963c8b33d04459896d3cbe832a5c6addb5dde2"
+    },
+    {
+      "file": "reports/powerbi/model_tables.json",
+      "bytes": 380,
+      "sha256": "b8bdd937f7761232ecfc1e2c23b07dcee331eec201ca2e764d128fd5264ac74f"
+    },
+    {
+      "file": "reports/powerbi/review_context_validation.json",
+      "bytes": 257,
+      "sha256": "eb4519f1af5fb5daf961aeb4c6de987526f929b013daa4aabfd9a9403f28c012"
+    },
+    {
+      "file": "reports/powerbi/screenshot_manifest.json",
+      "bytes": 1661,
+      "sha256": "4623b0a154fa8bf748b446b951183a369ccc40d2e312abf5022284715066713d"
+    },
+    {
+      "file": "reports/powerbi/ui_checks.json",
+      "bytes": 1268,
+      "sha256": "8b3370ea20d24792be9ce65b4158699cf0231e82d4813ee3f7dd87dc673e8192"
+    },
+    {
+      "file": "reports/powerbi/validation_summary.json",
+      "bytes": 399,
+      "sha256": "a294efa391d1445c5c35f6c3b6c96fb9cd11901c42ce4b70191299e55d344e99"
+    },
+    {
+      "file": "reports/validation/build_manifest.json",
+      "bytes": 18661,
+      "sha256": "5a30384f1a327c2e7db2ffb9943a64fa5442c4b6686473f95f562b1619d62ab7"
+    },
+    {
+      "file": "reports/validation/cleanroom.json",
+      "bytes": 455,
+      "sha256": "21fa74f8b82d4181e2498d83a7800baa45cfc4ab0ea36e4725d037ac9746d9cc"
+    },
+    {
+      "file": "reports/validation/environment_phase1.json",
+      "bytes": 863,
+      "sha256": "cf8c6615025b79c2b29df835062be57b50bc8aa08a1d52df9cfd354a029b5f24"
+    },
+    {
+      "file": "reports/validation/guard_tests.json",
+      "bytes": 252,
+      "sha256": "859060acf7f67bdde4b61461aae4e4f9bf10518693baa6219c4fcc489fe57b6c"
+    },
+    {
+      "file": "reports/validation/independent_validation.json",
+      "bytes": 1027,
+      "sha256": "facabc2c1df3c463989f90691d7c300d1d71197646d2e45ce33973314a2c32de"
+    },
+    {
+      "file": "reports/validation/quality_summary.csv",
+      "bytes": 258,
+      "sha256": "ecfa7ccce31e487c7819abebdacd187c968b49d137e99177c56a5d2c8ba1aab5"
+    },
+    {
+      "file": "reports/validation/report_schema.json",
+      "bytes": 67,
+      "sha256": "be0a3c417ca4f0d4c209e5b1f0a2bb4dcf9c50b41dc5f5c298a5a9b141435a5d"
+    },
+    {
+      "file": "reports/validation/reproducibility.json",
+      "bytes": 993,
+      "sha256": "7bb09185d3f6967a08a827c053e370d914e4f8563e75d8130e32b3177d424823"
+    },
+    {
+      "file": "reports/validation/sql_baselines.json",
+      "bytes": 746,
+      "sha256": "50e636923dfcd753e8bc2373a993637a0341c953cca82a9ab5513bc5136bea9d"
+    },
+    {
+      "file": "reports/validation/sql_month_state_slices.json",
+      "bytes": 108656,
+      "sha256": "06cfce44ebc7c4115437851a3faaf1e28fae43957bfc132aa1101f7e9506da19"
+    },
+    {
+      "file": "reports/validation/technical_gates.json",
+      "bytes": 1712,
+      "sha256": "10d733a06639bc9b0932f7942b56ec0475eca648dfeca9a3cd51fb6f99d42d4e"
+    },
+    {
+      "file": "requirements-artifacts.txt",
+      "bytes": 46,
+      "sha256": "fb02f69a7015efe60654e75b7dd4de3ba061ba2bf23eaa3b761d653e6d3cdf43"
+    },
+    {
+      "file": "requirements-dev.txt",
+      "bytes": 39,
+      "sha256": "860ab73ec874e98df3218a1ab7820c2cefc7a1ecdf276a82722a90ba28c6f640"
+    },
+    {
+      "file": "requirements.txt",
+      "bytes": 14,
+      "sha256": "afa5bd1cbd0d0be1318c3e8992b31f1deae587e80425877fc7dee2fee0d1572f"
+    },
+    {
+      "file": "sql/01_staging.sql",
+      "bytes": 4452,
+      "sha256": "034b84e443906ff5663bc4339f11b5459bfdb09a1e0f6daa5632830ccd61c846"
+    },
+    {
+      "file": "sql/02_marts.sql",
+      "bytes": 7183,
+      "sha256": "35d5a9847aa737b1801b480bc0d06dc62b0d10ef3f6de37715de1f489a07e6bd"
+    },
+    {
+      "file": "sql/03_tests.sql",
+      "bytes": 4260,
+      "sha256": "522455e813c4f75fba59f8aa263f201164ed369b70cad717b698684ed792beb1"
+    },
+    {
+      "file": "sql/analysis/01_monthly_performance.sql",
+      "bytes": 409,
+      "sha256": "fce129472eb7bc2f8bb65aea3abe6797462f2bfecd724f783f861780baddf7ad"
+    },
+    {
+      "file": "sql/analysis/02_state_priorities.sql",
+      "bytes": 429,
+      "sha256": "40c10dc4e4ba53b710615882785488b8d28a5fde1c2b70b77824a0a9ef42ccba"
+    },
+    {
+      "file": "sql/analysis/03_review_association.sql",
+      "bytes": 455,
+      "sha256": "21ad3c33235bca73e6ab43fc99fc59e3c18194c8a0408414600df8393f85a4fc"
+    },
+    {
+      "file": "sql/analysis/04_category_priorities.sql",
+      "bytes": 622,
+      "sha256": "4e510e257cceec0cb5b521129f2ad876d92ac589f5a1cc4e9407bf0339f66eb7"
+    },
+    {
+      "file": "sql/analysis/05_seller_priorities.sql",
+      "bytes": 463,
+      "sha256": "465aa90f5c3c8ebceef98bcd69ae84e78e11a4daa70dd1977f2dc5cec4115247"
+    },
+    {
+      "file": "sql/analysis/06_timing_and_coverage.sql",
+      "bytes": 708,
+      "sha256": "be79a3cc4a7a6d1594fe6b83ddceeebfc364cbcdd9b2ef5aea3788daf5fec1c1"
+    },
+    {
+      "file": "sql/analysis/07_within_state_month.sql",
+      "bytes": 958,
+      "sha256": "459a2b444fae3b24872e392032e2a58423981292ed9296fcf7d39631a867b3cb"
+    },
+    {
+      "file": "src/analyze.py",
+      "bytes": 1443,
+      "sha256": "b18ad3de631de9dc351526559adefc986f6b860732b07758aa36de474cf17573"
+    },
+    {
+      "file": "src/audit_findings.py",
+      "bytes": 6742,
+      "sha256": "ca4005c7637bc1a41e2da17cd6e6dc04ce0e93bb30042d3443a850222f00a787"
+    },
+    {
+      "file": "src/build.py",
+      "bytes": 8347,
+      "sha256": "ea2b2814d1b51656c6d0318c2935bf26dec501ab8305d39084bc02c40e40581b"
+    },
+    {
+      "file": "src/make_brief.py",
+      "bytes": 11799,
+      "sha256": "a62eb3e5d2cadb581501cac095918bb6bc08b5de6694b2a57e7b25b7cc604641"
+    },
+    {
+      "file": "src/make_diagrams.py",
+      "bytes": 3519,
+      "sha256": "3b14c28faa4835bb4aef3d78048a80093fcb8c98a4a95f5190e58e6b4546370e"
+    },
+    {
+      "file": "src/make_report.py",
+      "bytes": 27596,
+      "sha256": "78444d0efbf7fb4e7ed03f9314b6fb58214e827e7a73bfc2ea40069771f5cd24"
+    },
+    {
+      "file": "src/prepare_publication.py",
+      "bytes": 7426,
+      "sha256": "bc0818377235985ed2b9b91895983997973e60aee23ae8d7016c5b1e135de07b"
+    },
+    {
+      "file": "src/run.py",
+      "bytes": 749,
+      "sha256": "7a0f875b188ba2b8d52d7dfc242d6cab0790bf565b2b960062725e7177a9edad"
+    },
+    {
+      "file": "src/validate_independent.py",
+      "bytes": 6715,
+      "sha256": "2016660d9025c02041dcd9dd28de24ebea9d99bb9941cde1e4fb1f295e3decff"
+    },
+    {
+      "file": "src/validate_report_schema.py",
+      "bytes": 2071,
+      "sha256": "731d0bd87429c43e04f9e7deeffaf9c683a4e3817012b0ae4325e96805f5000b"
+    },
+    {
+      "file": "tests/cleanroom.py",
+      "bytes": 2619,
+      "sha256": "6a4ef22cee30a04a3603cdcf9eb844f081db8f122aa02bfaac3cdda4f16190c9"
+    },
+    {
+      "file": "tests/model_baselines.dax",
+      "bytes": 889,
+      "sha256": "3163c4517f28fcf2192c15ed7686091f5882f42ea03598f73a1f53e3a39e8371"
+    },
+    {
+      "file": "tests/model_diagnostics.dax",
+      "bytes": 420,
+      "sha256": "5a2e4e6cfa301f50e55bb93d767200136c198a7ef094b52fcca5d2746baeeb21"
+    },
+    {
+      "file": "tests/model_month_state.dax",
+      "bytes": 294,
+      "sha256": "069471cd4728e0a10547658d8fbc35215fe723070f48735aa5dc8c1bbbef1f21"
+    },
+    {
+      "file": "tests/model_relationships.dax",
+      "bytes": 124,
+      "sha256": "2bec488606d5f52e46126f3f53b6de1f8f4cacd05fd0bf44c2aa0240182f6088"
+    },
+    {
+      "file": "tests/model_review_context.dax",
+      "bytes": 549,
+      "sha256": "950d723132f910d49e7424abd449410c084719af84110840448593a4892e44dc"
+    },
+    {
+      "file": "tests/model_tables.dax",
+      "bytes": 369,
+      "sha256": "2accd342042eb6c3662e75f9f7ad7e40fe54541ffd1bc7dae299ce07055b36d8"
+    },
+    {
+      "file": "tests/query_desktop_model.ps1",
+      "bytes": 2117,
+      "sha256": "110fbaf950302b98cd8dc7badcff6106298ebbbe259e5d11cf74198f4afb2125"
+    },
+    {
+      "file": "tests/reproducibility.py",
+      "bytes": 1161,
+      "sha256": "96e4dd6c0173726213f0e8816ded2615e4acd765e0189d1e75471ab702c2c8dc"
+    },
+    {
+      "file": "tests/test_validation_guards.py",
+      "bytes": 4279,
+      "sha256": "403db24425676ed8c473514666a1bce7538c2137fc17201a9d638413dae6a633"
+    },
+    {
+      "file": "tests/validate_powerbi_results.py",
+      "bytes": 4745,
+      "sha256": "7d82d8c0b349ba9ee40c3a8dc6231ef0d0b5673454ea68ea86466e482c38676d"
+    },
+    {
+      "file": "tests/validate_review_context.py",
+      "bytes": 1827,
+      "sha256": "4e1e36bf4e1a5f4d817d6d306ea464854f7b55bad673061898aa42b25aced4d0"
+    }
+  ],
+  "note": "Exact source-release bytes; excludes this manifest, internal hiring assessment and local test caches."
+}

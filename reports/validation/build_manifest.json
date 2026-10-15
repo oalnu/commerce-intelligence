@@ -1,0 +1,753 @@
+{
+  "created_utc": "2026-10-15T11:27:03.829757+00:00",
+  "source_archive_sha256": "967e41e04fc306fe604e2a693f488995a8b41e5047418f8a5c8e4abd6deca784",
+  "duckdb_version": "1.5.6",
+  "memory_limit": "512MB",
+  "threads": 2,
+  "elapsed_seconds": 33.27,
+  "hard_checks": [
+    {
+      "check_name": "order_grain",
+      "failures": 0
+    },
+    {
+      "check_name": "item_grain",
+      "failures": 0
+    },
+    {
+      "check_name": "duplicate_order_ids",
+      "failures": 0
+    },
+    {
+      "check_name": "order_customer_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "item_order_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "item_product_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "item_seller_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "payment_order_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "review_order_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "mart_date_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "mart_state_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "mart_seller_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "mart_category_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "invalid_review_scores",
+      "failures": 0
+    },
+    {
+      "check_name": "negative_money",
+      "failures": 0
+    },
+    {
+      "check_name": "money_inflation_merchandise",
+      "failures": 0
+    },
+    {
+      "check_name": "money_inflation_freight",
+      "failures": 0
+    },
+    {
+      "check_name": "money_inflation_payment",
+      "failures": 0
+    },
+    {
+      "check_name": "delivery_partition",
+      "failures": 0
+    },
+    {
+      "check_name": "negative_valid_delivery_duration",
+      "failures": 0
+    },
+    {
+      "check_name": "selected_review_grain",
+      "failures": 0
+    },
+    {
+      "check_name": "pinned_calendar_late_baseline",
+      "failures": 0
+    },
+    {
+      "check_name": "pinned_delivery_eligible_baseline",
+      "failures": 0
+    },
+    {
+      "check_name": "eligible_required_dates",
+      "failures": 0
+    },
+    {
+      "check_name": "late_date_consistency",
+      "failures": 0
+    },
+    {
+      "check_name": "duration_null_contract",
+      "failures": 0
+    },
+    {
+      "check_name": "negative_or_missing_payment",
+      "failures": 0
+    },
+    {
+      "check_name": "missing_item_money",
+      "failures": 0
+    },
+    {
+      "check_name": "item_fact_product_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "item_fact_order_orphans",
+      "failures": 0
+    },
+    {
+      "check_name": "seller_alias_collisions",
+      "failures": 0
+    },
+    {
+      "check_name": "review_timing_contract",
+      "failures": 0
+    }
+  ],
+  "exports": {
+    "fact_order": {
+      "rows": 99441,
+      "sha256": "07bd9da8e3796fb3bcb65397fc9af6d04e4195de8ffffa63d975f6d3b9b7f755",
+      "columns": [
+        {
+          "column_name": "order_id",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "customer_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "order_status",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "purchased_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "approved_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "carrier_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "delivered_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "estimated_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "customer_unique_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "customer_state",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "date_key",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "purchase_date",
+          "column_type": "DATE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "core_period",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "item_count",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller_count",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "category_count",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller_key",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "category_key",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "merchandise_brl",
+          "column_type": "DECIMAL(18,2)",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "freight_brl",
+          "column_type": "DECIMAL(18,2)",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "payment_brl",
+          "column_type": "DECIMAL(18,2)",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "payment_count",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "review_count",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "review_score",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "review_answered_at",
+          "column_type": "TIMESTAMP",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "delivery_eligible",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "post_delivery_review",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "is_late",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "delivery_days",
+          "column_type": "DOUBLE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "late_days",
+          "column_type": "BIGINT",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "approval_days",
+          "column_type": "DOUBLE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "handoff_days",
+          "column_type": "DOUBLE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "transit_days",
+          "column_type": "DOUBLE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "delay_band",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "delay_band_sort",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "fact_item": {
+      "rows": 112650,
+      "sha256": "1c0b6f6055cb44b9cd94091094ccb70f72948950614abef750f13e4575eff4d5",
+      "columns": [
+        {
+          "column_name": "order_id",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "item_number",
+          "column_type": "INTEGER",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "product_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller_id",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "price_brl",
+          "column_type": "DECIMAL(18,2)",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "freight_brl",
+          "column_type": "DECIMAL(18,2)",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_date": {
+      "rows": 1096,
+      "sha256": "eb73f83e79870a1fe97a4a17d37735f25c76644091de5c3c7d47fc4c6a38b254",
+      "columns": [
+        {
+          "column_name": "date_key",
+          "column_type": "INTEGER",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "date",
+          "column_type": "DATE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "year_number",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "month_number",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "month_label",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "month_start",
+          "column_type": "DATE",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "core_period",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_customer_state": {
+      "rows": 27,
+      "sha256": "48cee347bd23f5a9d443e63ec724c9ecefc34bb28a4936c8c8568314d1a6cccd",
+      "columns": [
+        {
+          "column_name": "state_key",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "state",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_seller": {
+      "rows": 3097,
+      "sha256": "ed9190d50a101345014a12a059d1ad886eab6c677c10fa1799f7b31bf73ef71e",
+      "columns": [
+        {
+          "column_name": "seller_key",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller_state",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "seller_city",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_category": {
+      "rows": 76,
+      "sha256": "e327adba39609ba7be64d03bf605f523650ec24fa053919bee66a0ffdac466dc",
+      "columns": [
+        {
+          "column_name": "category_key",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "category",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_product": {
+      "rows": 32951,
+      "sha256": "6518e527918057cbb86508863a0a17cf93b5c8c4644fb2a66696ba78d3e03d64",
+      "columns": [
+        {
+          "column_name": "product_id",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "category_key",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "category",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "weight_g",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "length_cm",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "height_cm",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "width_cm",
+          "column_type": "INTEGER",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_status": {
+      "rows": 8,
+      "sha256": "e211531a2c88a84f8fb5ca2015f4b42c831c3723b5d518863ab05998296b36c6",
+      "columns": [
+        {
+          "column_name": "order_status",
+          "column_type": "VARCHAR",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        }
+      ]
+    },
+    "dim_stage": {
+      "rows": 3,
+      "sha256": "1297a4e877b3eb50a071e0fa2dca2e7bc4909cd41a03c7b919d8016c8268036a",
+      "columns": [
+        {
+          "column_name": "stage_order",
+          "column_type": "INTEGER",
+          "null": "NO",
+          "key": "PRI",
+          "default": null,
+          "extra": null
+        },
+        {
+          "column_name": "stage",
+          "column_type": "VARCHAR",
+          "null": "YES",
+          "key": null,
+          "default": null,
+          "extra": null
+        }
+      ]
+    }
+  },
+  "exceptions": [
+    {
+      "issue": "Delivered without actual timestamp",
+      "affected_rows": 8
+    },
+    {
+      "issue": "Orders with multiple reviews",
+      "affected_rows": 547
+    },
+    {
+      "issue": "Orders without items",
+      "affected_rows": 775
+    },
+    {
+      "issue": "Orders without payments",
+      "affected_rows": 1
+    },
+    {
+      "issue": "Orders without reviews",
+      "affected_rows": 768
+    },
+    {
+      "issue": "Payment mismatch greater than BRL 0.01",
+      "affected_rows": 303
+    },
+    {
+      "issue": "Selected reviews answered before delivery",
+      "affected_rows": 4654
+    }
+  ],
+  "note": "Source exceptions are audited, not erased. No joins of independent detail collections."
+}

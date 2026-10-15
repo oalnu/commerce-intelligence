@@ -1,0 +1,465 @@
+table Order
+	lineageTag: 26b45073-02c1-5667-8910-20b1d24ef38b
+
+	/// All source-status orders in the current purchase-date and geography context.
+	measure Orders = COUNTROWS('Order')
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 8e798fdc-f5ee-5d97-bd10-43f0632d46e7
+
+	/// Delivered orders with valid actual/promise dates and nonnegative total delivery duration.
+	measure 'Eligible Delivered' = SUM('Order'[Delivery Eligible])
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: b10d2159-8ae1-57f6-bab6-bb56d252f0ac
+
+	/// Actual delivery calendar date is after the estimated calendar date; eligible delivered orders only.
+	measure 'Late Orders' = COALESCE(SUM('Order'[Is Late]),0)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: af1a9d55-b508-5040-81ae-348822a6c959
+
+	/// On-time eligible deliveries divided by eligible delivered orders. Zero denominator returns blank.
+	measure 'On-time Delivery' = DIVIDE([Eligible Delivered]-[Late Orders],[Eligible Delivered])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 65053a1b-2ce9-5a0a-95d6-8611603a22d3
+
+	/// Late orders divided by eligible delivered orders.
+	measure 'Late Rate' = DIVIDE([Late Orders],[Eligible Delivered])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 6d3834d0-78f9-5e2b-9c30-9d035dda0eac
+
+	/// Median elapsed purchase-to-delivery days; invalid outcomes are blank.
+	measure 'Median Delivery Days' = MEDIAN('Order'[Delivery Days])
+		formatString: 0.0
+		displayFolder: KPIs
+		lineageTag: 123d5cd9-54f0-5d03-a1cb-88c218ef8612
+
+	/// 90th percentile elapsed days among eligible delivered orders; blanks excluded.
+	measure 'P90 Delivery Days' = PERCENTILEX.INC(FILTER('Order','Order'[Delivery Eligible]=1),'Order'[Delivery Days],0.9)
+		formatString: 0.0
+		displayFolder: KPIs
+		lineageTag: fd40b53b-ea9f-5324-befb-3b9dd12f4a4e
+
+	/// One latest selected valid review per order; reviewed orders only, including all statuses.
+	measure 'Average Review' = AVERAGE('Order'[Review Score])
+		formatString: 0.00
+		displayFolder: KPIs
+		lineageTag: 21d09af7-2bf7-5420-a78e-4ca73d807bc1
+
+	/// Orders with a selected review score.
+	measure 'Reviewed Orders' = COUNT('Order'[Review Score])
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 9413e635-52a5-5a83-a892-17e12ac4664c
+
+	/// Selected-review coverage across all selected orders.
+	measure 'Review Coverage' = DIVIDE([Reviewed Orders],[Orders])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: b8cb33dc-a0c6-5517-b682-c29d600884bb
+
+	/// Selected order reviews scored 1 or 2.
+	measure 'Low Reviews' = CALCULATE([Reviewed Orders],KEEPFILTERS('Order'[Review Score]<=2))
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: c253377f-becf-51a2-b805-e4811c8d43ca
+
+	/// Low selected reviews divided by reviewed orders.
+	measure 'Low Rating Rate' = DIVIDE([Low Reviews],[Reviewed Orders])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 2db1ac99-a46d-55d0-a66e-b51d7801667a
+
+	/// Selected reviews answered on/after delivery, within eligible delivered orders.
+	measure 'Post-delivery Reviews' = CALCULATE([Reviewed Orders],'Order'[Delivery Eligible]=1,'Order'[Post Delivery Review]=1)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: aa0147d1-d951-51d2-a56d-62351184c669
+
+	/// Low-rating share of the full delay-band post-delivery sample, unaffected by hovered score segment. Descriptive, not causal.
+	measure 'Post-delivery Low Rating' = DIVIDE(CALCULATE([Low Reviews],REMOVEFILTERS('Order'[Review Score]),'Order'[Delivery Eligible]=1,'Order'[Post Delivery Review]=1),CALCULATE([Post-delivery Reviews],REMOVEFILTERS('Order'[Review Score])))
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: a53d372c-acd8-5194-96db-f5f43de7117c
+
+	/// Item prices once per delivered order. Excludes freight; not profit or recognized net revenue.
+	measure 'Delivered Merchandise BRL' = CALCULATE(SUM('Order'[Merchandise BRL]),'Order'[Order Status]="delivered")
+		formatString: "R$ "#,0.00
+		displayFolder: KPIs
+		lineageTag: ba34e3ad-47b1-5e39-848d-2e527473e890
+
+	/// Freight charges on delivered orders; not logistics costs.
+	measure 'Delivered Freight BRL' = CALCULATE(SUM('Order'[Freight BRL]),'Order'[Order Status]="delivered")
+		formatString: "R$ "#,0.00
+		displayFolder: KPIs
+		lineageTag: 0668c0e9-cd79-59ae-9580-2616ff9ba7db
+
+	/// Ratio of sums over the same delivered-order population.
+	measure 'Freight to Merchandise' = DIVIDE([Delivered Freight BRL],[Delivered Merchandise BRL])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: c4f8560d-99c8-589d-8fa3-3f42023ce5c3
+
+	/// Merchandise value of late eligible orders; exposure, not lost revenue.
+	measure 'Late Order Exposure BRL' = CALCULATE(SUM('Order'[Merchandise BRL]),'Order'[Is Late]=1)
+		formatString: "R$ "#,0
+		displayFolder: KPIs
+		lineageTag: 39d32d39-1300-563f-915e-068359e09acc
+
+	/// Delivered-status orders excluded because required actual/promise dates or total chronology are invalid.
+	measure 'Delivery Exclusions' = CALCULATE([Orders],'Order'[Order Status]="delivered")-[Eligible Delivered]
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 44928d29-b386-55d5-9854-9a24ffc3123d
+
+	/// Top eight ranks by late-order count with at least 100 eligible orders.
+	measure 'State Priority Flag' = IF([Eligible Delivered]>=100 && RANKX(ALLSELECTED('State'[State]),[Late Orders],,DESC,Dense)<=8,1,0)
+		formatString: 0
+		displayFolder: KPIs
+		lineageTag: 8ec856e8-516f-5eed-a67f-dfc0553e784e
+
+	/// Single-category eligible delivered orders; other categories are not attributed to a dominant product.
+	measure 'Category Eligible' = CALCULATE([Eligible Delivered],'Order'[Category Count]=1)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 11ed3223-31b6-5586-ba02-137e3dbc226b
+
+	/// Late single-category orders.
+	measure 'Category Late Orders' = CALCULATE([Late Orders],'Order'[Category Count]=1)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 29eb0f68-a59b-5576-a68c-8066853b7d33
+
+	/// Late rate on single-category orders.
+	measure 'Category Late Rate' = DIVIDE([Category Late Orders],[Category Eligible])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 02fd7657-f56e-5466-aaac-ff32a59cefc0
+
+	/// Top eight late-count ranks among category segments, with at least 100 eligible orders.
+	measure 'Category Priority Flag' = IF([Category Eligible]>=100 && RANKX(ALLSELECTED('Category'[Category]),[Category Late Orders],,DESC,Dense)<=8,1,0)
+		formatString: 0
+		displayFolder: KPIs
+		lineageTag: 70526b3a-eb7f-5fe6-9fd2-b45e82f47615
+
+	/// Single-seller eligible orders only; no attribution of a multi-seller delay to one seller.
+	measure 'Seller Eligible' = CALCULATE([Eligible Delivered],'Order'[Seller Count]=1)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 187b95b5-89f2-58b7-b8aa-67662407a03c
+
+	/// Late single-seller eligible orders.
+	measure 'Seller Late Orders' = CALCULATE([Late Orders],'Order'[Seller Count]=1)
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: f6eec753-60d7-55bd-8b82-2b9c18a2a922
+
+	/// Late rate among single-seller eligible orders.
+	measure 'Seller Late Rate' = DIVIDE([Seller Late Orders],[Seller Eligible])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 1637bfc7-83f2-5ec3-a83d-f245c17336ba
+
+	/// Top eight late-count ranks among sellers with at least 100 eligible orders.
+	measure 'Seller Priority Flag' = IF([Seller Eligible]>=100 && RANKX(ALLSELECTED('Seller'[Seller]),[Seller Late Orders],,DESC,Dense)<=8,1,0)
+		formatString: 0
+		displayFolder: KPIs
+		lineageTag: 4e8325d9-c744-5e08-94cf-52d489314329
+
+	/// Share of eligible orders that can be attributed to a single seller.
+	measure 'Seller Coverage' = DIVIDE([Seller Eligible],[Eligible Delivered])
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: 3dcb9742-cb9a-5c40-9327-fee319537387
+
+	/// Median approval-to-handoff elapsed days on valid stages; eligible delivered orders.
+	measure 'Median Handoff Days' = CALCULATE(MEDIAN('Order'[Handoff Days]),'Order'[Delivery Eligible]=1)
+		formatString: 0.0
+		displayFolder: KPIs
+		lineageTag: 3d67447d-3e04-5e27-9aaf-e5963c375ef1
+
+	/// Median carrier-to-customer elapsed days on valid stages; eligible delivered orders.
+	measure 'Median Transit Days' = CALCULATE(MEDIAN('Order'[Transit Days]),'Order'[Delivery Eligible]=1)
+		formatString: 0.0
+		displayFolder: KPIs
+		lineageTag: b378412d-d40a-58b5-b38d-a1b3c0dc2ea1
+
+	/// Stage medians use stage-specific valid records and are not additive.
+	measure 'Median Stage Days' = SWITCH(SELECTEDVALUE('Stage'[Stage Order]),1,CALCULATE(MEDIAN('Order'[Approval Days]),'Order'[Delivery Eligible]=1),2,[Median Handoff Days],3,[Median Transit Days])
+		formatString: 0.000
+		displayFolder: KPIs
+		lineageTag: 8e93ab1d-80d2-5f8a-80bd-b6c5f5ea584f
+
+	/// Stage-specific valid sample size among eligible delivered orders.
+	measure 'Valid Stage Orders' = SWITCH(SELECTEDVALUE('Stage'[Stage Order]),1,CALCULATE(COUNT('Order'[Approval Days]),'Order'[Delivery Eligible]=1),2,CALCULATE(COUNT('Order'[Handoff Days]),'Order'[Delivery Eligible]=1),3,CALCULATE(COUNT('Order'[Transit Days]),'Order'[Delivery Eligible]=1))
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: db21530d-5dd0-5b35-9411-7a93a7a60095
+
+	/// Full delay-band post-delivery sample size; ignores the hovered score segment.
+	measure 'Post-delivery Band Reviews' = CALCULATE([Post-delivery Reviews],REMOVEFILTERS('Order'[Review Score]))
+		formatString: #,0
+		displayFolder: KPIs
+		lineageTag: 20967015-5915-5388-be54-750ffd72af36
+
+	/// Post-delivery selected responses divided by eligible orders in the delay band; ignores score segment.
+	measure 'Post-delivery Coverage' = DIVIDE([Post-delivery Band Reviews],CALCULATE([Eligible Delivered],REMOVEFILTERS('Order'[Review Score])))
+		formatString: 0.0%
+		displayFolder: KPIs
+		lineageTag: e1a94d95-994a-597d-9140-093200fa09e3
+
+	/// Dynamic coverage warning retains date/state selections; prevents presenting the selected survey sample as representative.
+	measure 'Review Timing Note' = VAR LateCoverage = CALCULATE([Post-delivery Coverage],REMOVEFILTERS('Order'[Delay Band],'Order'[Review Score]),'Order'[Is Late]=1) VAR OnCoverage = CALCULATE([Post-delivery Coverage],REMOVEFILTERS('Order'[Delay Band],'Order'[Review Score]),'Order'[Is Late]=0) RETURN "Post-delivery coverage: late " & IF(ISBLANK(LateCoverage),"n/a",FORMAT(LateCoverage,"0.0%")) & " | on time " & IF(ISBLANK(OnCoverage),"n/a",FORMAT(OnCoverage,"0.0%")) & " | selected responses; not causal"
+		displayFolder: KPIs
+		lineageTag: 09f13aa1-35db-57db-8f09-4f3df6f44266
+
+	column 'Order ID'
+		dataType: string
+		isHidden
+		lineageTag: ba777239-e736-5001-9619-1da028c29a97
+		summarizeBy: none
+		sourceColumn: order_id
+
+	column 'Customer Id'
+		dataType: string
+		isHidden
+		lineageTag: e648d677-ff9e-5e87-b2c3-671488d8f716
+		summarizeBy: none
+		sourceColumn: customer_id
+
+	column 'Order Status'
+		dataType: string
+		lineageTag: 5e14ff64-f319-5704-b458-4675909fa7b8
+		summarizeBy: none
+		sourceColumn: order_status
+
+	column 'Purchased At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: 18d7140c-06ba-5994-b11e-f4c114744bf4
+		summarizeBy: none
+		sourceColumn: purchased_at
+
+	column 'Approved At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: b56e507a-e5b5-5569-ab80-f85e666326bd
+		summarizeBy: none
+		sourceColumn: approved_at
+
+	column 'Carrier At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: 62060a70-bcdf-5159-92eb-b6e950c14017
+		summarizeBy: none
+		sourceColumn: carrier_at
+
+	column 'Delivered At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: b92670e9-2836-5888-8e0a-a9a0b5b040a0
+		summarizeBy: none
+		sourceColumn: delivered_at
+
+	column 'Estimated At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: 628f4715-2d39-5583-8e55-990d287ceba9
+		summarizeBy: none
+		sourceColumn: estimated_at
+
+	column 'Customer Person ID'
+		dataType: string
+		isHidden
+		lineageTag: 9942e9d5-bc75-56a3-81de-e19d06ffdbce
+		summarizeBy: none
+		sourceColumn: customer_unique_id
+
+	column 'Customer State'
+		dataType: string
+		lineageTag: 25a6446e-ba0c-5d43-bfbc-6dd4576d7241
+		summarizeBy: none
+		sourceColumn: customer_state
+
+	column 'Date Key'
+		dataType: int64
+		isHidden
+		lineageTag: a12bdc22-83ec-5c8a-bdbf-21fe5f67685b
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column 'Purchase Date'
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 1e0d0680-9898-544a-99ef-d03ea3f38f83
+		summarizeBy: none
+		sourceColumn: purchase_date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Core Period'
+		dataType: int64
+		isHidden
+		lineageTag: cb0c62ee-22fc-557a-9861-943099e3720d
+		summarizeBy: none
+		sourceColumn: core_period
+
+	column 'Item Count'
+		dataType: int64
+		lineageTag: dd394bc4-7385-5942-bd9d-5ad2ae62cf9f
+		summarizeBy: none
+		sourceColumn: item_count
+
+	column 'Seller Count'
+		dataType: int64
+		isHidden
+		lineageTag: 685e1cba-e568-599c-b03e-1e4bea783efd
+		summarizeBy: none
+		sourceColumn: seller_count
+
+	column 'Category Count'
+		dataType: int64
+		isHidden
+		lineageTag: efd389e0-7a79-568f-b073-064847bcce76
+		summarizeBy: none
+		sourceColumn: category_count
+
+	column 'Seller Key'
+		dataType: string
+		isHidden
+		lineageTag: ebd7271a-a1b6-552a-ab72-987cc190d925
+		summarizeBy: none
+		sourceColumn: seller_key
+
+	column 'Category Key'
+		dataType: string
+		isHidden
+		lineageTag: 63701a93-ca0b-5854-94b3-e4353de9b9c3
+		summarizeBy: none
+		sourceColumn: category_key
+
+	column 'Merchandise BRL'
+		dataType: decimal
+		lineageTag: eea365d8-39fb-5932-8f01-2ce5fed75a2c
+		summarizeBy: none
+		sourceColumn: merchandise_brl
+
+	column 'Freight BRL'
+		dataType: decimal
+		lineageTag: b0d7cab4-9764-5551-a158-c4b48cbd9c51
+		summarizeBy: none
+		sourceColumn: freight_brl
+
+	column 'Payment BRL'
+		dataType: decimal
+		lineageTag: 13dbd368-4abf-5103-b3ff-034dade70183
+		summarizeBy: none
+		sourceColumn: payment_brl
+
+	column 'Payment Count'
+		dataType: int64
+		lineageTag: 55b6d4fc-7f3c-5792-ab31-e3533191a5a8
+		summarizeBy: none
+		sourceColumn: payment_count
+
+	column 'Review Count'
+		dataType: int64
+		lineageTag: 2bf57896-7780-522d-a931-14205f9d035f
+		summarizeBy: none
+		sourceColumn: review_count
+
+	column 'Review Score'
+		dataType: int64
+		lineageTag: b01d80f7-4143-5008-a35e-943eda01bfc8
+		summarizeBy: none
+		sourceColumn: review_score
+
+	column 'Review Answered At'
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm:ss
+		lineageTag: 46a47c83-7558-5a44-8f40-4cafae9fa6a4
+		summarizeBy: none
+		sourceColumn: review_answered_at
+
+	column 'Delivery Eligible'
+		dataType: int64
+		isHidden
+		lineageTag: 68070afe-8d47-5f4f-804a-3a0d6b307434
+		summarizeBy: none
+		sourceColumn: delivery_eligible
+
+	column 'Post Delivery Review'
+		dataType: int64
+		isHidden
+		lineageTag: 8e0b0129-fbad-5721-a8da-99272f8ac900
+		summarizeBy: none
+		sourceColumn: post_delivery_review
+
+	column 'Is Late'
+		dataType: int64
+		isHidden
+		lineageTag: 4c08a3e0-d166-5af3-97a3-161d282e0bb7
+		summarizeBy: none
+		sourceColumn: is_late
+
+	column 'Delivery Days'
+		dataType: double
+		lineageTag: 8c35d51f-e619-5d58-a2c4-6ccad13c1abb
+		summarizeBy: none
+		sourceColumn: delivery_days
+
+	column 'Late Days'
+		dataType: int64
+		lineageTag: ef49d4dc-702e-5643-9f1e-4a63c949281c
+		summarizeBy: none
+		sourceColumn: late_days
+
+	column 'Approval Days'
+		dataType: double
+		lineageTag: 008c9847-85c5-5738-9082-ee312fc06917
+		summarizeBy: none
+		sourceColumn: approval_days
+
+	column 'Handoff Days'
+		dataType: double
+		lineageTag: 097424dd-d347-5fd1-8d2d-42a9c754c186
+		summarizeBy: none
+		sourceColumn: handoff_days
+
+	column 'Transit Days'
+		dataType: double
+		lineageTag: caeeaea6-78ff-5be7-8419-fb7247477573
+		summarizeBy: none
+		sourceColumn: transit_days
+
+	column 'Delay Band'
+		dataType: string
+		lineageTag: 1e507efc-7d0d-5cfa-8a6a-3369242e72a6
+		summarizeBy: none
+		sourceColumn: delay_band
+		sortByColumn: 'Delay Band Sort'
+
+	column 'Delay Band Sort'
+		dataType: int64
+		isHidden
+		lineageTag: 61a3f20e-59ab-5054-84e4-6fb25cae429c
+		summarizeBy: none
+		sourceColumn: delay_band_sort
+
+	partition Order = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/fact_order.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"order_id", type text}, {"customer_id", type text}, {"order_status", type text}, {"purchased_at", type datetime}, {"approved_at", type datetime}, {"carrier_at", type datetime}, {"delivered_at", type datetime}, {"estimated_at", type datetime}, {"customer_unique_id", type text}, {"customer_state", type text}, {"date_key", Int64.Type}, {"purchase_date", type date}, {"core_period", Int64.Type}, {"item_count", Int64.Type}, {"seller_count", Int64.Type}, {"category_count", Int64.Type}, {"seller_key", type text}, {"category_key", type text}, {"merchandise_brl", Currency.Type}, {"freight_brl", Currency.Type}, {"payment_brl", Currency.Type}, {"payment_count", Int64.Type}, {"review_count", Int64.Type}, {"review_score", Int64.Type}, {"review_answered_at", type datetime}, {"delivery_eligible", Int64.Type}, {"post_delivery_review", Int64.Type}, {"is_late", Int64.Type}, {"delivery_days", type number}, {"late_days", Int64.Type}, {"approval_days", type number}, {"handoff_days", type number}, {"transit_days", type number}, {"delay_band", type text}, {"delay_band_sort", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

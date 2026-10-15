@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "started_with_raw_data": false,
+  "archive_mode": "local pinned ZIP",
+  "steps": [
+    "ingestion",
+    "32 SQL checks",
+    "seven analytical queries",
+    "independent order validation",
+    "raw cohort audit",
+    "PBIP generation"
+  ],
+  "identical_marts": 9,
+  "elapsed_seconds": 19.09,
+  "limits": "Reuses the installed Python environment; dependency installation and Power BI Desktop are separate checks."
+}

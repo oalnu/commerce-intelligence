@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-10-15T11:54:37.8303717Z",
+  "query_seconds": 0.166533,
+  "rows": [
+    {
+      "[SingleSellerEligible]": 94931,
+      "[SingleCategoryEligible]": 95425,
+      "[HandoffMedian]": 1.8423726851851852,
+      "[TransitMedian]": 7.104363425925926,
+      "[PostDeliveryReviewed]": 90912,
+      "[ExcludedDelivered]": 8,
+      "[LateExposureBRL]": 985618.47,
+      "[ReviewCoverage]": 0.9923101764017277
+    }
+  ]
+}

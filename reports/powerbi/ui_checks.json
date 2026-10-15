@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-10-15T11:47:49.496Z",
+  "checks": [
+    {
+      "case": "RJ state slicer",
+      "status": "PASS",
+      "observed": "1,495 late; R$0.22M late merchandise; P90 29.1 days"
+    },
+    {
+      "case": "Cross-page state sync and dynamic subtitle",
+      "status": "PASS",
+      "observed": "RJ retained: 12,310 eligible; 87.9%; 12.0 days; 3.88 review; subtitle coverage late 19.3%, on time 98.8%"
+    },
+    {
+      "case": "March chart selection",
+      "status": "PASS",
+      "observed": "7,003 eligible, 81.0%, 13.4 days, 3.75 review; audit identified native highlight behavior to replace with consistent cross-filtering"
+    },
+    {
+      "case": "Final consistent March cross-filtering",
+      "status": "PASS",
+      "observed": "7,003 eligible; 81.0%; 13.4 days; 3.75 review. State bars now filtered/reordered RJ 298, SP 280; coverage subtitle late 24.0%, on time 99.4%"
+    },
+    {
+      "case": "Default reset",
+      "status": "PASS",
+      "observed": "All filters; 96,203 eligible; 93.2%; review coverage 29.2%/99.3%"
+    },
+    {
+      "case": "Final layout and queue",
+      "status": "PASS",
+      "observed": "All eight default seller rows and all three stage rows/valid counts visible; no clipping or visual errors"
+    }
+  ]
+}

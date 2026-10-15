@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-15T11:56:22.908Z",
+  "file": "powerbi/CommerceIntelligence.pbix",
+  "audit": "Final portfolio refinement",
+  "disk_reopen": "Closed saved PBIX, started a fresh Desktop instance, opened exact saved PBIX from recent file entry.",
+  "opened_utc": "2026-10-15T11:51:51.664Z",
+  "refresh_after_reopen": {
+    "status": "PASS",
+    "clicked_utc": "2026-10-15T11:52:46.661Z",
+    "verified_utc": "2026-10-15T11:54:42.230Z",
+    "note": "Actual full CSV refresh completed without errors. Observation span includes waiting and verification; not a refresh benchmark."
+  },
+  "pages_visually_inspected": [
+    "Delivery & Experience",
+    "Improvement Priorities"
+  ],
+  "observed_overview": "96,203 eligible; 93.2% on time; 10.2 days median; 4.09 review; late/on-time survey coverage 29.2%/99.3%",
+  "observed_priorities": "6,531 late; R$0.99M; P90 23.1; seller coverage 98.7%; eight default seller rows and three valid stage rows visible",
+  "live_checks": [
+    "Nine table counts",
+    "Seven active many-to-one single-direction relationships",
+    "All/core KPI and monetary baselines",
+    "565 month/state slices",
+    "Stage and coverage diagnostics",
+    "Four review bands, with and without score=5 context"
+  ],
+  "interactions": "State synchronization and consistent March chart cross-filtering verified in final saved PBIP before PBIX export; see ui_checks.json.",
+  "limits": "Local Desktop only; screenshots are genuine full captures. Sanitized source-release candidate has placeholder path and requires its own regeneration/Desktop validation. No publication or paid resource."
+}

@@ -1,0 +1,14 @@
+EVALUATE
+UNION(
+    ROW("Scope","All","Orders",[Orders],"Eligible",[Eligible Delivered],"Late",[Late Orders],
+        "OnTime",[On-time Delivery],"MedianDays",[Median Delivery Days],"P90Days",[P90 Delivery Days],
+        "AverageReview",[Average Review],"Reviewed",[Reviewed Orders],"LowReviews",[Low Reviews],
+        "DeliveredMerchandise",[Delivered Merchandise BRL],"DeliveredFreight",[Delivered Freight BRL]),
+    CALCULATETABLE(
+        ROW("Scope","Core","Orders",[Orders],"Eligible",[Eligible Delivered],"Late",[Late Orders],
+            "OnTime",[On-time Delivery],"MedianDays",[Median Delivery Days],"P90Days",[P90 Delivery Days],
+            "AverageReview",[Average Review],"Reviewed",[Reviewed Orders],"LowReviews",[Low Reviews],
+            "DeliveredMerchandise",[Delivered Merchandise BRL],"DeliveredFreight",[Delivered Freight BRL]),
+        'Date'[Core Period]=1
+    )
+)

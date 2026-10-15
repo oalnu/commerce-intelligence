@@ -1,0 +1,9 @@
+EVALUATE
+FILTER(
+    SUMMARIZECOLUMNS(
+        'Date'[Month Label], 'State'[State],
+        "OrderCount",[Orders],"EligibleCount",[Eligible Delivered],"LateCount",[Late Orders],
+        "Merchandise",SUM('Order'[Merchandise BRL]),"Freight",SUM('Order'[Freight BRL])
+    ),
+    [OrderCount]>0
+)

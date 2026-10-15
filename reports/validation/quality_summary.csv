@@ -1,0 +1,8 @@
+issue,affected_rows
+Delivered without actual timestamp,8
+Orders with multiple reviews,547
+Orders without items,775
+Orders without payments,1
+Orders without reviews,768
+Payment mismatch greater than BRL 0.01,303
+Selected reviews answered before delivery,4654

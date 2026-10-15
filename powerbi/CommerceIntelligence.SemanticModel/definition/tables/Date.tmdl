@@ -1,0 +1,67 @@
+table Date
+	lineageTag: a2e7d756-e81b-5c5c-a500-a5901e028c06
+
+	column 'Date Key'
+		dataType: int64
+		isHidden
+		lineageTag: 809f57c5-acc9-5c83-80ba-a51cb1469760
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column Date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 76212713-9b2e-543a-b805-6e3b81f54334
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Year Number'
+		dataType: int64
+		lineageTag: bc98232a-67f3-5f74-b7e6-8831eb32d011
+		summarizeBy: none
+		sourceColumn: year_number
+
+	column 'Month Number'
+		dataType: int64
+		lineageTag: bbf2df9d-d361-5062-93b8-834d3b52092b
+		summarizeBy: none
+		sourceColumn: month_number
+
+	column 'Month Label'
+		dataType: string
+		lineageTag: 4c2fc5c0-d460-5372-b32b-add9072e05a1
+		summarizeBy: none
+		sourceColumn: month_label
+
+	column 'Month Start'
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: cacf6be1-5a81-53e3-89ed-9690cff3745f
+		summarizeBy: none
+		sourceColumn: month_start
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Core Period'
+		dataType: int64
+		isHidden
+		lineageTag: c531dddf-640b-5edf-9472-e09d066cc696
+		summarizeBy: none
+		sourceColumn: core_period
+
+	partition Date = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/dim_date.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"date_key", Int64.Type}, {"date", type date}, {"year_number", Int64.Type}, {"month_number", Int64.Type}, {"month_label", type text}, {"month_start", type date}, {"core_period", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

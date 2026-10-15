@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-15T11:54:36.8356221Z",
+  "query_seconds": 0.0831697,
+  "rows": [
+    {
+      "[fact_order]": 99441,
+      "[fact_item]": 112650,
+      "[dim_date]": 1096,
+      "[dim_customer_state]": 27,
+      "[dim_seller]": 3097,
+      "[dim_category]": 76,
+      "[dim_product]": 32951,
+      "[dim_status]": 8,
+      "[dim_stage]": 3
+    }
+  ]
+}

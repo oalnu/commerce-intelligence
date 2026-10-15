@@ -1,0 +1,8 @@
+EVALUATE
+CALCULATETABLE(
+    ROW("SingleSellerEligible",[Seller Eligible],"SingleCategoryEligible",[Category Eligible],
+        "HandoffMedian",[Median Handoff Days],"TransitMedian",[Median Transit Days],
+        "PostDeliveryReviewed",[Post-delivery Reviews],"ExcludedDelivered",[Delivery Exclusions],
+        "LateExposureBRL",[Late Order Exposure BRL],"ReviewCoverage",[Review Coverage]),
+    'Date'[Core Period]=1
+)

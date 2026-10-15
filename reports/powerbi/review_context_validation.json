@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "bands": 4,
+  "contexts": [
+    "whole band",
+    "score=5 segment"
+  ],
+  "note": "Expected values calculated from independently reconciled order CSV; score hover must not change band-level low-rating share or coverage."
+}

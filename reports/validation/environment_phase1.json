@@ -1,0 +1,27 @@
+{
+  "windows": "Windows 11 Pro",
+  "build": "26200",
+  "os_architecture": "ARM64",
+  "hypervisor_reported": "QEMU Virtual Machine / virt-9.1",
+  "vcpus": 4,
+  "ram_gib": 7.99,
+  "initial_free_ram_gib": 0.58,
+  "lowest_sampled_free_ram_gib": 0.31,
+  "disk_total_gib": 62.96,
+  "initial_disk_free_gib": 12.42,
+  "display_pixels": [
+    1710,
+    1069
+  ],
+  "powerbi_file_version": "2.157.1354.0",
+  "powerbi_pe_machine": "0x8664",
+  "powerbi_executable_architecture": "x64",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "node": "24.19.0",
+  "git": "2.53.0.windows.3",
+  "notes": [
+    "Pro/Fabric trials user-reported; entitlement/expiry not inspected",
+    "No host macOS, UTM settings or Apple Silicon model verified",
+    "SQL Server temp-table test only; no existing user databases changed"
+  ]
+}

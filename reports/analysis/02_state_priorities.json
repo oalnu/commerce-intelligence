@@ -1,0 +1,242 @@
+[
+  {
+    "customer_state": "SP",
+    "orders": 41621,
+    "eligible": 40399,
+    "late": 1817,
+    "late_rate": 0.044976360801009925,
+    "median_delivery_days": 7.203969907407408,
+    "average_review": 4.175534487762407,
+    "late_merchandise_exposure_brl": "269077.55"
+  },
+  {
+    "customer_state": "RJ",
+    "orders": 12792,
+    "eligible": 12310,
+    "late": 1495,
+    "late_rate": 0.12144597887896019,
+    "median_delivery_days": 12.03607638888889,
+    "average_review": 3.8814632987568296,
+    "late_merchandise_exposure_brl": "215415.46"
+  },
+  {
+    "customer_state": "MG",
+    "orders": 11591,
+    "eligible": 11319,
+    "late": 519,
+    "late_rate": 0.04585210707659687,
+    "median_delivery_days": 10.305891203703704,
+    "average_review": 4.138649986968987,
+    "late_merchandise_exposure_brl": "75837.49"
+  },
+  {
+    "customer_state": "BA",
+    "orders": 3376,
+    "eligible": 3253,
+    "late": 396,
+    "late_rate": 0.12173378419920074,
+    "median_delivery_days": 16.913194444444443,
+    "average_review": 3.8621103117505995,
+    "late_merchandise_exposure_brl": "62058.74"
+  },
+  {
+    "customer_state": "RS",
+    "orders": 5441,
+    "eligible": 5327,
+    "late": 325,
+    "late_rate": 0.06100994931481134,
+    "median_delivery_days": 13.173275462962962,
+    "average_review": 4.135658914728682,
+    "late_merchandise_exposure_brl": "43968.03"
+  },
+  {
+    "customer_state": "SC",
+    "orders": 3625,
+    "eligible": 3537,
+    "late": 291,
+    "late_rate": 0.08227311280746395,
+    "median_delivery_days": 13.007175925925926,
+    "average_review": 4.077008618293022,
+    "late_merchandise_exposure_brl": "38103.95"
+  },
+  {
+    "customer_state": "ES",
+    "orders": 2029,
+    "eligible": 1992,
+    "late": 214,
+    "late_rate": 0.10742971887550201,
+    "median_delivery_days": 13.632922453703703,
+    "average_review": 4.038961038961039,
+    "late_merchandise_exposure_brl": "34907.68"
+  },
+  {
+    "customer_state": "PR",
+    "orders": 5025,
+    "eligible": 4903,
+    "late": 199,
+    "late_rate": 0.0405873954721599,
+    "median_delivery_days": 10.422361111111112,
+    "average_review": 4.1822364472894575,
+    "late_merchandise_exposure_brl": "29504.05"
+  },
+  {
+    "customer_state": "CE",
+    "orders": 1328,
+    "eligible": 1273,
+    "late": 176,
+    "late_rate": 0.13825608798114689,
+    "median_delivery_days": 18.170833333333334,
+    "average_review": 3.854435178165277,
+    "late_merchandise_exposure_brl": "30604.18"
+  },
+  {
+    "customer_state": "PE",
+    "orders": 1645,
+    "eligible": 1587,
+    "late": 153,
+    "late_rate": 0.09640831758034027,
+    "median_delivery_days": 15.702766203703703,
+    "average_review": 4.006756756756757,
+    "late_merchandise_exposure_brl": "26746.30"
+  },
+  {
+    "customer_state": "GO",
+    "orders": 2011,
+    "eligible": 1950,
+    "late": 128,
+    "late_rate": 0.06564102564102564,
+    "median_delivery_days": 13.949722222222222,
+    "average_review": 4.044544544544545,
+    "late_merchandise_exposure_brl": "18365.98"
+  },
+  {
+    "customer_state": "MA",
+    "orders": 743,
+    "eligible": 713,
+    "late": 125,
+    "late_rate": 0.1753155680224404,
+    "median_delivery_days": 19.182962962962964,
+    "average_review": 3.753721244925575,
+    "late_merchandise_exposure_brl": "22865.56"
+  },
+  {
+    "customer_state": "DF",
+    "orders": 2134,
+    "eligible": 2074,
+    "late": 118,
+    "late_rate": 0.05689488910318226,
+    "median_delivery_days": 11.360746527777778,
+    "average_review": 4.066446748350613,
+    "late_merchandise_exposure_brl": "13862.13"
+  },
+  {
+    "customer_state": "PA",
+    "orders": 971,
+    "eligible": 942,
+    "late": 106,
+    "late_rate": 0.11252653927813164,
+    "median_delivery_days": 21.066678240740742,
+    "average_review": 3.848643006263048,
+    "late_merchandise_exposure_brl": "18856.72"
+  },
+  {
+    "customer_state": "AL",
+    "orders": 411,
+    "eligible": 396,
+    "late": 85,
+    "late_rate": 0.21464646464646464,
+    "median_delivery_days": 22.32938078703704,
+    "average_review": 3.7622549019607843,
+    "late_merchandise_exposure_brl": "18083.67"
+  },
+  {
+    "customer_state": "MS",
+    "orders": 715,
+    "eligible": 701,
+    "late": 68,
+    "late_rate": 0.09700427960057062,
+    "median_delivery_days": 13.943796296296297,
+    "average_review": 4.110799438990182,
+    "late_merchandise_exposure_brl": "10189.55"
+  },
+  {
+    "customer_state": "PI",
+    "orders": 493,
+    "eligible": 475,
+    "late": 66,
+    "late_rate": 0.13894736842105262,
+    "median_delivery_days": 16.278622685185184,
+    "average_review": 3.915983606557377,
+    "late_merchandise_exposure_brl": "11414.94"
+  },
+  {
+    "customer_state": "PB",
+    "orders": 535,
+    "eligible": 516,
+    "late": 54,
+    "late_rate": 0.10465116279069768,
+    "median_delivery_days": 18.15217013888889,
+    "average_review": 4.015122873345936,
+    "late_merchandise_exposure_brl": "9223.94"
+  },
+  {
+    "customer_state": "MT",
+    "orders": 904,
+    "eligible": 885,
+    "late": 53,
+    "late_rate": 0.059887005649717516,
+    "median_delivery_days": 16.11608796296296,
+    "average_review": 4.107023411371237,
+    "late_merchandise_exposure_brl": "8460.16"
+  },
+  {
+    "customer_state": "SE",
+    "orders": 347,
+    "eligible": 332,
+    "late": 51,
+    "late_rate": 0.1536144578313253,
+    "median_delivery_days": 17.92791666666667,
+    "average_review": 3.800578034682081,
+    "late_merchandise_exposure_brl": "10276.37"
+  },
+  {
+    "customer_state": "RN",
+    "orders": 481,
+    "eligible": 470,
+    "late": 44,
+    "late_rate": 0.09361702127659574,
+    "median_delivery_days": 16.04712962962963,
+    "average_review": 4.098739495798319,
+    "late_merchandise_exposure_brl": "7503.09"
+  },
+  {
+    "customer_state": "TO",
+    "orders": 280,
+    "eligible": 274,
+    "late": 27,
+    "late_rate": 0.09854014598540146,
+    "median_delivery_days": 15.865885416666668,
+    "average_review": 4.096774193548387,
+    "late_merchandise_exposure_brl": "5592.68"
+  },
+  {
+    "customer_state": "RO",
+    "orders": 253,
+    "eligible": 243,
+    "late": 7,
+    "late_rate": 0.02880658436213992,
+    "median_delivery_days": 17.582361111111112,
+    "average_review": 4.051587301587301,
+    "late_merchandise_exposure_brl": "938.79"
+  },
+  {
+    "customer_state": "AM",
+    "orders": 148,
+    "eligible": 145,
+    "late": 4,
+    "late_rate": 0.027586206896551724,
+    "median_delivery_days": 25.875138888888888,
+    "average_review": 4.205479452054795,
+    "late_merchandise_exposure_brl": "676.78"
+  }
+]

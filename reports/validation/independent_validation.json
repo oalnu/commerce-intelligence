@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "orders_reconciled_individually": 99441,
+  "month_state_slices_reconciled": 565,
+  "method": "Independent stdlib CSV + Decimal + datetime; no DuckDB or transformation SQL reused",
+  "baselines": {
+    "all": {
+      "orders": 99441,
+      "eligible": 96470,
+      "late": 6534,
+      "delivered": 96478,
+      "delivered_merchandise_brl": "13221498.11",
+      "delivered_freight_brl": "2198275.64",
+      "median_days": 10.217476851851853,
+      "p90_days": 23.096377314814813,
+      "average_review": 4.086386346822333,
+      "reviewed": 98673,
+      "low_reviews": 14494
+    },
+    "core": {
+      "orders": 99092,
+      "eligible": 96203,
+      "late": 6531,
+      "delivered": 96211,
+      "delivered_merchandise_brl": "13181027.13",
+      "delivered_freight_brl": "2192092.88",
+      "median_days": 10.209988425925927,
+      "p90_days": 23.063881944444443,
+      "average_review": 4.088630123055019,
+      "reviewed": 98330,
+      "low_reviews": 14382
+    }
+  }
+}

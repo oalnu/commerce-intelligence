@@ -1,0 +1,26 @@
+# Local Phase 1 downloads and isolated test dependency
+.feasibility/raw/
+.feasibility/olist.zip
+.feasibility/python-packages/
+# Power BI local caches and per-user settings
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+**/.pbi/unappliedChanges.json
+__pycache__/
+.venv/
+data/raw/
+data/processed/
+data/commerce.duckdb*
+.feasibility/gates/*.pbix
+.feasibility/gates/*.png
+*.tmp
+.cache/
+# Keep the Phase 1 working area local; selected evidence is in reports/validation.
+.feasibility/
+tmp/
+dist/
+**/.pbi/
+*.download
+
+# Populated local report binaries stay outside the source release.
+*.pbix

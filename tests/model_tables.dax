@@ -1,0 +1,11 @@
+EVALUATE ROW(
+    "fact_order", COUNTROWS('Order'),
+    "fact_item", COUNTROWS('Item'),
+    "dim_date", COUNTROWS('Date'),
+    "dim_customer_state", COUNTROWS('State'),
+    "dim_seller", COUNTROWS('Seller'),
+    "dim_category", COUNTROWS('Category'),
+    "dim_product", COUNTROWS('Product'),
+    "dim_status", COUNTROWS('Status'),
+    "dim_stage", COUNTROWS('Stage')
+)

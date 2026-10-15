@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "fresh_database": true,
+  "mart_exports_identical": 9,
+  "sha256": {
+    "fact_order": "07bd9da8e3796fb3bcb65397fc9af6d04e4195de8ffffa63d975f6d3b9b7f755",
+    "fact_item": "1c0b6f6055cb44b9cd94091094ccb70f72948950614abef750f13e4575eff4d5",
+    "dim_date": "eb73f83e79870a1fe97a4a17d37735f25c76644091de5c3c7d47fc4c6a38b254",
+    "dim_customer_state": "48cee347bd23f5a9d443e63ec724c9ecefc34bb28a4936c8c8568314d1a6cccd",
+    "dim_seller": "ed9190d50a101345014a12a059d1ad886eab6c677c10fa1799f7b31bf73ef71e",
+    "dim_category": "e327adba39609ba7be64d03bf605f523650ec24fa053919bee66a0ffdac466dc",
+    "dim_product": "6518e527918057cbb86508863a0a17cf93b5c8c4644fb2a66696ba78d3e03d64",
+    "dim_status": "e211531a2c88a84f8fb5ca2015f4b42c831c3723b5d518863ab05998296b36c6",
+    "dim_stage": "1297a4e877b3eb50a071e0fa2dca2e7bc4909cd41a03c7b919d8016c8268036a"
+  },
+  "note": "New empty DuckDB database, same pinned raw files; byte-identical ordered CSV marts."
+}

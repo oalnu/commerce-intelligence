@@ -1,0 +1,202 @@
+[
+  {
+    "month_label": "2017-01",
+    "orders": 800,
+    "eligible": 750,
+    "late": 22,
+    "on_time_rate": 0.9706666666666667,
+    "median_delivery_days": 10.733645833333334,
+    "p90_delivery_days": 19.256706018518518,
+    "average_review": 4.0620253164556965
+  },
+  {
+    "month_label": "2017-02",
+    "orders": 1780,
+    "eligible": 1653,
+    "late": 49,
+    "on_time_rate": 0.970356926799758,
+    "median_delivery_days": 10.971203703703704,
+    "p90_delivery_days": 22.07396527777777,
+    "average_review": 4.016402714932127
+  },
+  {
+    "month_label": "2017-03",
+    "orders": 2682,
+    "eligible": 2546,
+    "late": 116,
+    "on_time_rate": 0.9544383346425765,
+    "median_delivery_days": 10.126487268518519,
+    "p90_delivery_days": 21.140549768518518,
+    "average_review": 4.074032318677189
+  },
+  {
+    "month_label": "2017-04",
+    "orders": 2404,
+    "eligible": 2303,
+    "late": 151,
+    "on_time_rate": 0.934433347807208,
+    "median_delivery_days": 12.748622685185186,
+    "p90_delivery_days": 25.32400462962967,
+    "average_review": 4.043988269794721
+  },
+  {
+    "month_label": "2017-05",
+    "orders": 3700,
+    "eligible": 3545,
+    "late": 106,
+    "on_time_rate": 0.970098730606488,
+    "median_delivery_days": 9.793333333333333,
+    "p90_delivery_days": 19.238615740740734,
+    "average_review": 4.1402073104200765
+  },
+  {
+    "month_label": "2017-06",
+    "orders": 3245,
+    "eligible": 3135,
+    "late": 95,
+    "on_time_rate": 0.9696969696969697,
+    "median_delivery_days": 10.804907407407407,
+    "p90_delivery_days": 19.8245787037037,
+    "average_review": 4.1469857054070856
+  },
+  {
+    "month_label": "2017-07",
+    "orders": 4026,
+    "eligible": 3872,
+    "late": 108,
+    "on_time_rate": 0.9721074380165289,
+    "median_delivery_days": 10.158072916666665,
+    "p90_delivery_days": 19.75363888888889,
+    "average_review": 4.176441102756892
+  },
+  {
+    "month_label": "2017-08",
+    "orders": 4331,
+    "eligible": 4193,
+    "late": 122,
+    "on_time_rate": 0.9709038874314333,
+    "median_delivery_days": 9.769814814814815,
+    "p90_delivery_days": 19.22268287037037,
+    "average_review": 4.238715681712424
+  },
+  {
+    "month_label": "2017-09",
+    "orders": 4285,
+    "eligible": 4150,
+    "late": 182,
+    "on_time_rate": 0.9561445783132531,
+    "median_delivery_days": 10.314432870370371,
+    "p90_delivery_days": 20.329388888888886,
+    "average_review": 4.188191013879087
+  },
+  {
+    "month_label": "2017-10",
+    "orders": 4631,
+    "eligible": 4478,
+    "late": 187,
+    "on_time_rate": 0.9582402858418937,
+    "median_delivery_days": 10.263362268518518,
+    "p90_delivery_days": 20.08619328703704,
+    "average_review": 4.123448726322665
+  },
+  {
+    "month_label": "2017-11",
+    "orders": 7544,
+    "eligible": 7288,
+    "late": 904,
+    "on_time_rate": 0.8759604829857299,
+    "median_delivery_days": 12.698680555555555,
+    "p90_delivery_days": 27.210305555555557,
+    "average_review": 3.9106951871657754
+  },
+  {
+    "month_label": "2017-12",
+    "orders": 5673,
+    "eligible": 5513,
+    "late": 411,
+    "on_time_rate": 0.9254489388717577,
+    "median_delivery_days": 13.1421875,
+    "p90_delivery_days": 28.262770833333335,
+    "average_review": 4.0178189593727724
+  },
+  {
+    "month_label": "2018-01",
+    "orders": 7269,
+    "eligible": 7069,
+    "late": 403,
+    "on_time_rate": 0.9429905219974537,
+    "median_delivery_days": 11.830115740740741,
+    "p90_delivery_days": 25.464164351851842,
+    "average_review": 4.041105402027497
+  },
+  {
+    "month_label": "2018-02",
+    "orders": 6728,
+    "eligible": 6555,
+    "late": 926,
+    "on_time_rate": 0.8587337909992372,
+    "median_delivery_days": 14.26375,
+    "p90_delivery_days": 31.01614351851852,
+    "average_review": 3.825689448441247
+  },
+  {
+    "month_label": "2018-03",
+    "orders": 7211,
+    "eligible": 7003,
+    "late": 1328,
+    "on_time_rate": 0.8103669855776096,
+    "median_delivery_days": 13.367731481481481,
+    "p90_delivery_days": 32.18501388888889,
+    "average_review": 3.7529378847229995
+  },
+  {
+    "month_label": "2018-04",
+    "orders": 6939,
+    "eligible": 6798,
+    "late": 306,
+    "on_time_rate": 0.9549867608120035,
+    "median_delivery_days": 9.314728009259259,
+    "p90_delivery_days": 21.415079861111114,
+    "average_review": 4.162138602353625
+  },
+  {
+    "month_label": "2018-05",
+    "orders": 6873,
+    "eligible": 6749,
+    "late": 443,
+    "on_time_rate": 0.9343606460216328,
+    "median_delivery_days": 9.14787037037037,
+    "p90_delivery_days": 21.445043981481483,
+    "average_review": 4.194180435736219
+  },
+  {
+    "month_label": "2018-06",
+    "orders": 6167,
+    "eligible": 6096,
+    "late": 71,
+    "on_time_rate": 0.9883530183727034,
+    "median_delivery_days": 7.95761574074074,
+    "p90_delivery_days": 15.914866898148148,
+    "average_review": 4.2774792379091355
+  },
+  {
+    "month_label": "2018-07",
+    "orders": 6292,
+    "eligible": 6156,
+    "late": 208,
+    "on_time_rate": 0.9662118258609487,
+    "median_delivery_days": 7.5017245370370365,
+    "p90_delivery_days": 16.00616898148148,
+    "average_review": 4.263006242996639
+  },
+  {
+    "month_label": "2018-08",
+    "orders": 6512,
+    "eligible": 6351,
+    "late": 393,
+    "on_time_rate": 0.9381199811053378,
+    "median_delivery_days": 7.013703703703704,
+    "p90_delivery_days": 13.07263888888889,
+    "average_review": 4.256129529683886
+  }
+]

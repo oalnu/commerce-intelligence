@@ -1,0 +1,50 @@
+[
+  {
+    "review_timing": "Answered after delivery",
+    "is_late": 0,
+    "reviewed_orders": 89005,
+    "average_score": 4.291792595921577,
+    "low_reviews": 8217,
+    "low_rating_rate": 0.09232065614291332,
+    "low_rating_wilson_95": [
+      0.09043641247251329,
+      0.09424009049637828
+    ]
+  },
+  {
+    "review_timing": "Answered after delivery",
+    "is_late": 1,
+    "reviewed_orders": 1907,
+    "average_score": 3.7194546407970637,
+    "low_reviews": 371,
+    "low_rating_rate": 0.1945464079706345,
+    "low_rating_wilson_95": [
+      0.1774008089866919,
+      0.21292018883960626
+    ]
+  },
+  {
+    "review_timing": "Answered before delivery",
+    "is_late": 0,
+    "reviewed_orders": 177,
+    "average_score": 3.9717514124293785,
+    "low_reviews": 30,
+    "low_rating_rate": 0.1694915254237288,
+    "low_rating_wilson_95": [
+      0.12138052794207302,
+      0.23164443976447233
+    ]
+  },
+  {
+    "review_timing": "Answered before delivery",
+    "is_late": 1,
+    "reviewed_orders": 4471,
+    "average_score": 1.6526504137776783,
+    "low_reviews": 3610,
+    "low_rating_rate": 0.8074256318496981,
+    "low_rating_wilson_95": [
+      0.7956050853770991,
+      0.8187183355904724
+    ]
+  }
+]

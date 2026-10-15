@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-10-15T11:54:37.3327115Z",
+  "query_seconds": 0.3178539,
+  "rows": [
+    {
+      "[Scope]": "All",
+      "[Orders]": 99441,
+      "[Eligible]": 96470,
+      "[Late]": 6534,
+      "[OnTime]": 0.9322690992018244,
+      "[MedianDays]": 10.217476851851853,
+      "[P90Days]": 23.09637731481482,
+      "[AverageReview]": 4.086386346822333,
+      "[Reviewed]": 98673,
+      "[LowReviews]": 14494,
+      "[DeliveredMerchandise]": 13221498.11,
+      "[DeliveredFreight]": 2198275.64
+    },
+    {
+      "[Scope]": "Core",
+      "[Orders]": 99092,
+      "[Eligible]": 96203,
+      "[Late]": 6531,
+      "[OnTime]": 0.932112304190098,
+      "[MedianDays]": 10.209988425925927,
+      "[P90Days]": 23.06388194444445,
+      "[AverageReview]": 4.088630123055019,
+      "[Reviewed]": 98330,
+      "[LowReviews]": 14382,
+      "[DeliveredMerchandise]": 13181027.13,
+      "[DeliveredFreight]": 2192092.88
+    }
+  ]
+}

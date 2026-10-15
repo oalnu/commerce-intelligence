@@ -1,0 +1,316 @@
+{
+  "checked_utc": "2026-10-15T11:22:35.251800+00:00",
+  "method": "Independent raw CSV + datetime; no SQL/mart reuse",
+  "populations": {
+    "core": {
+      "orders": 99092,
+      "status_counts": {
+        "approved": 2,
+        "canceled": 580,
+        "created": 5,
+        "delivered": 96211,
+        "invoiced": 296,
+        "processing": 299,
+        "shipped": 1097,
+        "unavailable": 602
+      },
+      "eligible": 96203,
+      "on_time": 89672,
+      "late": 6531,
+      "on_time_rate": 0.932112304190098,
+      "on_time_wilson_95": [
+        0.930505374720197,
+        0.933684724625087
+      ],
+      "eligible_share": 0.9708452750978889,
+      "observed_on_time_share_all_orders": 0.9049368263835628,
+      "median_promised_lead_calendar_days": 24
+    },
+    "march": {
+      "orders": 7211,
+      "status_counts": {
+        "canceled": 26,
+        "delivered": 7003,
+        "invoiced": 23,
+        "processing": 9,
+        "shipped": 133,
+        "unavailable": 17
+      },
+      "eligible": 7003,
+      "on_time": 5675,
+      "late": 1328,
+      "on_time_rate": 0.8103669855776096,
+      "on_time_wilson_95": [
+        0.8010163003891584,
+        0.8193773445877739
+      ],
+      "eligible_share": 0.9711551795867425,
+      "observed_on_time_share_all_orders": 0.7869920954097906,
+      "median_promised_lead_calendar_days": 22
+    },
+    "rest": {
+      "orders": 91881,
+      "status_counts": {
+        "approved": 2,
+        "canceled": 554,
+        "created": 5,
+        "delivered": 89208,
+        "invoiced": 273,
+        "processing": 290,
+        "shipped": 964,
+        "unavailable": 585
+      },
+      "eligible": 89200,
+      "on_time": 83997,
+      "late": 5203,
+      "on_time_rate": 0.9416704035874439,
+      "on_time_wilson_95": [
+        0.9401132585193582,
+        0.9431895072216187
+      ],
+      "eligible_share": 0.9708209531894516,
+      "observed_on_time_share_all_orders": 0.9141933588010579,
+      "median_promised_lead_calendar_days": 24.0
+    }
+  },
+  "march_minus_rest_on_time_difference": -0.13130341800983436,
+  "difference_newcombe_wilson_95": [
+    -0.14077669565513132,
+    -0.12215949815809063
+  ],
+  "state_standardization": {
+    "common_states": 27,
+    "eligible_coverage": 1.0,
+    "rates": {
+      "march": 0.8081297684835314,
+      "rest": 0.941717938279462
+    },
+    "march_minus_rest": -0.1335881697959307,
+    "states": [
+      {
+        "state": "AC",
+        "march_eligible": 2,
+        "rest_eligible": 78,
+        "march_on_time_rate": 1.0,
+        "rest_on_time_rate": 0.9615384615384616
+      },
+      {
+        "state": "AL",
+        "march_eligible": 27,
+        "rest_eligible": 369,
+        "march_on_time_rate": 0.6666666666666666,
+        "rest_on_time_rate": 0.7940379403794038
+      },
+      {
+        "state": "AM",
+        "march_eligible": 8,
+        "rest_eligible": 137,
+        "march_on_time_rate": 0.75,
+        "rest_on_time_rate": 0.9854014598540146
+      },
+      {
+        "state": "AP",
+        "march_eligible": 5,
+        "rest_eligible": 62,
+        "march_on_time_rate": 1.0,
+        "rest_on_time_rate": 0.967741935483871
+      },
+      {
+        "state": "BA",
+        "march_eligible": 235,
+        "rest_eligible": 3018,
+        "march_on_time_rate": 0.6851063829787234,
+        "rest_on_time_rate": 0.8933068257123923
+      },
+      {
+        "state": "CE",
+        "march_eligible": 93,
+        "rest_eligible": 1180,
+        "march_on_time_rate": 0.4946236559139785,
+        "rest_on_time_rate": 0.8906779661016949
+      },
+      {
+        "state": "DF",
+        "march_eligible": 147,
+        "rest_eligible": 1927,
+        "march_on_time_rate": 0.8163265306122449,
+        "rest_on_time_rate": 0.952776336274001
+      },
+      {
+        "state": "ES",
+        "march_eligible": 133,
+        "rest_eligible": 1859,
+        "march_on_time_rate": 0.5864661654135338,
+        "rest_on_time_rate": 0.914470145239376
+      },
+      {
+        "state": "GO",
+        "march_eligible": 141,
+        "rest_eligible": 1809,
+        "march_on_time_rate": 0.8014184397163121,
+        "rest_on_time_rate": 0.9447208402432283
+      },
+      {
+        "state": "MA",
+        "march_eligible": 49,
+        "rest_eligible": 664,
+        "march_on_time_rate": 0.4897959183673469,
+        "rest_on_time_rate": 0.8493975903614458
+      },
+      {
+        "state": "MG",
+        "march_eligible": 856,
+        "rest_eligible": 10463,
+        "march_on_time_rate": 0.7955607476635514,
+        "rest_on_time_rate": 0.9671222402752556
+      },
+      {
+        "state": "MS",
+        "march_eligible": 57,
+        "rest_eligible": 644,
+        "march_on_time_rate": 0.5964912280701754,
+        "rest_on_time_rate": 0.9301242236024845
+      },
+      {
+        "state": "MT",
+        "march_eligible": 52,
+        "rest_eligible": 833,
+        "march_on_time_rate": 0.75,
+        "rest_on_time_rate": 0.9519807923169268
+      },
+      {
+        "state": "PA",
+        "march_eligible": 67,
+        "rest_eligible": 875,
+        "march_on_time_rate": 0.4925373134328358,
+        "rest_on_time_rate": 0.9177142857142857
+      },
+      {
+        "state": "PB",
+        "march_eligible": 39,
+        "rest_eligible": 477,
+        "march_on_time_rate": 0.8717948717948718,
+        "rest_on_time_rate": 0.8972746331236897
+      },
+      {
+        "state": "PE",
+        "march_eligible": 107,
+        "rest_eligible": 1480,
+        "march_on_time_rate": 0.794392523364486,
+        "rest_on_time_rate": 0.9114864864864864
+      },
+      {
+        "state": "PI",
+        "march_eligible": 34,
+        "rest_eligible": 441,
+        "march_on_time_rate": 0.7058823529411765,
+        "rest_on_time_rate": 0.873015873015873
+      },
+      {
+        "state": "PR",
+        "march_eligible": 369,
+        "rest_eligible": 4534,
+        "march_on_time_rate": 0.8672086720867209,
+        "rest_on_time_rate": 0.9669166299073666
+      },
+      {
+        "state": "RJ",
+        "march_eligible": 864,
+        "rest_eligible": 11446,
+        "march_on_time_rate": 0.6550925925925926,
+        "rest_on_time_rate": 0.8954219814782457
+      },
+      {
+        "state": "RN",
+        "march_eligible": 38,
+        "rest_eligible": 432,
+        "march_on_time_rate": 0.8157894736842105,
+        "rest_on_time_rate": 0.9143518518518519
+      },
+      {
+        "state": "RO",
+        "march_eligible": 13,
+        "rest_eligible": 230,
+        "march_on_time_rate": 0.7692307692307693,
+        "rest_on_time_rate": 0.9826086956521739
+      },
+      {
+        "state": "RR",
+        "march_eligible": 5,
+        "rest_eligible": 35,
+        "march_on_time_rate": 1.0,
+        "rest_on_time_rate": 0.8571428571428571
+      },
+      {
+        "state": "RS",
+        "march_eligible": 407,
+        "rest_eligible": 4920,
+        "march_on_time_rate": 0.8083538083538083,
+        "rest_on_time_rate": 0.9497967479674797
+      },
+      {
+        "state": "SC",
+        "march_eligible": 247,
+        "rest_eligible": 3290,
+        "march_on_time_rate": 0.805668016194332,
+        "rest_on_time_rate": 0.9261398176291793
+      },
+      {
+        "state": "SE",
+        "march_eligible": 17,
+        "rest_eligible": 315,
+        "march_on_time_rate": 0.35294117647058826,
+        "rest_on_time_rate": 0.873015873015873
+      },
+      {
+        "state": "SP",
+        "march_eligible": 2971,
+        "rest_eligible": 37428,
+        "march_on_time_rate": 0.9057556378323797,
+        "rest_on_time_rate": 0.9589344875494282
+      },
+      {
+        "state": "TO",
+        "march_eligible": 20,
+        "rest_eligible": 254,
+        "march_on_time_rate": 0.75,
+        "rest_on_time_rate": 0.9133858267716536
+      }
+    ]
+  },
+  "review_selection": {
+    "on_time": {
+      "eligible": 89672,
+      "reviewed": 89182,
+      "post": 89005,
+      "post_low": 8217,
+      "pre": 177,
+      "pre_low": 30,
+      "post_coverage_of_eligible": 0.9925617807119279,
+      "post_low_rate": 0.09232065614291332,
+      "pre_low_rate": 0.1694915254237288
+    },
+    "late": {
+      "eligible": 6531,
+      "reviewed": 6378,
+      "post": 1907,
+      "post_low": 371,
+      "pre": 4471,
+      "pre_low": 3610,
+      "post_coverage_of_eligible": 0.29199203797274537,
+      "post_low_rate": 0.1945464079706345,
+      "pre_low_rate": 0.8074256318496981
+    }
+  },
+  "all_source_late_definition_sensitivity": {
+    "calendar_date": 6534,
+    "full_timestamp": 7826
+  },
+  "limits": [
+    "Purchase cohort, not delivery month. March chosen after inspecting all months; interval is descriptive, not a preregistered significance test.",
+    "Orders are not guaranteed independent; intervals do not address clustering, censoring or dataset selection.",
+    "State standardization addresses observed destination mix only, not product/seller mix or causality.",
+    "Observed on-time share of all orders treats noneligible outcomes as not demonstrated on time; it is not the delivery-only KPI.",
+    "Post-delivery survey coverage differs sharply by lateness; the rating gap cannot identify a delivery effect."
+  ]
+}

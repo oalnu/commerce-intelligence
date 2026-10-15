@@ -1,0 +1,5091 @@
+{
+  "checked_utc": "2026-10-15T11:54:37.5905571Z",
+  "query_seconds": 0.1749766,
+  "rows": [
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "SP",
+      "[OrderCount]": 1638,
+      "[EligibleCount]": 1576,
+      "[LateCount]": 49,
+      "[Merchandise]": 218376.33,
+      "[Freight]": 28152.94
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "SP",
+      "[OrderCount]": 1425,
+      "[EligibleCount]": 1363,
+      "[LateCount]": 58,
+      "[Merchandise]": 176912.68,
+      "[Freight]": 24196.87
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "SP",
+      "[OrderCount]": 1729,
+      "[EligibleCount]": 1665,
+      "[LateCount]": 34,
+      "[Merchandise]": 198753.97,
+      "[Freight]": 28596.81
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "SP",
+      "[OrderCount]": 3052,
+      "[EligibleCount]": 2975,
+      "[LateCount]": 102,
+      "[Merchandise]": 375404.5,
+      "[Freight]": 50596.88
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "SP",
+      "[OrderCount]": 3012,
+      "[EligibleCount]": 2898,
+      "[LateCount]": 202,
+      "[Merchandise]": 360251.89,
+      "[Freight]": 51391.0
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "SP",
+      "[OrderCount]": 2703,
+      "[EligibleCount]": 2632,
+      "[LateCount]": 193,
+      "[Merchandise]": 312318.98,
+      "[Freight]": 43954.77
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "SP",
+      "[OrderCount]": 3037,
+      "[EligibleCount]": 2971,
+      "[LateCount]": 280,
+      "[Merchandise]": 385708.78,
+      "[Freight]": 53091.39
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "SP",
+      "[OrderCount]": 1331,
+      "[EligibleCount]": 1284,
+      "[LateCount]": 42,
+      "[Merchandise]": 173887.55,
+      "[Freight]": 22527.92
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "SP",
+      "[OrderCount]": 2357,
+      "[EligibleCount]": 2295,
+      "[LateCount]": 72,
+      "[Merchandise]": 280740.14,
+      "[Freight]": 38990.06
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "SP",
+      "[OrderCount]": 1793,
+      "[EligibleCount]": 1723,
+      "[LateCount]": 56,
+      "[Merchandise]": 227905.5,
+      "[Freight]": 30883.58
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "SP",
+      "[OrderCount]": 1604,
+      "[EligibleCount]": 1543,
+      "[LateCount]": 28,
+      "[Merchandise]": 184714.55,
+      "[Freight]": 27077.82
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "SP",
+      "[OrderCount]": 2773,
+      "[EligibleCount]": 2735,
+      "[LateCount]": 20,
+      "[Merchandise]": 343828.57,
+      "[Freight]": 52055.02
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "SP",
+      "[OrderCount]": 2777,
+      "[EligibleCount]": 2712,
+      "[LateCount]": 100,
+      "[Merchandise]": 326319.19,
+      "[Freight]": 51232.43
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "SP",
+      "[OrderCount]": 3253,
+      "[EligibleCount]": 3164,
+      "[LateCount]": 285,
+      "[Merchandise]": 396613.49,
+      "[Freight]": 56896.32
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "SP",
+      "[OrderCount]": 908,
+      "[EligibleCount]": 873,
+      "[LateCount]": 61,
+      "[Merchandise]": 132634.5,
+      "[Freight]": 16048.26
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "SP",
+      "[OrderCount]": 3207,
+      "[EligibleCount]": 3138,
+      "[LateCount]": 136,
+      "[Merchandise]": 436596.3,
+      "[Freight]": 54781.04
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "SP",
+      "[OrderCount]": 1010,
+      "[EligibleCount]": 966,
+      "[LateCount]": 22,
+      "[Merchandise]": 138087.91,
+      "[Freight]": 16525.16
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "SP",
+      "[OrderCount]": 3059,
+      "[EligibleCount]": 3002,
+      "[LateCount]": 51,
+      "[Merchandise]": 398822.42,
+      "[Freight]": 53175.85
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "SP",
+      "[OrderCount]": 299,
+      "[EligibleCount]": 283,
+      "[LateCount]": 8,
+      "[Merchandise]": 41534.9,
+      "[Freight]": 5407.87
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "RS",
+      "[OrderCount]": 299,
+      "[EligibleCount]": 296,
+      "[LateCount]": 22,
+      "[Merchandise]": 34295.24,
+      "[Freight]": 6530.92
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "SP",
+      "[OrderCount]": 654,
+      "[EligibleCount]": 601,
+      "[LateCount]": 18,
+      "[Merchandise]": 78687.08,
+      "[Freight]": 11200.64
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "SP",
+      "[OrderCount]": 113,
+      "[EligibleCount]": 94,
+      "[LateCount]": 2,
+      "[Merchandise]": 14575.85,
+      "[Freight]": 1910.49
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "ES",
+      "[OrderCount]": 113,
+      "[EligibleCount]": 108,
+      "[LateCount]": 7,
+      "[Merchandise]": 12606.65,
+      "[Freight]": 2113.94
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "RJ",
+      "[OrderCount]": 922,
+      "[EligibleCount]": 879,
+      "[LateCount]": 299,
+      "[Merchandise]": 117796.5,
+      "[Freight]": 20978.99
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "MG",
+      "[OrderCount]": 879,
+      "[EligibleCount]": 856,
+      "[LateCount]": 175,
+      "[Merchandise]": 120025.33,
+      "[Freight]": 21747.46
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "RJ",
+      "[OrderCount]": 571,
+      "[EligibleCount]": 547,
+      "[LateCount]": 17,
+      "[Merchandise]": 78618.9,
+      "[Freight]": 12853.17
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "RJ",
+      "[OrderCount]": 783,
+      "[EligibleCount]": 746,
+      "[LateCount]": 179,
+      "[Merchandise]": 118260.54,
+      "[Freight]": 18581.8
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "RJ",
+      "[OrderCount]": 834,
+      "[EligibleCount]": 807,
+      "[LateCount]": 39,
+      "[Merchandise]": 123281.4,
+      "[Freight]": 21382.32
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "RS",
+      "[OrderCount]": 316,
+      "[EligibleCount]": 308,
+      "[LateCount]": 5,
+      "[Merchandise]": 43688.44,
+      "[Freight]": 9292.59
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "AL",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 28,
+      "[LateCount]": 2,
+      "[Merchandise]": 5344.36,
+      "[Freight]": 997.22
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "SE",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 25,
+      "[LateCount]": 0,
+      "[Merchandise]": 3849.09,
+      "[Freight]": 1242.87
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "SE",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 26,
+      "[LateCount]": 2,
+      "[Merchandise]": 4442.34,
+      "[Freight]": 1212.81
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "PB",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 28,
+      "[LateCount]": 1,
+      "[Merchandise]": 12993.83,
+      "[Freight]": 1227.3
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "CE",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 26,
+      "[LateCount]": 8,
+      "[Merchandise]": 5969.98,
+      "[Freight]": 1188.86
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "AL",
+      "[OrderCount]": 28,
+      "[EligibleCount]": 27,
+      "[LateCount]": 7,
+      "[Merchandise]": 6106.23,
+      "[Freight]": 1094.98
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "BA",
+      "[OrderCount]": 158,
+      "[EligibleCount]": 152,
+      "[LateCount]": 5,
+      "[Merchandise]": 28921.27,
+      "[Freight]": 4420.39
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "SC",
+      "[OrderCount]": 158,
+      "[EligibleCount]": 152,
+      "[LateCount]": 7,
+      "[Merchandise]": 19478.9,
+      "[Freight]": 3394.97
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "MS",
+      "[OrderCount]": 36,
+      "[EligibleCount]": 34,
+      "[LateCount]": 2,
+      "[Merchandise]": 5408.25,
+      "[Freight]": 806.25
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "PA",
+      "[OrderCount]": 36,
+      "[EligibleCount]": 36,
+      "[LateCount]": 0,
+      "[Merchandise]": 4776.15,
+      "[Freight]": 1332.06
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "RN",
+      "[OrderCount]": 36,
+      "[EligibleCount]": 35,
+      "[LateCount]": 0,
+      "[Merchandise]": 6563.45,
+      "[Freight]": 1927.38
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "PA",
+      "[OrderCount]": 36,
+      "[EligibleCount]": 35,
+      "[LateCount]": 3,
+      "[Merchandise]": 7647.77,
+      "[Freight]": 1424.97
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "RJ",
+      "[OrderCount]": 562,
+      "[EligibleCount]": 537,
+      "[LateCount]": 16,
+      "[Merchandise]": 78662.6,
+      "[Freight]": 12296.66
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "RS",
+      "[OrderCount]": 208,
+      "[EligibleCount]": 205,
+      "[LateCount]": 1,
+      "[Merchandise]": 28407.76,
+      "[Freight]": 4609.8
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "BA",
+      "[OrderCount]": 166,
+      "[EligibleCount]": 158,
+      "[LateCount]": 16,
+      "[Merchandise]": 24734.2,
+      "[Freight]": 4539.45
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "DF",
+      "[OrderCount]": 166,
+      "[EligibleCount]": 165,
+      "[LateCount]": 7,
+      "[Merchandise]": 22719.93,
+      "[Freight]": 4576.94
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "MG",
+      "[OrderCount]": 804,
+      "[EligibleCount]": 790,
+      "[LateCount]": 66,
+      "[Merchandise]": 107648.61,
+      "[Freight]": 17565.02
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "SC",
+      "[OrderCount]": 314,
+      "[EligibleCount]": 311,
+      "[LateCount]": 31,
+      "[Merchandise]": 38851.53,
+      "[Freight]": 7402.41
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "MG",
+      "[OrderCount]": 507,
+      "[EligibleCount]": 493,
+      "[LateCount]": 5,
+      "[Merchandise]": 72840.01,
+      "[Freight]": 11541.5
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "DF",
+      "[OrderCount]": 57,
+      "[EligibleCount]": 54,
+      "[LateCount]": 0,
+      "[Merchandise]": 6970.46,
+      "[Freight]": 1183.95
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "MA",
+      "[OrderCount]": 57,
+      "[EligibleCount]": 55,
+      "[LateCount]": 4,
+      "[Merchandise]": 8782.51,
+      "[Freight]": 2426.54
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "CE",
+      "[OrderCount]": 57,
+      "[EligibleCount]": 55,
+      "[LateCount]": 0,
+      "[Merchandise]": 9457.04,
+      "[Freight]": 2424.53
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "PA",
+      "[OrderCount]": 57,
+      "[EligibleCount]": 57,
+      "[LateCount]": 3,
+      "[Merchandise]": 13195.94,
+      "[Freight]": 2655.7
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "MG",
+      "[OrderCount]": 863,
+      "[EligibleCount]": 846,
+      "[LateCount]": 26,
+      "[Merchandise]": 115102.76,
+      "[Freight]": 19337.35
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "SC",
+      "[OrderCount]": 159,
+      "[EligibleCount]": 152,
+      "[LateCount]": 4,
+      "[Merchandise]": 22351.81,
+      "[Freight]": 3804.95
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "GO",
+      "[OrderCount]": 79,
+      "[EligibleCount]": 73,
+      "[LateCount]": 3,
+      "[Merchandise]": 9395.26,
+      "[Freight]": 1903.82
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "RJ",
+      "[OrderCount]": 893,
+      "[EligibleCount]": 850,
+      "[LateCount]": 111,
+      "[Merchandise]": 122212.69,
+      "[Freight]": 21004.54
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "MG",
+      "[OrderCount]": 469,
+      "[EligibleCount]": 459,
+      "[LateCount]": 11,
+      "[Merchandise]": 59981.3,
+      "[Freight]": 10443.26
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "PR",
+      "[OrderCount]": 377,
+      "[EligibleCount]": 369,
+      "[LateCount]": 49,
+      "[Merchandise]": 51082.01,
+      "[Freight]": 9045.09
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "MG",
+      "[OrderCount]": 428,
+      "[EligibleCount]": 412,
+      "[LateCount]": 7,
+      "[Merchandise]": 50158.05,
+      "[Freight]": 8877.55
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "RJ",
+      "[OrderCount]": 907,
+      "[EligibleCount]": 864,
+      "[LateCount]": 298,
+      "[Merchandise]": 117848.5,
+      "[Freight]": 23163.78
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "RS",
+      "[OrderCount]": 422,
+      "[EligibleCount]": 409,
+      "[LateCount]": 52,
+      "[Merchandise]": 58699.88,
+      "[Freight]": 10027.61
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "ES",
+      "[OrderCount]": 134,
+      "[EligibleCount]": 133,
+      "[LateCount]": 55,
+      "[Merchandise]": 17391.77,
+      "[Freight]": 3212.64
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "ES",
+      "[OrderCount]": 134,
+      "[EligibleCount]": 132,
+      "[LateCount]": 21,
+      "[Merchandise]": 19004.83,
+      "[Freight]": 3416.02
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "MT",
+      "[OrderCount]": 37,
+      "[EligibleCount]": 37,
+      "[LateCount]": 1,
+      "[Merchandise]": 6731.11,
+      "[Freight]": 949.46
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "PB",
+      "[OrderCount]": 37,
+      "[EligibleCount]": 37,
+      "[LateCount]": 4,
+      "[Merchandise]": 5585.56,
+      "[Freight]": 1430.69
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "AL",
+      "[OrderCount]": 37,
+      "[EligibleCount]": 36,
+      "[LateCount]": 12,
+      "[Merchandise]": 5134.08,
+      "[Freight]": 1351.82
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "PI",
+      "[OrderCount]": 37,
+      "[EligibleCount]": 34,
+      "[LateCount]": 4,
+      "[Merchandise]": 10774.93,
+      "[Freight]": 2136.84
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "PE",
+      "[OrderCount]": 76,
+      "[EligibleCount]": 74,
+      "[LateCount]": 6,
+      "[Merchandise]": 15077.51,
+      "[Freight]": 2580.88
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "GO",
+      "[OrderCount]": 146,
+      "[EligibleCount]": 144,
+      "[LateCount]": 7,
+      "[Merchandise]": 16879.19,
+      "[Freight]": 3311.02
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "GO",
+      "[OrderCount]": 146,
+      "[EligibleCount]": 141,
+      "[LateCount]": 28,
+      "[Merchandise]": 19347.8,
+      "[Freight]": 4289.25
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "RS",
+      "[OrderCount]": 368,
+      "[EligibleCount]": 363,
+      "[LateCount]": 48,
+      "[Merchandise]": 46782.39,
+      "[Freight]": 8399.32
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "SC",
+      "[OrderCount]": 193,
+      "[EligibleCount]": 192,
+      "[LateCount]": 8,
+      "[Merchandise]": 24234.89,
+      "[Freight]": 4135.17
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "GO",
+      "[OrderCount]": 93,
+      "[EligibleCount]": 89,
+      "[LateCount]": 2,
+      "[Merchandise]": 14402.79,
+      "[Freight]": 2927.25
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "BA",
+      "[OrderCount]": 93,
+      "[EligibleCount]": 84,
+      "[LateCount]": 12,
+      "[Merchandise]": 18681.82,
+      "[Freight]": 2801.58
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "ES",
+      "[OrderCount]": 93,
+      "[EligibleCount]": 93,
+      "[LateCount]": 4,
+      "[Merchandise]": 11235.95,
+      "[Freight]": 2078.24
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "PE",
+      "[OrderCount]": 68,
+      "[EligibleCount]": 63,
+      "[LateCount]": 1,
+      "[Merchandise]": 10419.7,
+      "[Freight]": 2517.33
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "MG",
+      "[OrderCount]": 453,
+      "[EligibleCount]": 435,
+      "[LateCount]": 4,
+      "[Merchandise]": 54766.97,
+      "[Freight]": 9945.76
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "PR",
+      "[OrderCount]": 203,
+      "[EligibleCount]": 195,
+      "[LateCount]": 1,
+      "[Merchandise]": 24569.0,
+      "[Freight]": 4551.86
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "MS",
+      "[OrderCount]": 64,
+      "[EligibleCount]": 64,
+      "[LateCount]": 13,
+      "[Merchandise]": 8593.19,
+      "[Freight]": 1532.97
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "DF",
+      "[OrderCount]": 64,
+      "[EligibleCount]": 60,
+      "[LateCount]": 0,
+      "[Merchandise]": 7953.28,
+      "[Freight]": 1296.49
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "DF",
+      "[OrderCount]": 148,
+      "[EligibleCount]": 146,
+      "[LateCount]": 3,
+      "[Merchandise]": 18812.79,
+      "[Freight]": 3356.76
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "BA",
+      "[OrderCount]": 250,
+      "[EligibleCount]": 243,
+      "[LateCount]": 36,
+      "[Merchandise]": 29137.89,
+      "[Freight]": 6708.84
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "BA",
+      "[OrderCount]": 250,
+      "[EligibleCount]": 245,
+      "[LateCount]": 15,
+      "[Merchandise]": 42646.81,
+      "[Freight]": 8158.79
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "DF",
+      "[OrderCount]": 168,
+      "[EligibleCount]": 157,
+      "[LateCount]": 18,
+      "[Merchandise]": 27759.84,
+      "[Freight]": 3947.07
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "RN",
+      "[OrderCount]": 39,
+      "[EligibleCount]": 38,
+      "[LateCount]": 7,
+      "[Merchandise]": 7383.63,
+      "[Freight]": 1712.18
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "PA",
+      "[OrderCount]": 39,
+      "[EligibleCount]": 36,
+      "[LateCount]": 3,
+      "[Merchandise]": 5459.01,
+      "[Freight]": 1310.95
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "MA",
+      "[OrderCount]": 39,
+      "[EligibleCount]": 37,
+      "[LateCount]": 0,
+      "[Merchandise]": 6481.34,
+      "[Freight]": 1460.0
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "PB",
+      "[OrderCount]": 39,
+      "[EligibleCount]": 39,
+      "[LateCount]": 5,
+      "[Merchandise]": 6087.0,
+      "[Freight]": 1980.23
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "PR",
+      "[OrderCount]": 378,
+      "[EligibleCount]": 371,
+      "[LateCount]": 6,
+      "[Merchandise]": 44872.3,
+      "[Freight]": 7779.82
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "PR",
+      "[OrderCount]": 378,
+      "[EligibleCount]": 365,
+      "[LateCount]": 32,
+      "[Merchandise]": 46853.49,
+      "[Freight]": 8619.54
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "MG",
+      "[OrderCount]": 762,
+      "[EligibleCount]": 751,
+      "[LateCount]": 69,
+      "[Merchandise]": 103571.87,
+      "[Freight]": 17960.75
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "RJ",
+      "[OrderCount]": 609,
+      "[EligibleCount]": 591,
+      "[LateCount]": 30,
+      "[Merchandise]": 95045.48,
+      "[Freight]": 14008.71
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "AL",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 26,
+      "[LateCount]": 2,
+      "[Merchandise]": 4773.24,
+      "[Freight]": 956.49
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "MA",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 25,
+      "[LateCount]": 1,
+      "[Merchandise]": 3243.42,
+      "[Freight]": 741.49
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "SE",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 26,
+      "[LateCount]": 7,
+      "[Merchandise]": 5579.25,
+      "[Freight]": 1034.14
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "GO",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 24,
+      "[LateCount]": 1,
+      "[Merchandise]": 2331.85,
+      "[Freight]": 668.82
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "MS",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 27,
+      "[LateCount]": 0,
+      "[Merchandise]": 3807.42,
+      "[Freight]": 635.24
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "MT",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 25,
+      "[LateCount]": 2,
+      "[Merchandise]": 3724.5,
+      "[Freight]": 797.23
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "PB",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 26,
+      "[LateCount]": 5,
+      "[Merchandise]": 4635.04,
+      "[Freight]": 1356.33
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "AL",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 27,
+      "[LateCount]": 10,
+      "[Merchandise]": 4593.07,
+      "[Freight]": 1087.78
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "RN",
+      "[OrderCount]": 27,
+      "[EligibleCount]": 27,
+      "[LateCount]": 3,
+      "[Merchandise]": 3193.99,
+      "[Freight]": 984.26
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "RJ",
+      "[OrderCount]": 488,
+      "[EligibleCount]": 466,
+      "[LateCount]": 13,
+      "[Merchandise]": 74628.81,
+      "[Freight]": 10831.64
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "RS",
+      "[OrderCount]": 418,
+      "[EligibleCount]": 407,
+      "[LateCount]": 78,
+      "[Merchandise]": 57558.87,
+      "[Freight]": 10509.31
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "MG",
+      "[OrderCount]": 943,
+      "[EligibleCount]": 922,
+      "[LateCount]": 66,
+      "[Merchandise]": 134288.65,
+      "[Freight]": 21617.39
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "GO",
+      "[OrderCount]": 115,
+      "[EligibleCount]": 112,
+      "[LateCount]": 5,
+      "[Merchandise]": 25253.8,
+      "[Freight]": 4121.02
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "RJ",
+      "[OrderCount]": 395,
+      "[EligibleCount]": 370,
+      "[LateCount]": 16,
+      "[Merchandise]": 55699.83,
+      "[Freight]": 8382.78
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "MG",
+      "[OrderCount]": 560,
+      "[EligibleCount]": 542,
+      "[LateCount]": 5,
+      "[Merchandise]": 82012.09,
+      "[Freight]": 12541.9
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "AM",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 705.6,
+      "[Freight]": 245.8
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "AP",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 822.7,
+      "[Freight]": 220.1
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "AC",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1162.38,
+      "[Freight]": 189.13
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "AP",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 535.39,
+      "[Freight]": 169.15
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "AC",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 618.69,
+      "[Freight]": 175.71
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "AC",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 1,
+      "[Merchandise]": 649.92,
+      "[Freight]": 295.24
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "AP",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 1320.38,
+      "[Freight]": 188.46
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "RR",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1331.99,
+      "[Freight]": 310.42
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "AC",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 1,
+      "[Merchandise]": 1786.89,
+      "[Freight]": 242.34
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "RR",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 3,
+      "[LateCount]": 1,
+      "[Merchandise]": 199.17,
+      "[Freight]": 184.84
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "RN",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1124.87,
+      "[Freight]": 143.26
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "AM",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1276.6,
+      "[Freight]": 206.81
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "AC",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1100.78,
+      "[Freight]": 308.8
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "AM",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 631.39,
+      "[Freight]": 162.0
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "RR",
+      "[OrderCount]": 5,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 1514.7,
+      "[Freight]": 445.89
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "RJ",
+      "[OrderCount]": 338,
+      "[EligibleCount]": 325,
+      "[LateCount]": 21,
+      "[Merchandise]": 57889.84,
+      "[Freight]": 7146.72
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "RS",
+      "[OrderCount]": 283,
+      "[EligibleCount]": 278,
+      "[LateCount]": 28,
+      "[Merchandise]": 42179.75,
+      "[Freight]": 6826.32
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "DF",
+      "[OrderCount]": 172,
+      "[EligibleCount]": 170,
+      "[LateCount]": 20,
+      "[Merchandise]": 21205.38,
+      "[Freight]": 3523.87
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "MG",
+      "[OrderCount]": 708,
+      "[EligibleCount]": 700,
+      "[LateCount]": 12,
+      "[Merchandise]": 95736.42,
+      "[Freight]": 18336.66
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "DF",
+      "[OrderCount]": 97,
+      "[EligibleCount]": 94,
+      "[LateCount]": 7,
+      "[Merchandise]": 13319.89,
+      "[Freight]": 2194.77
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "RJ",
+      "[OrderCount]": 97,
+      "[EligibleCount]": 91,
+      "[LateCount]": 3,
+      "[Merchandise]": 12683.2,
+      "[Freight]": 2064.25
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "AL",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 21,
+      "[LateCount]": 8,
+      "[Merchandise]": 4718.02,
+      "[Freight]": 657.15
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "RN",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 23,
+      "[LateCount]": 2,
+      "[Merchandise]": 3204.87,
+      "[Freight]": 926.15
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "PI",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 23,
+      "[LateCount]": 0,
+      "[Merchandise]": 4047.04,
+      "[Freight]": 908.0
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "PI",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 22,
+      "[LateCount]": 1,
+      "[Merchandise]": 3146.36,
+      "[Freight]": 765.58
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "PB",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 22,
+      "[LateCount]": 2,
+      "[Merchandise]": 6182.92,
+      "[Freight]": 1221.78
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "SE",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 23,
+      "[LateCount]": 0,
+      "[Merchandise]": 4558.04,
+      "[Freight]": 1042.75
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "RN",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 23,
+      "[LateCount]": 1,
+      "[Merchandise]": 4202.47,
+      "[Freight]": 1149.55
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "PI",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 23,
+      "[LateCount]": 3,
+      "[Merchandise]": 2646.92,
+      "[Freight]": 861.56
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "AL",
+      "[OrderCount]": 23,
+      "[EligibleCount]": 22,
+      "[LateCount]": 4,
+      "[Merchandise]": 3956.23,
+      "[Freight]": 868.97
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "MG",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 35,
+      "[LateCount]": 0,
+      "[Merchandise]": 4811.21,
+      "[Freight]": 809.34
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "PA",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 40,
+      "[LateCount]": 5,
+      "[Merchandise]": 7455.64,
+      "[Freight]": 1704.91
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "MA",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 38,
+      "[LateCount]": 2,
+      "[Merchandise]": 6121.84,
+      "[Freight]": 1665.12
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "MA",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 39,
+      "[LateCount]": 7,
+      "[Merchandise]": 6455.43,
+      "[Freight]": 1905.96
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "MT",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 39,
+      "[LateCount]": 0,
+      "[Merchandise]": 4648.23,
+      "[Freight]": 1135.53
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "PE",
+      "[OrderCount]": 40,
+      "[EligibleCount]": 36,
+      "[LateCount]": 3,
+      "[Merchandise]": 4259.32,
+      "[Freight]": 1126.43
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "MS",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 24,
+      "[LateCount]": 0,
+      "[Merchandise]": 3722.94,
+      "[Freight]": 582.9
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "MT",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 24,
+      "[LateCount]": 1,
+      "[Merchandise]": 4326.53,
+      "[Freight]": 599.72
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "BA",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 24,
+      "[LateCount]": 1,
+      "[Merchandise]": 3956.02,
+      "[Freight]": 555.35
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "PA",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 24,
+      "[LateCount]": 0,
+      "[Merchandise]": 9901.49,
+      "[Freight]": 1056.72
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "PI",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 23,
+      "[LateCount]": 0,
+      "[Merchandise]": 5972.8,
+      "[Freight]": 970.89
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "SE",
+      "[OrderCount]": 25,
+      "[EligibleCount]": 22,
+      "[LateCount]": 3,
+      "[Merchandise]": 2498.6,
+      "[Freight]": 712.16
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "RS",
+      "[OrderCount]": 373,
+      "[EligibleCount]": 367,
+      "[LateCount]": 30,
+      "[Merchandise]": 48482.98,
+      "[Freight]": 8787.83
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "MG",
+      "[OrderCount]": 691,
+      "[EligibleCount]": 669,
+      "[LateCount]": 23,
+      "[Merchandise]": 93138.31,
+      "[Freight]": 14563.64
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "RJ",
+      "[OrderCount]": 668,
+      "[EligibleCount]": 654,
+      "[LateCount]": 45,
+      "[Merchandise]": 97252.86,
+      "[Freight]": 15355.1
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "ES",
+      "[OrderCount]": 100,
+      "[EligibleCount]": 100,
+      "[LateCount]": 5,
+      "[Merchandise]": 10380.69,
+      "[Freight]": 2286.86
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "CE",
+      "[OrderCount]": 100,
+      "[EligibleCount]": 96,
+      "[LateCount]": 23,
+      "[Merchandise]": 17349.74,
+      "[Freight]": 3623.84
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "RS",
+      "[OrderCount]": 249,
+      "[EligibleCount]": 242,
+      "[LateCount]": 6,
+      "[Merchandise]": 29346.96,
+      "[Freight]": 5857.13
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "BA",
+      "[OrderCount]": 249,
+      "[EligibleCount]": 235,
+      "[LateCount]": 74,
+      "[Merchandise]": 36810.18,
+      "[Freight]": 8588.11
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "MG",
+      "[OrderCount]": 717,
+      "[EligibleCount]": 714,
+      "[LateCount]": 1,
+      "[Merchandise]": 106078.61,
+      "[Freight]": 19694.7
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "RJ",
+      "[OrderCount]": 717,
+      "[EligibleCount]": 696,
+      "[LateCount]": 17,
+      "[Merchandise]": 99973.64,
+      "[Freight]": 20139.2
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "MG",
+      "[OrderCount]": 363,
+      "[EligibleCount]": 356,
+      "[LateCount]": 5,
+      "[Merchandise]": 46656.03,
+      "[Freight]": 8184.87
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "MS",
+      "[OrderCount]": 70,
+      "[EligibleCount]": 70,
+      "[LateCount]": 3,
+      "[Merchandise]": 10100.76,
+      "[Freight]": 1929.12
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "PA",
+      "[OrderCount]": 70,
+      "[EligibleCount]": 69,
+      "[LateCount]": 6,
+      "[Merchandise]": 14114.56,
+      "[Freight]": 2785.81
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "DF",
+      "[OrderCount]": 70,
+      "[EligibleCount]": 69,
+      "[LateCount]": 1,
+      "[Merchandise]": 8325.86,
+      "[Freight]": 1511.09
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "PA",
+      "[OrderCount]": 70,
+      "[EligibleCount]": 69,
+      "[LateCount]": 10,
+      "[Merchandise]": 11704.43,
+      "[Freight]": 2727.15
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "RJ",
+      "[OrderCount]": 1048,
+      "[EligibleCount]": 1012,
+      "[LateCount]": 263,
+      "[Merchandise]": 150539.39,
+      "[Freight]": 24987.85
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "PB",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 1,
+      "[Merchandise]": 4387.99,
+      "[Freight]": 548.42
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "SE",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 2,
+      "[Merchandise]": 2815.29,
+      "[Freight]": 726.2
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "MT",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 4,
+      "[Merchandise]": 2157.09,
+      "[Freight]": 545.46
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "AL",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 0,
+      "[Merchandise]": 2253.28,
+      "[Freight]": 660.43
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "RO",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 2,
+      "[Merchandise]": 1864.86,
+      "[Freight]": 658.82
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "RO",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 0,
+      "[Merchandise]": 4197.99,
+      "[Freight]": 740.29
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "RO",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 0,
+      "[Merchandise]": 4503.8,
+      "[Freight]": 745.58
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "TO",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 4,
+      "[Merchandise]": 2739.99,
+      "[Freight]": 574.34
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "PB",
+      "[OrderCount]": 16,
+      "[EligibleCount]": 16,
+      "[LateCount]": 1,
+      "[Merchandise]": 2324.77,
+      "[Freight]": 728.34
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "PA",
+      "[OrderCount]": 58,
+      "[EligibleCount]": 57,
+      "[LateCount]": 7,
+      "[Merchandise]": 8943.61,
+      "[Freight]": 2051.1
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "PA",
+      "[OrderCount]": 58,
+      "[EligibleCount]": 58,
+      "[LateCount]": 4,
+      "[Merchandise]": 10420.23,
+      "[Freight]": 1962.17
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "MT",
+      "[OrderCount]": 58,
+      "[EligibleCount]": 58,
+      "[LateCount]": 1,
+      "[Merchandise]": 10335.29,
+      "[Freight]": 2673.26
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "GO",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 18,
+      "[LateCount]": 0,
+      "[Merchandise]": 4227.49,
+      "[Freight]": 430.8
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "TO",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 2124.33,
+      "[Freight]": 547.54
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "AM",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 18,
+      "[LateCount]": 0,
+      "[Merchandise]": 2004.91,
+      "[Freight]": 593.5
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "PB",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 17,
+      "[LateCount]": 1,
+      "[Merchandise]": 2899.21,
+      "[Freight]": 599.22
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "TO",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 18,
+      "[LateCount]": 0,
+      "[Merchandise]": 4049.42,
+      "[Freight]": 937.61
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "AL",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 17,
+      "[LateCount]": 3,
+      "[Merchandise]": 8972.07,
+      "[Freight]": 703.43
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "SE",
+      "[OrderCount]": 18,
+      "[EligibleCount]": 17,
+      "[LateCount]": 11,
+      "[Merchandise]": 2557.92,
+      "[Freight]": 946.48
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "PE",
+      "[OrderCount]": 126,
+      "[EligibleCount]": 125,
+      "[LateCount]": 15,
+      "[Merchandise]": 19658.24,
+      "[Freight]": 4660.9
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "MG",
+      "[OrderCount]": 259,
+      "[EligibleCount]": 241,
+      "[LateCount]": 2,
+      "[Merchandise]": 29695.38,
+      "[Freight]": 5574.82
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "MA",
+      "[OrderCount]": 56,
+      "[EligibleCount]": 53,
+      "[LateCount]": 28,
+      "[Merchandise]": 10002.49,
+      "[Freight]": 2451.55
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "MA",
+      "[OrderCount]": 56,
+      "[EligibleCount]": 55,
+      "[LateCount]": 18,
+      "[Merchandise]": 9877.81,
+      "[Freight]": 2582.11
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "RJ",
+      "[OrderCount]": 56,
+      "[EligibleCount]": 40,
+      "[LateCount]": 0,
+      "[Merchandise]": 11246.45,
+      "[Freight]": 1101.15
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "MT",
+      "[OrderCount]": 67,
+      "[EligibleCount]": 67,
+      "[LateCount]": 8,
+      "[Merchandise]": 8172.69,
+      "[Freight]": 1674.59
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "MT",
+      "[OrderCount]": 67,
+      "[EligibleCount]": 66,
+      "[LateCount]": 2,
+      "[Merchandise]": 12261.85,
+      "[Freight]": 2528.04
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "MG",
+      "[OrderCount]": 658,
+      "[EligibleCount]": 644,
+      "[LateCount]": 8,
+      "[Merchandise]": 97627.71,
+      "[Freight]": 16861.65
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "PR",
+      "[OrderCount]": 223,
+      "[EligibleCount]": 220,
+      "[LateCount]": 0,
+      "[Merchandise]": 28561.45,
+      "[Freight]": 4900.19
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "MG",
+      "[OrderCount]": 358,
+      "[EligibleCount]": 343,
+      "[LateCount]": 8,
+      "[Merchandise]": 42193.09,
+      "[Freight]": 7907.8
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "BA",
+      "[OrderCount]": 106,
+      "[EligibleCount]": 103,
+      "[LateCount]": 8,
+      "[Merchandise]": 20988.57,
+      "[Freight]": 2807.77
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "PE",
+      "[OrderCount]": 106,
+      "[EligibleCount]": 102,
+      "[LateCount]": 12,
+      "[Merchandise]": 13774.93,
+      "[Freight]": 3013.35
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "PE",
+      "[OrderCount]": 45,
+      "[EligibleCount]": 36,
+      "[LateCount]": 1,
+      "[Merchandise]": 7192.14,
+      "[Freight]": 1809.04
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "MS",
+      "[OrderCount]": 45,
+      "[EligibleCount]": 44,
+      "[LateCount]": 4,
+      "[Merchandise]": 9981.05,
+      "[Freight]": 1159.66
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "PR",
+      "[OrderCount]": 206,
+      "[EligibleCount]": 198,
+      "[LateCount]": 6,
+      "[Merchandise]": 33400.66,
+      "[Freight]": 4857.57
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "SC",
+      "[OrderCount]": 206,
+      "[EligibleCount]": 201,
+      "[LateCount]": 6,
+      "[Merchandise]": 32355.83,
+      "[Freight]": 6033.38
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "RS",
+      "[OrderCount]": 54,
+      "[EligibleCount]": 52,
+      "[LateCount]": 1,
+      "[Merchandise]": 12189.98,
+      "[Freight]": 1425.92
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "PA",
+      "[OrderCount]": 54,
+      "[EligibleCount]": 54,
+      "[LateCount]": 0,
+      "[Merchandise]": 9358.21,
+      "[Freight]": 2592.34
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "PA",
+      "[OrderCount]": 54,
+      "[EligibleCount]": 52,
+      "[LateCount]": 3,
+      "[Merchandise]": 6751.58,
+      "[Freight]": 2016.86
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "PA",
+      "[OrderCount]": 41,
+      "[EligibleCount]": 41,
+      "[LateCount]": 5,
+      "[Merchandise]": 6218.39,
+      "[Freight]": 1513.35
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "GO",
+      "[OrderCount]": 41,
+      "[EligibleCount]": 38,
+      "[LateCount]": 3,
+      "[Merchandise]": 5495.73,
+      "[Freight]": 1081.6
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "MA",
+      "[OrderCount]": 41,
+      "[EligibleCount]": 40,
+      "[LateCount]": 5,
+      "[Merchandise]": 5820.14,
+      "[Freight]": 1722.81
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "PE",
+      "[OrderCount]": 46,
+      "[EligibleCount]": 41,
+      "[LateCount]": 2,
+      "[Merchandise]": 5804.58,
+      "[Freight]": 1756.87
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "ES",
+      "[OrderCount]": 46,
+      "[EligibleCount]": 45,
+      "[LateCount]": 2,
+      "[Merchandise]": 5475.2,
+      "[Freight]": 977.48
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "MA",
+      "[OrderCount]": 46,
+      "[EligibleCount]": 46,
+      "[LateCount]": 6,
+      "[Merchandise]": 7929.93,
+      "[Freight]": 2093.6
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "RN",
+      "[OrderCount]": 46,
+      "[EligibleCount]": 42,
+      "[LateCount]": 1,
+      "[Merchandise]": 5807.94,
+      "[Freight]": 1401.58
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "MS",
+      "[OrderCount]": 46,
+      "[EligibleCount]": 44,
+      "[LateCount]": 4,
+      "[Merchandise]": 6249.78,
+      "[Freight]": 1166.69
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "PR",
+      "[OrderCount]": 118,
+      "[EligibleCount]": 110,
+      "[LateCount]": 3,
+      "[Merchandise]": 18623.53,
+      "[Freight]": 2709.05
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "RJ",
+      "[OrderCount]": 412,
+      "[EligibleCount]": 399,
+      "[LateCount]": 13,
+      "[Merchandise]": 54452.31,
+      "[Freight]": 8749.94
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "SC",
+      "[OrderCount]": 257,
+      "[EligibleCount]": 254,
+      "[LateCount]": 61,
+      "[Merchandise]": 32255.05,
+      "[Freight]": 5855.21
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "MS",
+      "[OrderCount]": 29,
+      "[EligibleCount]": 26,
+      "[LateCount]": 0,
+      "[Merchandise]": 3387.34,
+      "[Freight]": 571.26
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "RN",
+      "[OrderCount]": 29,
+      "[EligibleCount]": 29,
+      "[LateCount]": 0,
+      "[Merchandise]": 8415.43,
+      "[Freight]": 1264.3
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "PB",
+      "[OrderCount]": 29,
+      "[EligibleCount]": 25,
+      "[LateCount]": 7,
+      "[Merchandise]": 5499.28,
+      "[Freight]": 1361.1
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "PI",
+      "[OrderCount]": 29,
+      "[EligibleCount]": 29,
+      "[LateCount]": 9,
+      "[Merchandise]": 4845.7,
+      "[Freight]": 1154.26
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "PB",
+      "[OrderCount]": 29,
+      "[EligibleCount]": 29,
+      "[LateCount]": 1,
+      "[Merchandise]": 4860.44,
+      "[Freight]": 1049.15
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "RS",
+      "[OrderCount]": 221,
+      "[EligibleCount]": 215,
+      "[LateCount]": 1,
+      "[Merchandise]": 23969.51,
+      "[Freight]": 4909.07
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "PE",
+      "[OrderCount]": 85,
+      "[EligibleCount]": 83,
+      "[LateCount]": 12,
+      "[Merchandise]": 13074.25,
+      "[Freight]": 2684.53
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "MT",
+      "[OrderCount]": 85,
+      "[EligibleCount]": 83,
+      "[LateCount]": 3,
+      "[Merchandise]": 12274.7,
+      "[Freight]": 2379.46
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "PE",
+      "[OrderCount]": 85,
+      "[EligibleCount]": 83,
+      "[LateCount]": 4,
+      "[Merchandise]": 11927.03,
+      "[Freight]": 3551.26
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "DF",
+      "[OrderCount]": 138,
+      "[EligibleCount]": 135,
+      "[LateCount]": 4,
+      "[Merchandise]": 17736.97,
+      "[Freight]": 2991.34
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "SC",
+      "[OrderCount]": 116,
+      "[EligibleCount]": 109,
+      "[LateCount]": 4,
+      "[Merchandise]": 13323.33,
+      "[Freight]": 2760.27
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "BA",
+      "[OrderCount]": 214,
+      "[EligibleCount]": 208,
+      "[LateCount]": 40,
+      "[Merchandise]": 32147.51,
+      "[Freight]": 6134.87
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "RS",
+      "[OrderCount]": 252,
+      "[EligibleCount]": 244,
+      "[LateCount]": 5,
+      "[Merchandise]": 37571.11,
+      "[Freight]": 6280.89
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "SC",
+      "[OrderCount]": 252,
+      "[EligibleCount]": 247,
+      "[LateCount]": 48,
+      "[Merchandise]": 36672.24,
+      "[Freight]": 6468.86
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "SC",
+      "[OrderCount]": 303,
+      "[EligibleCount]": 288,
+      "[LateCount]": 43,
+      "[Merchandise]": 40312.9,
+      "[Freight]": 6685.25
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "MT",
+      "[OrderCount]": 65,
+      "[EligibleCount]": 64,
+      "[LateCount]": 1,
+      "[Merchandise]": 11544.39,
+      "[Freight]": 2207.98
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "PR",
+      "[OrderCount]": 65,
+      "[EligibleCount]": 62,
+      "[LateCount]": 2,
+      "[Merchandise]": 5486.53,
+      "[Freight]": 996.71
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "PR",
+      "[OrderCount]": 183,
+      "[EligibleCount]": 176,
+      "[LateCount]": 1,
+      "[Merchandise]": 22575.58,
+      "[Freight]": 3943.15
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "ES",
+      "[OrderCount]": 94,
+      "[EligibleCount]": 90,
+      "[LateCount]": 3,
+      "[Merchandise]": 13184.73,
+      "[Freight]": 2429.87
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "PE",
+      "[OrderCount]": 94,
+      "[EligibleCount]": 91,
+      "[LateCount]": 2,
+      "[Merchandise]": 14790.73,
+      "[Freight]": 3743.4
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "MG",
+      "[OrderCount]": 108,
+      "[EligibleCount]": 102,
+      "[LateCount]": 0,
+      "[Merchandise]": 16241.69,
+      "[Freight]": 2374.27
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "CE",
+      "[OrderCount]": 108,
+      "[EligibleCount]": 103,
+      "[LateCount]": 27,
+      "[Merchandise]": 18655.44,
+      "[Freight]": 3876.35
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "PE",
+      "[OrderCount]": 108,
+      "[EligibleCount]": 107,
+      "[LateCount]": 22,
+      "[Merchandise]": 22861.39,
+      "[Freight]": 4159.47
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "GO",
+      "[OrderCount]": 108,
+      "[EligibleCount]": 106,
+      "[LateCount]": 2,
+      "[Merchandise]": 17490.05,
+      "[Freight]": 2707.69
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "BA",
+      "[OrderCount]": 127,
+      "[EligibleCount]": 119,
+      "[LateCount]": 4,
+      "[Merchandise]": 16668.42,
+      "[Freight]": 3627.62
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "GO",
+      "[OrderCount]": 127,
+      "[EligibleCount]": 125,
+      "[LateCount]": 9,
+      "[Merchandise]": 15861.82,
+      "[Freight]": 2742.36
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "PR",
+      "[OrderCount]": 127,
+      "[EligibleCount]": 121,
+      "[LateCount]": 5,
+      "[Merchandise]": 15733.3,
+      "[Freight]": 2693.28
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "MS",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 24,
+      "[LateCount]": 0,
+      "[Merchandise]": 3841.62,
+      "[Freight]": 627.02
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "DF",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 21,
+      "[LateCount]": 0,
+      "[Merchandise]": 10306.8,
+      "[Freight]": 560.66
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "AL",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 24,
+      "[LateCount]": 0,
+      "[Merchandise]": 3730.6,
+      "[Freight]": 1122.33
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "RN",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 23,
+      "[LateCount]": 3,
+      "[Merchandise]": 3445.94,
+      "[Freight]": 734.5
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "RS",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 4082.12,
+      "[Freight]": 555.79
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "MA",
+      "[OrderCount]": 24,
+      "[EligibleCount]": 22,
+      "[LateCount]": 4,
+      "[Merchandise]": 1975.79,
+      "[Freight]": 795.7
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "MA",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 704.26,
+      "[Freight]": 294.59
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "AC",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 1,
+      "[Merchandise]": 422.98,
+      "[Freight]": 165.19
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "AM",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 380.7,
+      "[Freight]": 131.8
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "AC",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 637.93,
+      "[Freight]": 127.9
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "ES",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 917.79,
+      "[Freight]": 149.35
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "AP",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 601.9,
+      "[Freight]": 168.66
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "AC",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 1469.97,
+      "[Freight]": 299.98
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "BA",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 894.05,
+      "[Freight]": 101.29
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "PA",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 1087.6,
+      "[Freight]": 195.49
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "SE",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 263.8,
+      "[Freight]": 117.98
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "AC",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 385.78,
+      "[Freight]": 124.49
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "AP",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 511.88,
+      "[Freight]": 177.29
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "RN",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 4,
+      "[LateCount]": 0,
+      "[Merchandise]": 728.69,
+      "[Freight]": 152.65
+    },
+    {
+      "Date[Month Label]": "2018-09",
+      "State[State]": "MG",
+      "[OrderCount]": 4,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "PE",
+      "[OrderCount]": 125,
+      "[EligibleCount]": 121,
+      "[LateCount]": 14,
+      "[Merchandise]": 17338.73,
+      "[Freight]": 3590.54
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "PE",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 9,
+      "[LateCount]": 1,
+      "[Merchandise]": 1884.48,
+      "[Freight]": 267.45
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "RO",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 551.46,
+      "[Freight]": 277.42
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "AM",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 9,
+      "[LateCount]": 0,
+      "[Merchandise]": 1163.28,
+      "[Freight]": 355.16
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "SE",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 1456.51,
+      "[Freight]": 349.81
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "GO",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 7,
+      "[LateCount]": 0,
+      "[Merchandise]": 984.39,
+      "[Freight]": 170.28
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "CE",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 8,
+      "[LateCount]": 1,
+      "[Merchandise]": 1049.49,
+      "[Freight]": 216.64
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "RO",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 7,
+      "[LateCount]": 1,
+      "[Merchandise]": 1077.58,
+      "[Freight]": 249.49
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "AM",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 8,
+      "[LateCount]": 2,
+      "[Merchandise]": 1118.16,
+      "[Freight]": 489.08
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "AM",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 9,
+      "[LateCount]": 0,
+      "[Merchandise]": 1811.8,
+      "[Freight]": 369.99
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "RO",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 2789.78,
+      "[Freight]": 446.85
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "MA",
+      "[OrderCount]": 9,
+      "[EligibleCount]": 6,
+      "[LateCount]": 1,
+      "[Merchandise]": 618.09,
+      "[Freight]": 180.01
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "RJ",
+      "[OrderCount]": 745,
+      "[EligibleCount]": 723,
+      "[LateCount]": 42,
+      "[Merchandise]": 95762.98,
+      "[Freight]": 17766.75
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "PA",
+      "[OrderCount]": 71,
+      "[EligibleCount]": 66,
+      "[LateCount]": 20,
+      "[Merchandise]": 11649.76,
+      "[Freight]": 2839.29
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "SC",
+      "[OrderCount]": 152,
+      "[EligibleCount]": 146,
+      "[LateCount]": 7,
+      "[Merchandise]": 23516.67,
+      "[Freight]": 3434.37
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "ES",
+      "[OrderCount]": 152,
+      "[EligibleCount]": 149,
+      "[LateCount]": 18,
+      "[Merchandise]": 17045.72,
+      "[Freight]": 3367.06
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "DF",
+      "[OrderCount]": 150,
+      "[EligibleCount]": 147,
+      "[LateCount]": 27,
+      "[Merchandise]": 20955.42,
+      "[Freight]": 3953.58
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "DF",
+      "[OrderCount]": 150,
+      "[EligibleCount]": 147,
+      "[LateCount]": 1,
+      "[Merchandise]": 19985.43,
+      "[Freight]": 3718.99
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "SC",
+      "[OrderCount]": 227,
+      "[EligibleCount]": 226,
+      "[LateCount]": 12,
+      "[Merchandise]": 35731.5,
+      "[Freight]": 6083.59
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "BA",
+      "[OrderCount]": 170,
+      "[EligibleCount]": 167,
+      "[LateCount]": 28,
+      "[Merchandise]": 23947.3,
+      "[Freight]": 4377.91
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "ES",
+      "[OrderCount]": 170,
+      "[EligibleCount]": 168,
+      "[LateCount]": 34,
+      "[Merchandise]": 24302.25,
+      "[Freight]": 4577.68
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "PR",
+      "[OrderCount]": 170,
+      "[EligibleCount]": 167,
+      "[LateCount]": 2,
+      "[Merchandise]": 21538.18,
+      "[Freight]": 4404.15
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "RS",
+      "[OrderCount]": 349,
+      "[EligibleCount]": 345,
+      "[LateCount]": 12,
+      "[Merchandise]": 52500.24,
+      "[Freight]": 8924.65
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "BA",
+      "[OrderCount]": 225,
+      "[EligibleCount]": 216,
+      "[LateCount]": 40,
+      "[Merchandise]": 31937.34,
+      "[Freight]": 6867.51
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "PR",
+      "[OrderCount]": 386,
+      "[EligibleCount]": 381,
+      "[LateCount]": 5,
+      "[Merchandise]": 66638.06,
+      "[Freight]": 10480.84
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "BA",
+      "[OrderCount]": 155,
+      "[EligibleCount]": 144,
+      "[LateCount]": 7,
+      "[Merchandise]": 19289.45,
+      "[Freight]": 3812.15
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "RS",
+      "[OrderCount]": 305,
+      "[EligibleCount]": 304,
+      "[LateCount]": 4,
+      "[Merchandise]": 44093.83,
+      "[Freight]": 8986.85
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "MG",
+      "[OrderCount]": 786,
+      "[EligibleCount]": 778,
+      "[LateCount]": 19,
+      "[Merchandise]": 111476.48,
+      "[Freight]": 19109.98
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "GO",
+      "[OrderCount]": 157,
+      "[EligibleCount]": 153,
+      "[LateCount]": 20,
+      "[Merchandise]": 21079.19,
+      "[Freight]": 3997.05
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "PR",
+      "[OrderCount]": 333,
+      "[EligibleCount]": 327,
+      "[LateCount]": 10,
+      "[Merchandise]": 41305.21,
+      "[Freight]": 8171.93
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "CE",
+      "[OrderCount]": 47,
+      "[EligibleCount]": 44,
+      "[LateCount]": 0,
+      "[Merchandise]": 10060.19,
+      "[Freight]": 1344.66
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "MT",
+      "[OrderCount]": 47,
+      "[EligibleCount]": 47,
+      "[LateCount]": 0,
+      "[Merchandise]": 10599.64,
+      "[Freight]": 2046.02
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "PR",
+      "[OrderCount]": 308,
+      "[EligibleCount]": 306,
+      "[LateCount]": 0,
+      "[Merchandise]": 42281.76,
+      "[Freight]": 8045.82
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "PI",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 2496.93,
+      "[Freight]": 358.1
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "TO",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 0,
+      "[Merchandise]": 2808.85,
+      "[Freight]": 429.22
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "RO",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 3,
+      "[Merchandise]": 2726.89,
+      "[Freight]": 578.96
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "CE",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 1,
+      "[Merchandise]": 2095.06,
+      "[Freight]": 388.47
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "SE",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 4,
+      "[Merchandise]": 2595.17,
+      "[Freight]": 744.9
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "RN",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 12,
+      "[LateCount]": 1,
+      "[Merchandise]": 1241.36,
+      "[Freight]": 351.7
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "DF",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 2,
+      "[Merchandise]": 1826.63,
+      "[Freight]": 278.12
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "PI",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 3,
+      "[Merchandise]": 2106.5,
+      "[Freight]": 530.25
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "TO",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 2,
+      "[Merchandise]": 1925.97,
+      "[Freight]": 739.54
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "RN",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 3,
+      "[Merchandise]": 1741.72,
+      "[Freight]": 362.88
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "AM",
+      "[OrderCount]": 13,
+      "[EligibleCount]": 13,
+      "[LateCount]": 0,
+      "[Merchandise]": 836.38,
+      "[Freight]": 339.85
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "BA",
+      "[OrderCount]": 192,
+      "[EligibleCount]": 188,
+      "[LateCount]": 24,
+      "[Merchandise]": 28372.59,
+      "[Freight]": 5192.69
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "CE",
+      "[OrderCount]": 90,
+      "[EligibleCount]": 77,
+      "[LateCount]": 9,
+      "[Merchandise]": 13828.83,
+      "[Freight]": 3083.62
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "ES",
+      "[OrderCount]": 80,
+      "[EligibleCount]": 79,
+      "[LateCount]": 5,
+      "[Merchandise]": 10345.83,
+      "[Freight]": 1997.46
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "PE",
+      "[OrderCount]": 80,
+      "[EligibleCount]": 77,
+      "[LateCount]": 5,
+      "[Merchandise]": 17426.89,
+      "[Freight]": 3046.45
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "PR",
+      "[OrderCount]": 342,
+      "[EligibleCount]": 335,
+      "[LateCount]": 30,
+      "[Merchandise]": 45674.35,
+      "[Freight]": 6976.3
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "PR",
+      "[OrderCount]": 311,
+      "[EligibleCount]": 308,
+      "[LateCount]": 23,
+      "[Merchandise]": 46569.48,
+      "[Freight]": 7914.14
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "RJ",
+      "[OrderCount]": 833,
+      "[EligibleCount]": 816,
+      "[LateCount]": 56,
+      "[Merchandise]": 126972.13,
+      "[Freight]": 19675.93
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "PE",
+      "[OrderCount]": 103,
+      "[EligibleCount]": 101,
+      "[LateCount]": 8,
+      "[Merchandise]": 16128.61,
+      "[Freight]": 3590.93
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "MT",
+      "[OrderCount]": 38,
+      "[EligibleCount]": 37,
+      "[LateCount]": 0,
+      "[Merchandise]": 10288.68,
+      "[Freight]": 1060.25
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "MT",
+      "[OrderCount]": 38,
+      "[EligibleCount]": 38,
+      "[LateCount]": 0,
+      "[Merchandise]": 6709.45,
+      "[Freight]": 1122.44
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "PA",
+      "[OrderCount]": 38,
+      "[EligibleCount]": 36,
+      "[LateCount]": 2,
+      "[Merchandise]": 5730.27,
+      "[Freight]": 1188.32
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "RS",
+      "[OrderCount]": 300,
+      "[EligibleCount]": 293,
+      "[LateCount]": 9,
+      "[Merchandise]": 43141.6,
+      "[Freight]": 8989.91
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "ES",
+      "[OrderCount]": 34,
+      "[EligibleCount]": 31,
+      "[LateCount]": 2,
+      "[Merchandise]": 4630.29,
+      "[Freight]": 796.84
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "MS",
+      "[OrderCount]": 34,
+      "[EligibleCount]": 33,
+      "[LateCount]": 2,
+      "[Merchandise]": 6267.84,
+      "[Freight]": 1033.93
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "PI",
+      "[OrderCount]": 34,
+      "[EligibleCount]": 32,
+      "[LateCount]": 7,
+      "[Merchandise]": 4439.72,
+      "[Freight]": 1524.84
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "RJ",
+      "[OrderCount]": 716,
+      "[EligibleCount]": 707,
+      "[LateCount]": 9,
+      "[Merchandise]": 102798.57,
+      "[Freight]": 19463.22
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "PI",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 1,
+      "[Merchandise]": 2202.01,
+      "[Freight]": 736.76
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "PB",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 3,
+      "[Merchandise]": 2957.37,
+      "[Freight]": 605.31
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "TO",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 5,
+      "[Merchandise]": 4573.81,
+      "[Freight]": 1005.82
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "RN",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 2,
+      "[Merchandise]": 2545.41,
+      "[Freight]": 727.94
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "SE",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 19,
+      "[LateCount]": 1,
+      "[Merchandise]": 3060.2,
+      "[Freight]": 672.12
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "SE",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 3,
+      "[Merchandise]": 3147.78,
+      "[Freight]": 904.14
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "SE",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 19,
+      "[LateCount]": 2,
+      "[Merchandise]": 4821.69,
+      "[Freight]": 835.94
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "MS",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 19,
+      "[LateCount]": 0,
+      "[Merchandise]": 6452.55,
+      "[Freight]": 540.35
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "RO",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 1,
+      "[Merchandise]": 2286.76,
+      "[Freight]": 803.34
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "AL",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 19,
+      "[LateCount]": 8,
+      "[Merchandise]": 4365.29,
+      "[Freight]": 826.36
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "RN",
+      "[OrderCount]": 20,
+      "[EligibleCount]": 20,
+      "[LateCount]": 0,
+      "[Merchandise]": 5236.37,
+      "[Freight]": 757.38
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "PE",
+      "[OrderCount]": 114,
+      "[EligibleCount]": 110,
+      "[LateCount]": 15,
+      "[Merchandise]": 17662.61,
+      "[Freight]": 4577.86
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "PR",
+      "[OrderCount]": 114,
+      "[EligibleCount]": 112,
+      "[LateCount]": 3,
+      "[Merchandise]": 15958.09,
+      "[Freight]": 2498.04
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "ES",
+      "[OrderCount]": 123,
+      "[EligibleCount]": 122,
+      "[LateCount]": 9,
+      "[Merchandise]": 30146.35,
+      "[Freight]": 3541.92
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "PI",
+      "[OrderCount]": 32,
+      "[EligibleCount]": 32,
+      "[LateCount]": 2,
+      "[Merchandise]": 6933.47,
+      "[Freight]": 1537.64
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "MA",
+      "[OrderCount]": 32,
+      "[EligibleCount]": 32,
+      "[LateCount]": 2,
+      "[Merchandise]": 7084.04,
+      "[Freight]": 1505.51
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "RN",
+      "[OrderCount]": 32,
+      "[EligibleCount]": 32,
+      "[LateCount]": 10,
+      "[Merchandise]": 6001.74,
+      "[Freight]": 1517.1
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "SC",
+      "[OrderCount]": 178,
+      "[EligibleCount]": 174,
+      "[LateCount]": 8,
+      "[Merchandise]": 21022.55,
+      "[Freight]": 3751.21
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "PA",
+      "[OrderCount]": 73,
+      "[EligibleCount]": 67,
+      "[LateCount]": 34,
+      "[Merchandise]": 13208.78,
+      "[Freight]": 3196.6
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "PE",
+      "[OrderCount]": 73,
+      "[EligibleCount]": 70,
+      "[LateCount]": 13,
+      "[Merchandise]": 9880.42,
+      "[Freight]": 2528.96
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "CE",
+      "[OrderCount]": 73,
+      "[EligibleCount]": 73,
+      "[LateCount]": 1,
+      "[Merchandise]": 10642.66,
+      "[Freight]": 2315.01
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "MS",
+      "[OrderCount]": 49,
+      "[EligibleCount]": 49,
+      "[LateCount]": 1,
+      "[Merchandise]": 8887.25,
+      "[Freight]": 1878.5
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "MS",
+      "[OrderCount]": 49,
+      "[EligibleCount]": 49,
+      "[LateCount]": 2,
+      "[Merchandise]": 6810.83,
+      "[Freight]": 1484.51
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "CE",
+      "[OrderCount]": 66,
+      "[EligibleCount]": 63,
+      "[LateCount]": 3,
+      "[Merchandise]": 12399.11,
+      "[Freight]": 2333.67
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "BA",
+      "[OrderCount]": 239,
+      "[EligibleCount]": 228,
+      "[LateCount]": 15,
+      "[Merchandise]": 37066.01,
+      "[Freight]": 7220.34
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "GO",
+      "[OrderCount]": 149,
+      "[EligibleCount]": 146,
+      "[LateCount]": 23,
+      "[Merchandise]": 17921.0,
+      "[Freight]": 3618.63
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "TO",
+      "[OrderCount]": 22,
+      "[EligibleCount]": 22,
+      "[LateCount]": 1,
+      "[Merchandise]": 2613.67,
+      "[Freight]": 1181.42
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "SE",
+      "[OrderCount]": 22,
+      "[EligibleCount]": 22,
+      "[LateCount]": 6,
+      "[Merchandise]": 4294.21,
+      "[Freight]": 829.08
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "RN",
+      "[OrderCount]": 22,
+      "[EligibleCount]": 22,
+      "[LateCount]": 1,
+      "[Merchandise]": 4233.02,
+      "[Freight]": 765.84
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "PI",
+      "[OrderCount]": 22,
+      "[EligibleCount]": 20,
+      "[LateCount]": 0,
+      "[Merchandise]": 4626.4,
+      "[Freight]": 1081.22
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "SC",
+      "[OrderCount]": 198,
+      "[EligibleCount]": 195,
+      "[LateCount]": 4,
+      "[Merchandise]": 31203.58,
+      "[Freight]": 5996.29
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "ES",
+      "[OrderCount]": 95,
+      "[EligibleCount]": 94,
+      "[LateCount]": 4,
+      "[Merchandise]": 13158.31,
+      "[Freight]": 2222.29
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "BA",
+      "[OrderCount]": 241,
+      "[EligibleCount]": 237,
+      "[LateCount]": 47,
+      "[Merchandise]": 35174.44,
+      "[Freight]": 7394.51
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "RO",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 5852.16,
+      "[Freight]": 1205.31
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "TO",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 16,
+      "[LateCount]": 0,
+      "[Merchandise]": 2647.04,
+      "[Freight]": 689.21
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "MT",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 2988.4,
+      "[Freight]": 594.96
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "RO",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 2255.24,
+      "[Freight]": 902.27
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "TO",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 16,
+      "[LateCount]": 0,
+      "[Merchandise]": 3693.13,
+      "[Freight]": 706.59
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "MA",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 15,
+      "[LateCount]": 0,
+      "[Merchandise]": 1779.3,
+      "[Freight]": 578.93
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "TO",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 17,
+      "[LateCount]": 3,
+      "[Merchandise]": 2336.06,
+      "[Freight]": 742.86
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "RN",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 17,
+      "[LateCount]": 0,
+      "[Merchandise]": 4683.56,
+      "[Freight]": 899.31
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "AL",
+      "[OrderCount]": 17,
+      "[EligibleCount]": 15,
+      "[LateCount]": 7,
+      "[Merchandise]": 2336.09,
+      "[Freight]": 677.36
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "CE",
+      "[OrderCount]": 81,
+      "[EligibleCount]": 79,
+      "[LateCount]": 6,
+      "[Merchandise]": 11116.34,
+      "[Freight]": 2472.41
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "CE",
+      "[OrderCount]": 88,
+      "[EligibleCount]": 84,
+      "[LateCount]": 33,
+      "[Merchandise]": 11115.52,
+      "[Freight]": 3068.99
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "GO",
+      "[OrderCount]": 88,
+      "[EligibleCount]": 84,
+      "[LateCount]": 2,
+      "[Merchandise]": 13974.54,
+      "[Freight]": 2483.15
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "GO",
+      "[OrderCount]": 139,
+      "[EligibleCount]": 136,
+      "[LateCount]": 7,
+      "[Merchandise]": 24194.24,
+      "[Freight]": 3675.0
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "RS",
+      "[OrderCount]": 139,
+      "[EligibleCount]": 132,
+      "[LateCount]": 3,
+      "[Merchandise]": 19248.24,
+      "[Freight]": 3119.87
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "CE",
+      "[OrderCount]": 62,
+      "[EligibleCount]": 62,
+      "[LateCount]": 1,
+      "[Merchandise]": 10466.27,
+      "[Freight]": 2162.4
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "CE",
+      "[OrderCount]": 87,
+      "[EligibleCount]": 84,
+      "[LateCount]": 1,
+      "[Merchandise]": 14068.21,
+      "[Freight]": 3198.53
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "GO",
+      "[OrderCount]": 87,
+      "[EligibleCount]": 83,
+      "[LateCount]": 3,
+      "[Merchandise]": 16615.97,
+      "[Freight]": 2412.39
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "DF",
+      "[OrderCount]": 87,
+      "[EligibleCount]": 83,
+      "[LateCount]": 1,
+      "[Merchandise]": 9863.81,
+      "[Freight]": 1814.14
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "PR",
+      "[OrderCount]": 270,
+      "[EligibleCount]": 260,
+      "[LateCount]": 13,
+      "[Merchandise]": 30122.83,
+      "[Freight]": 5287.05
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "ES",
+      "[OrderCount]": 124,
+      "[EligibleCount]": 123,
+      "[LateCount]": 5,
+      "[Merchandise]": 17152.96,
+      "[Freight]": 3563.44
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "ES",
+      "[OrderCount]": 147,
+      "[EligibleCount]": 145,
+      "[LateCount]": 14,
+      "[Merchandise]": 20444.91,
+      "[Freight]": 3461.57
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "PB",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 27,
+      "[LateCount]": 5,
+      "[Merchandise]": 4567.39,
+      "[Freight]": 1374.6
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "PB",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 28,
+      "[LateCount]": 2,
+      "[Merchandise]": 7751.63,
+      "[Freight]": 1489.3
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "MA",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 29,
+      "[LateCount]": 2,
+      "[Merchandise]": 4246.2,
+      "[Freight]": 1079.16
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "PB",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 28,
+      "[LateCount]": 0,
+      "[Merchandise]": 10284.31,
+      "[Freight]": 1313.14
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "RN",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 30,
+      "[LateCount]": 2,
+      "[Merchandise]": 3168.45,
+      "[Freight]": 930.05
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "AL",
+      "[OrderCount]": 30,
+      "[EligibleCount]": 27,
+      "[LateCount]": 9,
+      "[Merchandise]": 6996.1,
+      "[Freight]": 1188.49
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "DF",
+      "[OrderCount]": 98,
+      "[EligibleCount]": 92,
+      "[LateCount]": 3,
+      "[Merchandise]": 13093.39,
+      "[Freight]": 2211.75
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "CE",
+      "[OrderCount]": 98,
+      "[EligibleCount]": 93,
+      "[LateCount]": 47,
+      "[Merchandise]": 18385.26,
+      "[Freight]": 4159.49
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "SC",
+      "[OrderCount]": 246,
+      "[EligibleCount]": 245,
+      "[LateCount]": 5,
+      "[Merchandise]": 44612.56,
+      "[Freight]": 7196.82
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "AM",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 12,
+      "[LateCount]": 0,
+      "[Merchandise]": 2925.65,
+      "[Freight]": 507.81
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "RO",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 1921.57,
+      "[Freight]": 497.4
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "PI",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 3133.79,
+      "[Freight]": 588.06
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "PA",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 2226.27,
+      "[Freight]": 551.5
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "PB",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 11,
+      "[LateCount]": 1,
+      "[Merchandise]": 2169.73,
+      "[Freight]": 374.57
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "SE",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 12,
+      "[LateCount]": 0,
+      "[Merchandise]": 1861.82,
+      "[Freight]": 543.16
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "AL",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 12,
+      "[LateCount]": 1,
+      "[Merchandise]": 2616.03,
+      "[Freight]": 351.84
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "ES",
+      "[OrderCount]": 12,
+      "[EligibleCount]": 9,
+      "[LateCount]": 1,
+      "[Merchandise]": 2255.96,
+      "[Freight]": 236.62
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "PE",
+      "[OrderCount]": 137,
+      "[EligibleCount]": 136,
+      "[LateCount]": 8,
+      "[Merchandise]": 24482.03,
+      "[Freight]": 5843.32
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "BA",
+      "[OrderCount]": 201,
+      "[EligibleCount]": 198,
+      "[LateCount]": 11,
+      "[Merchandise]": 35099.48,
+      "[Freight]": 7310.74
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "PR",
+      "[OrderCount]": 213,
+      "[EligibleCount]": 206,
+      "[LateCount]": 2,
+      "[Merchandise]": 31769.79,
+      "[Freight]": 4542.31
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "GO",
+      "[OrderCount]": 120,
+      "[EligibleCount]": 117,
+      "[LateCount]": 3,
+      "[Merchandise]": 18063.89,
+      "[Freight]": 3191.0
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "PR",
+      "[OrderCount]": 320,
+      "[EligibleCount]": 314,
+      "[LateCount]": 6,
+      "[Merchandise]": 47452.65,
+      "[Freight]": 8955.63
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "RS",
+      "[OrderCount]": 351,
+      "[EligibleCount]": 350,
+      "[LateCount]": 10,
+      "[Merchandise]": 50841.45,
+      "[Freight]": 9241.48
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "ES",
+      "[OrderCount]": 105,
+      "[EligibleCount]": 103,
+      "[LateCount]": 0,
+      "[Merchandise]": 16610.04,
+      "[Freight]": 2941.23
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "GO",
+      "[OrderCount]": 105,
+      "[EligibleCount]": 105,
+      "[LateCount]": 1,
+      "[Merchandise]": 14358.06,
+      "[Freight]": 3023.25
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "SC",
+      "[OrderCount]": 105,
+      "[EligibleCount]": 100,
+      "[LateCount]": 9,
+      "[Merchandise]": 11762.1,
+      "[Freight]": 2232.66
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "RS",
+      "[OrderCount]": 105,
+      "[EligibleCount]": 100,
+      "[LateCount]": 3,
+      "[Merchandise]": 15832.61,
+      "[Freight]": 2491.41
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "GO",
+      "[OrderCount]": 136,
+      "[EligibleCount]": 132,
+      "[LateCount]": 6,
+      "[Merchandise]": 19087.44,
+      "[Freight]": 3439.1
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "BA",
+      "[OrderCount]": 59,
+      "[EligibleCount]": 58,
+      "[LateCount]": 5,
+      "[Merchandise]": 7087.68,
+      "[Freight]": 1547.82
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "SC",
+      "[OrderCount]": 59,
+      "[EligibleCount]": 57,
+      "[LateCount]": 3,
+      "[Merchandise]": 6937.85,
+      "[Freight]": 1210.34
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "MS",
+      "[OrderCount]": 59,
+      "[EligibleCount]": 57,
+      "[LateCount]": 23,
+      "[Merchandise]": 7398.98,
+      "[Freight]": 1634.16
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "ES",
+      "[OrderCount]": 83,
+      "[EligibleCount]": 81,
+      "[LateCount]": 3,
+      "[Merchandise]": 7219.1,
+      "[Freight]": 1738.16
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "PE",
+      "[OrderCount]": 104,
+      "[EligibleCount]": 102,
+      "[LateCount]": 8,
+      "[Merchandise]": 14993.43,
+      "[Freight]": 3543.19
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "MT",
+      "[OrderCount]": 50,
+      "[EligibleCount]": 49,
+      "[LateCount]": 5,
+      "[Merchandise]": 9626.2,
+      "[Freight]": 1577.9
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "RO",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 1949.58,
+      "[Freight]": 460.78
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "RO",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 1083.72,
+      "[Freight]": 344.92
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "RO",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 3499.77,
+      "[Freight]": 585.95
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "SC",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 9,
+      "[LateCount]": 0,
+      "[Merchandise]": 2373.06,
+      "[Freight]": 281.17
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "MT",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 9,
+      "[LateCount]": 0,
+      "[Merchandise]": 1976.64,
+      "[Freight]": 327.05
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "AP",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 2393.67,
+      "[Freight]": 395.07
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "SE",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 681.09,
+      "[Freight]": 378.44
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "MA",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 895.28,
+      "[Freight]": 299.95
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "MS",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 11,
+      "[LateCount]": 0,
+      "[Merchandise]": 7519.79,
+      "[Freight]": 391.15
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "RO",
+      "[OrderCount]": 11,
+      "[EligibleCount]": 9,
+      "[LateCount]": 0,
+      "[Merchandise]": 1622.16,
+      "[Freight]": 429.8
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "BA",
+      "[OrderCount]": 165,
+      "[EligibleCount]": 159,
+      "[LateCount]": 1,
+      "[Merchandise]": 21846.84,
+      "[Freight]": 5045.32
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "DF",
+      "[OrderCount]": 131,
+      "[EligibleCount]": 129,
+      "[LateCount]": 6,
+      "[Merchandise]": 16965.57,
+      "[Freight]": 2966.68
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "ES",
+      "[OrderCount]": 142,
+      "[EligibleCount]": 140,
+      "[LateCount]": 22,
+      "[Merchandise]": 16542.57,
+      "[Freight]": 3639.07
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "CE",
+      "[OrderCount]": 53,
+      "[EligibleCount]": 53,
+      "[LateCount]": 0,
+      "[Merchandise]": 7759.52,
+      "[Freight]": 2073.69
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "MA",
+      "[OrderCount]": 53,
+      "[EligibleCount]": 49,
+      "[LateCount]": 25,
+      "[Merchandise]": 8355.74,
+      "[Freight]": 2678.02
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "GO",
+      "[OrderCount]": 53,
+      "[EligibleCount]": 47,
+      "[LateCount]": 0,
+      "[Merchandise]": 8704.26,
+      "[Freight]": 1267.72
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "SC",
+      "[OrderCount]": 205,
+      "[EligibleCount]": 205,
+      "[LateCount]": 0,
+      "[Merchandise]": 32740.72,
+      "[Freight]": 6314.55
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "MA",
+      "[OrderCount]": 48,
+      "[EligibleCount]": 48,
+      "[LateCount]": 12,
+      "[Merchandise]": 10335.8,
+      "[Freight]": 2191.18
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "PI",
+      "[OrderCount]": 48,
+      "[EligibleCount]": 47,
+      "[LateCount]": 5,
+      "[Merchandise]": 6724.17,
+      "[Freight]": 1853.11
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "ES",
+      "[OrderCount]": 48,
+      "[EligibleCount]": 47,
+      "[LateCount]": 0,
+      "[Merchandise]": 4985.41,
+      "[Freight]": 1016.86
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "SC",
+      "[OrderCount]": 110,
+      "[EligibleCount]": 104,
+      "[LateCount]": 19,
+      "[Merchandise]": 18338.81,
+      "[Freight]": 2342.39
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "DF",
+      "[OrderCount]": 144,
+      "[EligibleCount]": 140,
+      "[LateCount]": 13,
+      "[Merchandise]": 25461.49,
+      "[Freight]": 3736.88
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "AC",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 2094.39,
+      "[Freight]": 277.34
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "TO",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 7,
+      "[LateCount]": 0,
+      "[Merchandise]": 727.66,
+      "[Freight]": 171.53
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "AM",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 1,
+      "[Merchandise]": 2028.62,
+      "[Freight]": 457.96
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "SE",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 2,
+      "[Merchandise]": 1083.18,
+      "[Freight]": 237.41
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "RN",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 398.9,
+      "[Freight]": 249.71
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "CE",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 1689.38,
+      "[Freight]": 260.4
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "AM",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 902.89,
+      "[Freight]": 219.65
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "TO",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 8,
+      "[LateCount]": 0,
+      "[Merchandise]": 3965.18,
+      "[Freight]": 475.94
+    },
+    {
+      "Date[Month Label]": "2018-09",
+      "State[State]": "SP",
+      "[OrderCount]": 8,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": 145.0,
+      "[Freight]": 21.46
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "MA",
+      "[OrderCount]": 42,
+      "[EligibleCount]": 41,
+      "[LateCount]": 3,
+      "[Merchandise]": 9519.25,
+      "[Freight]": 1821.44
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "MA",
+      "[OrderCount]": 42,
+      "[EligibleCount]": 41,
+      "[LateCount]": 5,
+      "[Merchandise]": 5979.48,
+      "[Freight]": 1985.09
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "RO",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 682.19,
+      "[Freight]": 143.32
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "AP",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 1591.85,
+      "[Freight]": 104.89
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "SE",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 285.45,
+      "[Freight]": 60.47
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "AP",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 289.79,
+      "[Freight]": 94.99
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "AC",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 427.9,
+      "[Freight]": 169.36
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "RR",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 93.4,
+      "[Freight]": 81.78
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "AC",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 201.83,
+      "[Freight]": 97.39
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "AM",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 70.88,
+      "[Freight]": 93.68
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "RR",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 1,
+      "[Merchandise]": 388.98,
+      "[Freight]": 136.17
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "AC",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 446.69,
+      "[Freight]": 157.83
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "AP",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 2,
+      "[Merchandise]": 303.79,
+      "[Freight]": 109.1
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "AC",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 3,
+      "[LateCount]": 0,
+      "[Merchandise]": 450.4,
+      "[Freight]": 147.0
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "MT",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 327.79,
+      "[Freight]": 174.84
+    },
+    {
+      "Date[Month Label]": "2018-09",
+      "State[State]": "RJ",
+      "[OrderCount]": 3,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "PI",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 34,
+      "[LateCount]": 10,
+      "[Merchandise]": 6642.28,
+      "[Freight]": 1626.26
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "PB",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 35,
+      "[LateCount]": 3,
+      "[Merchandise]": 4750.8,
+      "[Freight]": 1592.12
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "MT",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 34,
+      "[LateCount]": 2,
+      "[Merchandise]": 6940.91,
+      "[Freight]": 1325.01
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "DF",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 34,
+      "[LateCount]": 0,
+      "[Merchandise]": 7527.58,
+      "[Freight]": 1070.78
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "PA",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 35,
+      "[LateCount]": 1,
+      "[Merchandise]": 5404.14,
+      "[Freight]": 1166.56
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "MS",
+      "[OrderCount]": 35,
+      "[EligibleCount]": 35,
+      "[LateCount]": 10,
+      "[Merchandise]": 5551.43,
+      "[Freight]": 1000.52
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "PB",
+      "[OrderCount]": 52,
+      "[EligibleCount]": 51,
+      "[LateCount]": 2,
+      "[Merchandise]": 15657.68,
+      "[Freight]": 4797.43
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "MT",
+      "[OrderCount]": 52,
+      "[EligibleCount]": 50,
+      "[LateCount]": 1,
+      "[Merchandise]": 10749.01,
+      "[Freight]": 2143.87
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "RS",
+      "[OrderCount]": 278,
+      "[EligibleCount]": 273,
+      "[LateCount]": 5,
+      "[Merchandise]": 37202.05,
+      "[Freight]": 6240.05
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "CE",
+      "[OrderCount]": 74,
+      "[EligibleCount]": 72,
+      "[LateCount]": 8,
+      "[Merchandise]": 11945.51,
+      "[Freight]": 2583.82
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "MT",
+      "[OrderCount]": 74,
+      "[EligibleCount]": 73,
+      "[LateCount]": 9,
+      "[Merchandise]": 11431.7,
+      "[Freight]": 1998.67
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "CE",
+      "[OrderCount]": 74,
+      "[EligibleCount]": 72,
+      "[LateCount]": 0,
+      "[Merchandise]": 16549.61,
+      "[Freight]": 3547.84
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "SC",
+      "[OrderCount]": 156,
+      "[EligibleCount]": 153,
+      "[LateCount]": 11,
+      "[Merchandise]": 25815.93,
+      "[Freight]": 3636.62
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "RR",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 2244.68,
+      "[Freight]": 398.96
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "DF",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 1043.77,
+      "[Freight]": 156.34
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "AC",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 5,
+      "[LateCount]": 0,
+      "[Merchandise]": 735.2,
+      "[Freight]": 222.97
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "AM",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 667.79,
+      "[Freight]": 225.7
+    },
+    {
+      "Date[Month Label]": "2018-07",
+      "State[State]": "AP",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 1350.84,
+      "[Freight]": 262.79
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "AC",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 882.94,
+      "[Freight]": 274.95
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "AP",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 955.68,
+      "[Freight]": 234.25
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "AM",
+      "[OrderCount]": 6,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 1029.46,
+      "[Freight]": 144.16
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "BA",
+      "[OrderCount]": 91,
+      "[EligibleCount]": 87,
+      "[LateCount]": 7,
+      "[Merchandise]": 15942.12,
+      "[Freight]": 2943.63
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "PA",
+      "[OrderCount]": 44,
+      "[EligibleCount]": 43,
+      "[LateCount]": 0,
+      "[Merchandise]": 8928.78,
+      "[Freight]": 2037.12
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "RN",
+      "[OrderCount]": 44,
+      "[EligibleCount]": 41,
+      "[LateCount]": 8,
+      "[Merchandise]": 8469.3,
+      "[Freight]": 1581.0
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "CE",
+      "[OrderCount]": 77,
+      "[EligibleCount]": 74,
+      "[LateCount]": 2,
+      "[Merchandise]": 16891.82,
+      "[Freight]": 2814.61
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "GO",
+      "[OrderCount]": 77,
+      "[EligibleCount]": 77,
+      "[LateCount]": 3,
+      "[Merchandise]": 8923.19,
+      "[Freight]": 1653.78
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "DF",
+      "[OrderCount]": 77,
+      "[EligibleCount]": 75,
+      "[LateCount]": 0,
+      "[Merchandise]": 10828.02,
+      "[Freight]": 2009.67
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "PA",
+      "[OrderCount]": 60,
+      "[EligibleCount]": 57,
+      "[LateCount]": 0,
+      "[Merchandise]": 14765.2,
+      "[Freight]": 2390.33
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "DF",
+      "[OrderCount]": 145,
+      "[EligibleCount]": 143,
+      "[LateCount]": 5,
+      "[Merchandise]": 19941.63,
+      "[Freight]": 3565.63
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "AM",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 169.99,
+      "[Freight]": 34.85
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "PI",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 210.0,
+      "[Freight]": 36.09
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "RR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 39.7,
+      "[Freight]": 29.32
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "RR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 39.99,
+      "[Freight]": 25.38
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "RR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 89.9,
+      "[Freight]": 81.79
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "TO",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 97.5,
+      "[Freight]": 29.08
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "AP",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 259.9,
+      "[Freight]": 32.49
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "PB",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 49.9,
+      "[Freight]": 24.84
+    },
+    {
+      "Date[Month Label]": "2016-12",
+      "State[State]": "PR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 10.9,
+      "[Freight]": 8.72
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "RR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 179.9,
+      "[Freight]": 45.11
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "MS",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 149.0,
+      "[Freight]": 21.36
+    },
+    {
+      "Date[Month Label]": "2016-09",
+      "State[State]": "RR",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": 72.89,
+      "[Freight]": 63.34
+    },
+    {
+      "Date[Month Label]": "2016-09",
+      "State[State]": "RS",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": 59.5,
+      "[Freight]": 15.56
+    },
+    {
+      "Date[Month Label]": "2018-10",
+      "State[State]": "RJ",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2018-10",
+      "State[State]": "PI",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2018-09",
+      "State[State]": "SC",
+      "[OrderCount]": 1,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "RS",
+      "[OrderCount]": 151,
+      "[EligibleCount]": 144,
+      "[LateCount]": 2,
+      "[Merchandise]": 20129.51,
+      "[Freight]": 3500.46
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "AC",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 589.6,
+      "[Freight]": 133.54
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "AL",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 393.97,
+      "[Freight]": 60.39
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 1,
+      "[Merchandise]": 270.99,
+      "[Freight]": 59.82
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 218.99,
+      "[Freight]": 59.45
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 50.8,
+      "[Freight]": 57.94
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 48.95,
+      "[Freight]": 57.94
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "AC",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 1364.89,
+      "[Freight]": 136.53
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "AC",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 97.8,
+      "[Freight]": 66.87
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "AL",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 1,
+      "[LateCount]": 0,
+      "[Merchandise]": 82.49,
+      "[Freight]": 47.41
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 1007.9,
+      "[Freight]": 78.41
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 167.48,
+      "[Freight]": 80.44
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 252.7,
+      "[Freight]": 117.04
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "AC",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 455.99,
+      "[Freight]": 74.19
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "TO",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 629.89,
+      "[Freight]": 46.97
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "PB",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 409.8,
+      "[Freight]": 53.33
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 194.0,
+      "[Freight]": 63.4
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 364.6,
+      "[Freight]": 134.62
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 1,
+      "[Merchandise]": 712.65,
+      "[Freight]": 59.36
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 1,
+      "[Merchandise]": 98.64,
+      "[Freight]": 52.82
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "RR",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 233.11,
+      "[Freight]": 84.86
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "AP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 2,
+      "[LateCount]": 0,
+      "[Merchandise]": 549.85,
+      "[Freight]": 157.35
+    },
+    {
+      "Date[Month Label]": "2016-09",
+      "State[State]": "SP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 1,
+      "[LateCount]": 1,
+      "[Merchandise]": 134.97,
+      "[Freight]": 8.49
+    },
+    {
+      "Date[Month Label]": "2018-10",
+      "State[State]": "SP",
+      "[OrderCount]": 2,
+      "[EligibleCount]": 0,
+      "[LateCount]": 0,
+      "[Merchandise]": null,
+      "[Freight]": null
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "AM",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 8,
+      "[LateCount]": 1,
+      "[Merchandise]": 1072.77,
+      "[Freight]": 248.91
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "AL",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 10,
+      "[LateCount]": 3,
+      "[Merchandise]": 951.65,
+      "[Freight]": 317.32
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "RN",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 1243.87,
+      "[Freight]": 321.38
+    },
+    {
+      "Date[Month Label]": "2017-03",
+      "State[State]": "AL",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 10,
+      "[LateCount]": 2,
+      "[Merchandise]": 1174.79,
+      "[Freight]": 246.71
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "AM",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 2635.25,
+      "[Freight]": 365.76
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "RO",
+      "[OrderCount]": 10,
+      "[EligibleCount]": 10,
+      "[LateCount]": 0,
+      "[Merchandise]": 1800.92,
+      "[Freight]": 510.14
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "AL",
+      "[OrderCount]": 19,
+      "[EligibleCount]": 19,
+      "[LateCount]": 2,
+      "[Merchandise]": 3657.09,
+      "[Freight]": 736.01
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "TO",
+      "[OrderCount]": 19,
+      "[EligibleCount]": 19,
+      "[LateCount]": 1,
+      "[Merchandise]": 4291.82,
+      "[Freight]": 1078.69
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "PR",
+      "[OrderCount]": 19,
+      "[EligibleCount]": 19,
+      "[LateCount]": 0,
+      "[Merchandise]": 2004.61,
+      "[Freight]": 470.49
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "MG",
+      "[OrderCount]": 275,
+      "[EligibleCount]": 266,
+      "[LateCount]": 7,
+      "[Merchandise]": 41257.46,
+      "[Freight]": 5857.79
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "RJ",
+      "[OrderCount]": 254,
+      "[EligibleCount]": 230,
+      "[LateCount]": 8,
+      "[Merchandise]": 32466.05,
+      "[Freight]": 5654.81
+    },
+    {
+      "Date[Month Label]": "2016-10",
+      "State[State]": "PE",
+      "[OrderCount]": 7,
+      "[EligibleCount]": 6,
+      "[LateCount]": 0,
+      "[Merchandise]": 1369.1,
+      "[Freight]": 319.39
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "PI",
+      "[OrderCount]": 7,
+      "[EligibleCount]": 7,
+      "[LateCount]": 0,
+      "[Merchandise]": 1250.85,
+      "[Freight]": 203.13
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "TO",
+      "[OrderCount]": 7,
+      "[EligibleCount]": 7,
+      "[LateCount]": 0,
+      "[Merchandise]": 765.6,
+      "[Freight]": 173.95
+    },
+    {
+      "Date[Month Label]": "2018-06",
+      "State[State]": "AM",
+      "[OrderCount]": 7,
+      "[EligibleCount]": 7,
+      "[LateCount]": 0,
+      "[Merchandise]": 924.72,
+      "[Freight]": 286.42
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "TO",
+      "[OrderCount]": 21,
+      "[EligibleCount]": 20,
+      "[LateCount]": 9,
+      "[Merchandise]": 2849.4,
+      "[Freight]": 759.64
+    },
+    {
+      "Date[Month Label]": "2018-08",
+      "State[State]": "PI",
+      "[OrderCount]": 21,
+      "[EligibleCount]": 20,
+      "[LateCount]": 0,
+      "[Merchandise]": 3013.23,
+      "[Freight]": 966.61
+    },
+    {
+      "Date[Month Label]": "2017-02",
+      "State[State]": "PE",
+      "[OrderCount]": 21,
+      "[EligibleCount]": 20,
+      "[LateCount]": 1,
+      "[Merchandise]": 2781.91,
+      "[Freight]": 538.11
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "CE",
+      "[OrderCount]": 43,
+      "[EligibleCount]": 42,
+      "[LateCount]": 5,
+      "[Merchandise]": 5759.73,
+      "[Freight]": 1213.76
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "MS",
+      "[OrderCount]": 43,
+      "[EligibleCount]": 43,
+      "[LateCount]": 3,
+      "[Merchandise]": 5875.85,
+      "[Freight]": 1177.29
+    },
+    {
+      "Date[Month Label]": "2018-05",
+      "State[State]": "PI",
+      "[OrderCount]": 31,
+      "[EligibleCount]": 30,
+      "[LateCount]": 6,
+      "[Merchandise]": 6845.7,
+      "[Freight]": 1801.93
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "PB",
+      "[OrderCount]": 31,
+      "[EligibleCount]": 28,
+      "[LateCount]": 6,
+      "[Merchandise]": 4413.14,
+      "[Freight]": 1370.3
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "PI",
+      "[OrderCount]": 31,
+      "[EligibleCount]": 31,
+      "[LateCount]": 15,
+      "[Merchandise]": 2707.81,
+      "[Freight]": 1097.58
+    },
+    {
+      "Date[Month Label]": "2017-01",
+      "State[State]": "SC",
+      "[OrderCount]": 31,
+      "[EligibleCount]": 26,
+      "[LateCount]": 1,
+      "[Merchandise]": 6661.53,
+      "[Freight]": 639.78
+    },
+    {
+      "Date[Month Label]": "2018-01",
+      "State[State]": "PB",
+      "[OrderCount]": 31,
+      "[EligibleCount]": 31,
+      "[LateCount]": 4,
+      "[Merchandise]": 6800.29,
+      "[Freight]": 1222.23
+    },
+    {
+      "Date[Month Label]": "2017-09",
+      "State[State]": "MS",
+      "[OrderCount]": 33,
+      "[EligibleCount]": 32,
+      "[LateCount]": 0,
+      "[Merchandise]": 4902.71,
+      "[Freight]": 666.77
+    },
+    {
+      "Date[Month Label]": "2017-05",
+      "State[State]": "MA",
+      "[OrderCount]": 33,
+      "[EligibleCount]": 31,
+      "[LateCount]": 0,
+      "[Merchandise]": 3440.08,
+      "[Freight]": 1065.01
+    },
+    {
+      "Date[Month Label]": "2018-03",
+      "State[State]": "MT",
+      "[OrderCount]": 55,
+      "[EligibleCount]": 52,
+      "[LateCount]": 13,
+      "[Merchandise]": 8638.73,
+      "[Freight]": 1853.69
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "RO",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 14,
+      "[LateCount]": 0,
+      "[Merchandise]": 2236.88,
+      "[Freight]": 579.09
+    },
+    {
+      "Date[Month Label]": "2017-07",
+      "State[State]": "SE",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 13,
+      "[LateCount]": 0,
+      "[Merchandise]": 1372.09,
+      "[Freight]": 401.1
+    },
+    {
+      "Date[Month Label]": "2017-06",
+      "State[State]": "PI",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 14,
+      "[LateCount]": 0,
+      "[Merchandise]": 2147.47,
+      "[Freight]": 479.49
+    },
+    {
+      "Date[Month Label]": "2018-04",
+      "State[State]": "SE",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 13,
+      "[LateCount]": 6,
+      "[Merchandise]": 3210.42,
+      "[Freight]": 503.32
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "TO",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 14,
+      "[LateCount]": 0,
+      "[Merchandise]": 1457.01,
+      "[Freight]": 435.15
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "RO",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 13,
+      "[LateCount]": 0,
+      "[Merchandise]": 1579.38,
+      "[Freight]": 530.59
+    },
+    {
+      "Date[Month Label]": "2017-10",
+      "State[State]": "RO",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 13,
+      "[LateCount]": 0,
+      "[Merchandise]": 1657.95,
+      "[Freight]": 727.06
+    },
+    {
+      "Date[Month Label]": "2017-12",
+      "State[State]": "AL",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 12,
+      "[LateCount]": 0,
+      "[Merchandise]": 2223.87,
+      "[Freight]": 456.89
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "TO",
+      "[OrderCount]": 14,
+      "[EligibleCount]": 13,
+      "[LateCount]": 2,
+      "[Merchandise]": 3192.84,
+      "[Freight]": 621.63
+    },
+    {
+      "Date[Month Label]": "2017-11",
+      "State[State]": "AL",
+      "[OrderCount]": 26,
+      "[EligibleCount]": 26,
+      "[LateCount]": 5,
+      "[Merchandise]": 5936.26,
+      "[Freight]": 1505.21
+    },
+    {
+      "Date[Month Label]": "2018-02",
+      "State[State]": "SE",
+      "[OrderCount]": 15,
+      "[EligibleCount]": 15,
+      "[LateCount]": 2,
+      "[Merchandise]": 4486.91,
+      "[Freight]": 616.19
+    },
+    {
+      "Date[Month Label]": "2017-08",
+      "State[State]": "TO",
+      "[OrderCount]": 15,
+      "[EligibleCount]": 15,
+      "[LateCount]": 0,
+      "[Merchandise]": 2132.57,
+      "[Freight]": 385.95
+    },
+    {
+      "Date[Month Label]": "2017-04",
+      "State[State]": "MS",
+      "[OrderCount]": 15,
+      "[EligibleCount]": 15,
+      "[LateCount]": 1,
+      "[Merchandise]": 1904.06,
+      "[Freight]": 304.38
+    }
+  ]
+}

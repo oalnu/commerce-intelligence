@@ -1,0 +1,56 @@
+table Item
+	lineageTag: 3046ab91-2bdc-5dea-a0b0-f9baeea02db4
+
+	column 'Order ID'
+		dataType: string
+		isHidden
+		lineageTag: cb9a3dfe-83d5-537b-8fc5-30b3db50e84b
+		summarizeBy: none
+		sourceColumn: order_id
+
+	column 'Item Number'
+		dataType: int64
+		lineageTag: e2b77fed-80a8-5a9e-aaa4-8cd2326bd3fe
+		summarizeBy: none
+		sourceColumn: item_number
+
+	column 'Product ID'
+		dataType: string
+		isHidden
+		lineageTag: ef1f1cf6-f150-59bf-947a-e59fdf2800b8
+		summarizeBy: none
+		sourceColumn: product_id
+
+	column 'Seller ID'
+		dataType: string
+		isHidden
+		lineageTag: 074529df-988f-5172-bf36-0334b9b4e684
+		summarizeBy: none
+		sourceColumn: seller_id
+
+	column 'Price BRL'
+		dataType: decimal
+		lineageTag: f648de0a-208c-53a5-b654-fecc2e8e3d7b
+		summarizeBy: none
+		sourceColumn: price_brl
+
+	column 'Freight BRL'
+		dataType: decimal
+		lineageTag: 443853ed-52e6-55a5-b81e-687561f89955
+		summarizeBy: none
+		sourceColumn: freight_brl
+
+	partition Item = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/fact_item.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"order_id", type text}, {"item_number", Int64.Type}, {"product_id", type text}, {"seller_id", type text}, {"price_brl", Currency.Type}, {"freight_brl", Currency.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "sql_mutations_checked": 3,
+  "note": "Mutation inputs exist only in an isolated copied test database; portfolio findings always use authentic unmodified source data."
+}

@@ -1,0 +1,30 @@
+table State
+	lineageTag: 340a40dc-240d-5bbc-8f52-fc7946a26ed5
+
+	column 'State Key'
+		dataType: string
+		isHidden
+		lineageTag: a43f2b53-1f52-5975-82e5-3338e9900b8f
+		summarizeBy: none
+		sourceColumn: state_key
+
+	column State
+		dataType: string
+		lineageTag: 9b54bc28-6122-5b62-9e75-4ed779976ec4
+		summarizeBy: none
+		sourceColumn: state
+
+	partition State = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/dim_customer_state.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"state_key", type text}, {"state", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

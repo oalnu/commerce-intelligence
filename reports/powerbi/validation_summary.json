@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "table_row_counts": 9,
+  "active_many_to_one_single_direction_relationships": 7,
+  "all_and_core_kpis": true,
+  "month_state_slices": 565,
+  "diagnostic_measures": true,
+  "money_tolerance_brl": "0.01",
+  "numeric_tolerance": "relative 1e-10 / absolute 1e-9",
+  "note": "Actual Desktop ADOMD results; semantic validation does not replace UI interaction checks."
+}

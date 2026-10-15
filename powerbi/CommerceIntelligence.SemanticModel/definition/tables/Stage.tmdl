@@ -1,0 +1,31 @@
+table Stage
+	lineageTag: e29d53a1-5d96-52c6-b12b-33f0d3b6e24b
+
+	column 'Stage Order'
+		dataType: int64
+		isHidden
+		lineageTag: b141df74-b41d-5823-b0c6-52812c53ecba
+		summarizeBy: none
+		sourceColumn: stage_order
+
+	column Stage
+		dataType: string
+		lineageTag: ca0409c8-8de9-537f-8bb8-787f31c0c300
+		summarizeBy: none
+		sourceColumn: stage
+		sortByColumn: 'Stage Order'
+
+	partition Stage = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataRoot & "/dim_stage.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Headers, {{"stage_order", Int64.Type}, {"stage", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

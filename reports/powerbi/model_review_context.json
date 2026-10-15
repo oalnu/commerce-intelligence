@@ -1,0 +1,42 @@
+{
+  "checked_utc": "2026-10-15T11:54:37.9026161Z",
+  "query_seconds": 0.0250999,
+  "rows": [
+    {
+      "Order[Delay Band]": "On time",
+      "[BandReviews]": 89005,
+      "[LowRate]": 0.09232065614291332,
+      "[Coverage]": 0.9925617807119279,
+      "[Score5BandReviews]": 89005,
+      "[Score5LowRate]": 0.09232065614291332,
+      "[Score5Coverage]": 0.9925617807119279
+    },
+    {
+      "Order[Delay Band]": "1–3 days late",
+      "[BandReviews]": 1435,
+      "[LowRate]": 0.18606271777003483,
+      "[Coverage]": 0.7677902621722846,
+      "[Score5BandReviews]": 1435,
+      "[Score5LowRate]": 0.18606271777003483,
+      "[Score5Coverage]": 0.7677902621722846
+    },
+    {
+      "Order[Delay Band]": "4–7 days late",
+      "[BandReviews]": 396,
+      "[LowRate]": 0.20454545454545456,
+      "[Coverage]": 0.21975582685904552,
+      "[Score5BandReviews]": 396,
+      "[Score5LowRate]": 0.20454545454545456,
+      "[Score5Coverage]": 0.21975582685904552
+    },
+    {
+      "Order[Delay Band]": "8+ days late",
+      "[BandReviews]": 76,
+      "[LowRate]": 0.3026315789473684,
+      "[Coverage]": 0.026573426573426574,
+      "[Score5BandReviews]": 76,
+      "[Score5LowRate]": 0.3026315789473684,
+      "[Score5Coverage]": 0.026573426573426574
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["DataRoot", "Order", "Item", "Date", "State", "Seller", "Category", "Product", "Status", "Stage"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Order
+ref table Item
+ref table Date
+ref table State
+ref table Seller
+ref table Category
+ref table Product
+ref table Status
+ref table Stage
+
+ref cultureInfo en-US
+

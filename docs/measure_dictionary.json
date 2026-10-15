@@ -1,0 +1,182 @@
+{
+  "Orders": {
+    "dax": "COUNTROWS('Order')",
+    "format": "#,0",
+    "definition": "All source-status orders in the current purchase-date and geography context."
+  },
+  "Eligible Delivered": {
+    "dax": "SUM('Order'[Delivery Eligible])",
+    "format": "#,0",
+    "definition": "Delivered orders with valid actual/promise dates and nonnegative total delivery duration."
+  },
+  "Late Orders": {
+    "dax": "COALESCE(SUM('Order'[Is Late]),0)",
+    "format": "#,0",
+    "definition": "Actual delivery calendar date is after the estimated calendar date; eligible delivered orders only."
+  },
+  "On-time Delivery": {
+    "dax": "DIVIDE([Eligible Delivered]-[Late Orders],[Eligible Delivered])",
+    "format": "0.0%",
+    "definition": "On-time eligible deliveries divided by eligible delivered orders. Zero denominator returns blank."
+  },
+  "Late Rate": {
+    "dax": "DIVIDE([Late Orders],[Eligible Delivered])",
+    "format": "0.0%",
+    "definition": "Late orders divided by eligible delivered orders."
+  },
+  "Median Delivery Days": {
+    "dax": "MEDIAN('Order'[Delivery Days])",
+    "format": "0.0",
+    "definition": "Median elapsed purchase-to-delivery days; invalid outcomes are blank."
+  },
+  "P90 Delivery Days": {
+    "dax": "PERCENTILEX.INC(FILTER('Order','Order'[Delivery Eligible]=1),'Order'[Delivery Days],0.9)",
+    "format": "0.0",
+    "definition": "90th percentile elapsed days among eligible delivered orders; blanks excluded."
+  },
+  "Average Review": {
+    "dax": "AVERAGE('Order'[Review Score])",
+    "format": "0.00",
+    "definition": "One latest selected valid review per order; reviewed orders only, including all statuses."
+  },
+  "Reviewed Orders": {
+    "dax": "COUNT('Order'[Review Score])",
+    "format": "#,0",
+    "definition": "Orders with a selected review score."
+  },
+  "Review Coverage": {
+    "dax": "DIVIDE([Reviewed Orders],[Orders])",
+    "format": "0.0%",
+    "definition": "Selected-review coverage across all selected orders."
+  },
+  "Low Reviews": {
+    "dax": "CALCULATE([Reviewed Orders],KEEPFILTERS('Order'[Review Score]<=2))",
+    "format": "#,0",
+    "definition": "Selected order reviews scored 1 or 2."
+  },
+  "Low Rating Rate": {
+    "dax": "DIVIDE([Low Reviews],[Reviewed Orders])",
+    "format": "0.0%",
+    "definition": "Low selected reviews divided by reviewed orders."
+  },
+  "Post-delivery Reviews": {
+    "dax": "CALCULATE([Reviewed Orders],'Order'[Delivery Eligible]=1,'Order'[Post Delivery Review]=1)",
+    "format": "#,0",
+    "definition": "Selected reviews answered on/after delivery, within eligible delivered orders."
+  },
+  "Post-delivery Low Rating": {
+    "dax": "DIVIDE(CALCULATE([Low Reviews],REMOVEFILTERS('Order'[Review Score]),'Order'[Delivery Eligible]=1,'Order'[Post Delivery Review]=1),CALCULATE([Post-delivery Reviews],REMOVEFILTERS('Order'[Review Score])))",
+    "format": "0.0%",
+    "definition": "Low-rating share of the full delay-band post-delivery sample, unaffected by hovered score segment. Descriptive, not causal."
+  },
+  "Post-delivery Band Reviews": {
+    "dax": "CALCULATE([Post-delivery Reviews],REMOVEFILTERS('Order'[Review Score]))",
+    "format": "#,0",
+    "definition": "Full delay-band post-delivery sample size; ignores the hovered score segment."
+  },
+  "Post-delivery Coverage": {
+    "dax": "DIVIDE([Post-delivery Band Reviews],CALCULATE([Eligible Delivered],REMOVEFILTERS('Order'[Review Score])))",
+    "format": "0.0%",
+    "definition": "Post-delivery selected responses divided by eligible orders in the delay band; ignores score segment."
+  },
+  "Review Timing Note": {
+    "dax": "VAR LateCoverage = CALCULATE([Post-delivery Coverage],REMOVEFILTERS('Order'[Delay Band],'Order'[Review Score]),'Order'[Is Late]=1) VAR OnCoverage = CALCULATE([Post-delivery Coverage],REMOVEFILTERS('Order'[Delay Band],'Order'[Review Score]),'Order'[Is Late]=0) RETURN \"Post-delivery coverage: late \" & IF(ISBLANK(LateCoverage),\"n/a\",FORMAT(LateCoverage,\"0.0%\")) & \" | on time \" & IF(ISBLANK(OnCoverage),\"n/a\",FORMAT(OnCoverage,\"0.0%\")) & \" | selected responses; not causal\"",
+    "format": "",
+    "definition": "Dynamic coverage warning retains date/state selections; prevents presenting the selected survey sample as representative."
+  },
+  "Delivered Merchandise BRL": {
+    "dax": "CALCULATE(SUM('Order'[Merchandise BRL]),'Order'[Order Status]=\"delivered\")",
+    "format": "\"R$ \"#,0.00",
+    "definition": "Item prices once per delivered order. Excludes freight; not profit or recognized net revenue."
+  },
+  "Delivered Freight BRL": {
+    "dax": "CALCULATE(SUM('Order'[Freight BRL]),'Order'[Order Status]=\"delivered\")",
+    "format": "\"R$ \"#,0.00",
+    "definition": "Freight charges on delivered orders; not logistics costs."
+  },
+  "Freight to Merchandise": {
+    "dax": "DIVIDE([Delivered Freight BRL],[Delivered Merchandise BRL])",
+    "format": "0.0%",
+    "definition": "Ratio of sums over the same delivered-order population."
+  },
+  "Late Order Exposure BRL": {
+    "dax": "CALCULATE(SUM('Order'[Merchandise BRL]),'Order'[Is Late]=1)",
+    "format": "\"R$ \"#,0",
+    "definition": "Merchandise value of late eligible orders; exposure, not lost revenue."
+  },
+  "Delivery Exclusions": {
+    "dax": "CALCULATE([Orders],'Order'[Order Status]=\"delivered\")-[Eligible Delivered]",
+    "format": "#,0",
+    "definition": "Delivered-status orders excluded because required actual/promise dates or total chronology are invalid."
+  },
+  "State Priority Flag": {
+    "dax": "IF([Eligible Delivered]>=100 && RANKX(ALLSELECTED('State'[State]),[Late Orders],,DESC,Dense)<=8,1,0)",
+    "format": "0",
+    "definition": "Top eight ranks by late-order count with at least 100 eligible orders."
+  },
+  "Category Eligible": {
+    "dax": "CALCULATE([Eligible Delivered],'Order'[Category Count]=1)",
+    "format": "#,0",
+    "definition": "Single-category eligible delivered orders; other categories are not attributed to a dominant product."
+  },
+  "Category Late Orders": {
+    "dax": "CALCULATE([Late Orders],'Order'[Category Count]=1)",
+    "format": "#,0",
+    "definition": "Late single-category orders."
+  },
+  "Category Late Rate": {
+    "dax": "DIVIDE([Category Late Orders],[Category Eligible])",
+    "format": "0.0%",
+    "definition": "Late rate on single-category orders."
+  },
+  "Category Priority Flag": {
+    "dax": "IF([Category Eligible]>=100 && RANKX(ALLSELECTED('Category'[Category]),[Category Late Orders],,DESC,Dense)<=8,1,0)",
+    "format": "0",
+    "definition": "Top eight late-count ranks among category segments, with at least 100 eligible orders."
+  },
+  "Seller Eligible": {
+    "dax": "CALCULATE([Eligible Delivered],'Order'[Seller Count]=1)",
+    "format": "#,0",
+    "definition": "Single-seller eligible orders only; no attribution of a multi-seller delay to one seller."
+  },
+  "Seller Late Orders": {
+    "dax": "CALCULATE([Late Orders],'Order'[Seller Count]=1)",
+    "format": "#,0",
+    "definition": "Late single-seller eligible orders."
+  },
+  "Seller Late Rate": {
+    "dax": "DIVIDE([Seller Late Orders],[Seller Eligible])",
+    "format": "0.0%",
+    "definition": "Late rate among single-seller eligible orders."
+  },
+  "Seller Priority Flag": {
+    "dax": "IF([Seller Eligible]>=100 && RANKX(ALLSELECTED('Seller'[Seller]),[Seller Late Orders],,DESC,Dense)<=8,1,0)",
+    "format": "0",
+    "definition": "Top eight late-count ranks among sellers with at least 100 eligible orders."
+  },
+  "Seller Coverage": {
+    "dax": "DIVIDE([Seller Eligible],[Eligible Delivered])",
+    "format": "0.0%",
+    "definition": "Share of eligible orders that can be attributed to a single seller."
+  },
+  "Median Handoff Days": {
+    "dax": "CALCULATE(MEDIAN('Order'[Handoff Days]),'Order'[Delivery Eligible]=1)",
+    "format": "0.0",
+    "definition": "Median approval-to-handoff elapsed days on valid stages; eligible delivered orders."
+  },
+  "Median Transit Days": {
+    "dax": "CALCULATE(MEDIAN('Order'[Transit Days]),'Order'[Delivery Eligible]=1)",
+    "format": "0.0",
+    "definition": "Median carrier-to-customer elapsed days on valid stages; eligible delivered orders."
+  },
+  "Median Stage Days": {
+    "dax": "SWITCH(SELECTEDVALUE('Stage'[Stage Order]),1,CALCULATE(MEDIAN('Order'[Approval Days]),'Order'[Delivery Eligible]=1),2,[Median Handoff Days],3,[Median Transit Days])",
+    "format": "0.000",
+    "definition": "Stage medians use stage-specific valid records and are not additive."
+  },
+  "Valid Stage Orders": {
+    "dax": "SWITCH(SELECTEDVALUE('Stage'[Stage Order]),1,CALCULATE(COUNT('Order'[Approval Days]),'Order'[Delivery Eligible]=1),2,CALCULATE(COUNT('Order'[Handoff Days]),'Order'[Delivery Eligible]=1),3,CALCULATE(COUNT('Order'[Transit Days]),'Order'[Delivery Eligible]=1))",
+    "format": "#,0",
+    "definition": "Stage-specific valid sample size among eligible delivered orders."
+  }
+}

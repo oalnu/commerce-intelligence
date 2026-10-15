@@ -1,0 +1,55 @@
+{
+  "checked_utc": "2026-10-15T11:54:37.9711437Z",
+  "query_seconds": 0.0077231,
+  "rows": [
+    {
+      "Name": "bbd9d4e6-ddde-52f5-ba1e-487c8d7c4a7b",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "181758e7-fcad-52fc-a60d-860a72aa24b8",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "11c350f6-e06c-54ca-bf92-880f512bb87f",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "d4570f03-a8e6-534b-b0b6-a42ecc067815",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "d2374a3a-066a-56e6-a724-8a113b590313",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "92c7d7a0-0b58-5081-b6e1-23c0e088ce42",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    },
+    {
+      "Name": "20dcb132-cefb-5df9-85dd-f4541a834178",
+      "IsActive": true,
+      "FromCardinality": 2,
+      "ToCardinality": 1,
+      "CrossFilteringBehavior": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "inventoried_utc": "2026-10-15T11:58:30.887890+00:00",
+  "application": "Microsoft Power BI Desktop 2.157.1354.0",
+  "source": "Actual final-report window after full CSV refresh; sky Windows.Graphics.Capture",
+  "filters": "January 2017-August 2018 purchase cohort; month All; customer state All",
+  "image_edits": "Owner-authorized pixel-exact crop to report canvas; no rescaling, retouching or generated pixels.",
+  "note": "Original full-window captures remain local. Published files are verified crops; DAX evidence separately checks totals.",
+  "screenshots": [
+    {
+      "file": "assets/screenshots/01_delivery_experience.png",
+      "bytes": 516857,
+      "sha256": "fb77a75a05881797d2048510c6188650327f0d99a95dbdf4f03cabb922b4975e",
+      "modified_utc": "2026-10-15T11:47:34.106682+00:00",
+      "original_capture_sha256": "f84e15ff84dec9eb202fa32b5e3943b7a53d3b5419f9297715170fe96ef11152",
+      "original_capture_dimensions": [
+        1710,
+        1021
+      ],
+      "crop_box_left_top_right_bottom": [
+        112,
+        160,
+        1536,
+        961
+      ]
+    },
+    {
+      "file": "assets/screenshots/02_improvement_priorities.png",
+      "bytes": 545155,
+      "sha256": "d2d709214f1472d4f97a7e2eca581ba313f2521fa3ea3e7667fa489d34e60ac2",
+      "modified_utc": "2026-10-15T11:47:49.491831+00:00",
+      "original_capture_sha256": "8debe0bd61cf4888639e60937e1a149b2493c54dd04b2daed4b06b5acf0f0249",
+      "original_capture_dimensions": [
+        1710,
+        1021
+      ],
+      "crop_box_left_top_right_bottom": [
+        112,
+        160,
+        1536,
+        961
+      ]
+    }
+  ]
+}

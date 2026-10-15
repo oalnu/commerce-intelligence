@@ -1,0 +1,26 @@
+erDiagram
+    DATE ||--o{ ORDER : purchase_cohort
+    STATE ||--o{ ORDER : customer_state
+    CATEGORY ||--o{ ORDER : single_category_or_multiple
+    SELLER ||--o{ ORDER : single_seller_or_multiple
+    STATUS ||--o{ ORDER : source_status
+    ORDER ||--o{ ITEM : order_id
+    PRODUCT ||--o{ ITEM : product_id
+    ORDER {
+      string order_id PK
+      int date_key FK
+      string customer_state FK
+      string seller_key FK
+      string category_key FK
+      int delivery_eligible
+      int is_late_nullable
+      decimal merchandise_brl
+      int selected_review_score_nullable
+    }
+    ITEM {
+      string order_id PK,FK
+      int item_number PK
+      string product_id FK
+      decimal price_brl
+      decimal freight_brl
+    }

@@ -1,0 +1,13 @@
+[
+  {
+    "orders": 99092,
+    "eligible": 96203,
+    "single_seller_eligible": 94931,
+    "single_category_eligible": 95425,
+    "handoff_valid": 94838,
+    "median_approval_days": 0.014247685185185184,
+    "median_handoff_days": 1.8423726851851852,
+    "median_transit_days": 7.104363425925926,
+    "post_delivery_reviewed": 90912
+  }
+]

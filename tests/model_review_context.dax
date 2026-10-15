@@ -1,0 +1,12 @@
+EVALUATE
+CALCULATETABLE(
+    SUMMARIZECOLUMNS('Order'[Delay Band],
+        "BandReviews", [Post-delivery Band Reviews],
+        "LowRate", [Post-delivery Low Rating],
+        "Coverage", [Post-delivery Coverage],
+        "Score5BandReviews", CALCULATE([Post-delivery Band Reviews], 'Order'[Review Score]=5),
+        "Score5LowRate", CALCULATE([Post-delivery Low Rating], 'Order'[Review Score]=5),
+        "Score5Coverage", CALCULATE([Post-delivery Coverage], 'Order'[Review Score]=5)
+    ),
+    'Date'[Core Period]=1, 'Order'[Delivery Eligible]=1
+)

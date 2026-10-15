@@ -1,0 +1,51 @@
+{
+  "gate_1": {
+    "status": "PASS",
+    "pbix": "GateProbe.pbix",
+    "pbip": "GateProbe.pbip",
+    "pbix_model_result": {
+      "checked_utc": "2026-10-15T10:10:47.0540706Z",
+      "query_seconds": 0.2180706,
+      "rows": [
+        {
+          "[OrderTotal]": 99441,
+          "[StatusGroups]": 8
+        }
+      ]
+    },
+    "pbip_model_result": {
+      "checked_utc": "2026-10-15T10:14:15.5245407Z",
+      "query_seconds": 0.1214805,
+      "rows": [
+        {
+          "[OrderTotal]": 99441,
+          "[StatusGroups]": 8
+        }
+      ]
+    },
+    "visuals": "Actual chart rendered after loading in both reopened formats",
+    "save_route": "File > Save as > Browse this device; avoid F12 quick-save modal"
+  },
+  "gate_2": {
+    "status": "PASS",
+    "verified_counts": {
+      "[Orders]": 99441,
+      "[UniqueOrders]": 99441,
+      "[Items]": 112650,
+      "[Products]": 32951,
+      "[ReviewRows]": 99224,
+      "[ItemPriceBRL]": 13591643.7,
+      "[FreightBRL]": 2251909.54
+    },
+    "refresh_clicked_utc": "2026-10-15T10:17:23.138Z",
+    "verified_utc": "2026-10-15T10:18:19.0464663Z",
+    "click_to_verified_seconds_upper_bound": 55.91,
+    "dax_query_seconds": 0.0527318,
+    "memory_samples_during_refresh": 23,
+    "minimum_sampled_free_ram_mib": 673.86,
+    "peak_sampled_pbi_workingset_mib": 883.58,
+    "peak_sampled_engine_workingset_mib": 903.6,
+    "peak_sampled_mashup_workingset_mib": 750.79,
+    "limitations": "Elapsed time includes observation/query delay; memory sampled approximately every 2 seconds. Working sets are not total commit. Source reviews omit free-text comments and raw geolocation is intentionally excluded."
+  }
+}

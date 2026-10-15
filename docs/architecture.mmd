@@ -1,0 +1,11 @@
+flowchart LR
+    Kaggle[Original Olist Kaggle ZIP<br/>SHA-256 pinned] --> Raw[Immutable CSV source<br/>9 tables / 126 MB]
+    Raw --> SQL[DuckDB SQL<br/>raw → staging → core → marts]
+    SQL --> Gate[32 hard checks<br/>exception ledger]
+    Gate --> CSV[9 ordered CSV marts<br/>export hashes + types]
+    CSV --> Model[Power BI Import<br/>9 tables / explicit DAX]
+    Model --> Report[Two report pages<br/>actual PBIX + PBIP]
+    SQL --> Independent[Independent Python validation<br/>99,441 orders / 565 slices]
+    Model --> DAX[Real Desktop DAX queries<br/>SQL / CSV reconciliation]
+    Independent --> Evidence[Versioned evidence and findings]
+    DAX --> Evidence

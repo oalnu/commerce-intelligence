@@ -1,0 +1,5087 @@
+[
+  {
+    "month_label": "2016-09",
+    "customer_state": "RR",
+    "orders": 1,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": "72.89",
+    "freight_brl": "63.34"
+  },
+  {
+    "month_label": "2016-09",
+    "customer_state": "RS",
+    "orders": 1,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": "59.50",
+    "freight_brl": "15.56"
+  },
+  {
+    "month_label": "2016-09",
+    "customer_state": "SP",
+    "orders": 2,
+    "eligible": 1,
+    "late": 1,
+    "merchandise_brl": "134.97",
+    "freight_brl": "8.49"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "AL",
+    "orders": 2,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "82.49",
+    "freight_brl": "47.41"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "BA",
+    "orders": 4,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "894.05",
+    "freight_brl": "101.29"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "CE",
+    "orders": 8,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "1689.38",
+    "freight_brl": "260.40"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "DF",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "1043.77",
+    "freight_brl": "156.34"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "ES",
+    "orders": 4,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "917.79",
+    "freight_brl": "149.35"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "GO",
+    "orders": 9,
+    "eligible": 7,
+    "late": 0,
+    "merchandise_brl": "984.39",
+    "freight_brl": "170.28"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "MA",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "704.26",
+    "freight_brl": "294.59"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "MG",
+    "orders": 40,
+    "eligible": 35,
+    "late": 0,
+    "merchandise_brl": "4811.21",
+    "freight_brl": "809.34"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "MT",
+    "orders": 3,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "327.79",
+    "freight_brl": "174.84"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "PA",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "1087.60",
+    "freight_brl": "195.49"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "PB",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "49.90",
+    "freight_brl": "24.84"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "PE",
+    "orders": 7,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "1369.10",
+    "freight_brl": "319.39"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "PI",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "210.00",
+    "freight_brl": "36.09"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "PR",
+    "orders": 19,
+    "eligible": 19,
+    "late": 0,
+    "merchandise_brl": "2004.61",
+    "freight_brl": "470.49"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "RJ",
+    "orders": 56,
+    "eligible": 40,
+    "late": 0,
+    "merchandise_brl": "11246.45",
+    "freight_brl": "1101.15"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "RN",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "728.69",
+    "freight_brl": "152.65"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "RR",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "39.70",
+    "freight_brl": "29.32"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "RS",
+    "orders": 24,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "4082.12",
+    "freight_brl": "555.79"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "SC",
+    "orders": 11,
+    "eligible": 9,
+    "late": 0,
+    "merchandise_brl": "2373.06",
+    "freight_brl": "281.17"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "SE",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "285.45",
+    "freight_brl": "60.47"
+  },
+  {
+    "month_label": "2016-10",
+    "customer_state": "SP",
+    "orders": 113,
+    "eligible": 94,
+    "late": 2,
+    "merchandise_brl": "14575.85",
+    "freight_brl": "1910.49"
+  },
+  {
+    "month_label": "2016-12",
+    "customer_state": "PR",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "10.90",
+    "freight_brl": "8.72"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "AC",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "589.60",
+    "freight_brl": "133.54"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "AL",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "393.97",
+    "freight_brl": "60.39"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "BA",
+    "orders": 25,
+    "eligible": 24,
+    "late": 1,
+    "merchandise_brl": "3956.02",
+    "freight_brl": "555.35"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "CE",
+    "orders": 9,
+    "eligible": 8,
+    "late": 1,
+    "merchandise_brl": "1049.49",
+    "freight_brl": "216.64"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "DF",
+    "orders": 13,
+    "eligible": 13,
+    "late": 2,
+    "merchandise_brl": "1826.63",
+    "freight_brl": "278.12"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "ES",
+    "orders": 12,
+    "eligible": 9,
+    "late": 1,
+    "merchandise_brl": "2255.96",
+    "freight_brl": "236.62"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "GO",
+    "orders": 18,
+    "eligible": 18,
+    "late": 0,
+    "merchandise_brl": "4227.49",
+    "freight_brl": "430.80"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "MA",
+    "orders": 9,
+    "eligible": 6,
+    "late": 1,
+    "merchandise_brl": "618.09",
+    "freight_brl": "180.01"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "MG",
+    "orders": 108,
+    "eligible": 102,
+    "late": 0,
+    "merchandise_brl": "16241.69",
+    "freight_brl": "2374.27"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "MS",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "149.00",
+    "freight_brl": "21.36"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "MT",
+    "orders": 11,
+    "eligible": 9,
+    "late": 0,
+    "merchandise_brl": "1976.64",
+    "freight_brl": "327.05"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "PA",
+    "orders": 12,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "2226.27",
+    "freight_brl": "551.50"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "PB",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "409.80",
+    "freight_brl": "53.33"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "PE",
+    "orders": 9,
+    "eligible": 9,
+    "late": 1,
+    "merchandise_brl": "1884.48",
+    "freight_brl": "267.45"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "PI",
+    "orders": 7,
+    "eligible": 7,
+    "late": 0,
+    "merchandise_brl": "1250.85",
+    "freight_brl": "203.13"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "PR",
+    "orders": 65,
+    "eligible": 62,
+    "late": 2,
+    "merchandise_brl": "5486.53",
+    "freight_brl": "996.71"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "RJ",
+    "orders": 97,
+    "eligible": 91,
+    "late": 3,
+    "merchandise_brl": "12683.20",
+    "freight_brl": "2064.25"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "RN",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1124.87",
+    "freight_brl": "143.26"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "RO",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "682.19",
+    "freight_brl": "143.32"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "RS",
+    "orders": 54,
+    "eligible": 52,
+    "late": 1,
+    "merchandise_brl": "12189.98",
+    "freight_brl": "1425.92"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "SC",
+    "orders": 31,
+    "eligible": 26,
+    "late": 1,
+    "merchandise_brl": "6661.53",
+    "freight_brl": "639.78"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "SE",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "263.80",
+    "freight_brl": "117.98"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "SP",
+    "orders": 299,
+    "eligible": 283,
+    "late": 8,
+    "merchandise_brl": "41534.90",
+    "freight_brl": "5407.87"
+  },
+  {
+    "month_label": "2017-01",
+    "customer_state": "TO",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "629.89",
+    "freight_brl": "46.97"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "AC",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "450.40",
+    "freight_brl": "147.00"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "AL",
+    "orders": 12,
+    "eligible": 12,
+    "late": 1,
+    "merchandise_brl": "2616.03",
+    "freight_brl": "351.84"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "AM",
+    "orders": 8,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "902.89",
+    "freight_brl": "219.65"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "549.85",
+    "freight_brl": "157.35"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "BA",
+    "orders": 59,
+    "eligible": 58,
+    "late": 5,
+    "merchandise_brl": "7087.68",
+    "freight_brl": "1547.82"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "CE",
+    "orders": 13,
+    "eligible": 13,
+    "late": 1,
+    "merchandise_brl": "2095.06",
+    "freight_brl": "388.47"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "DF",
+    "orders": 24,
+    "eligible": 21,
+    "late": 0,
+    "merchandise_brl": "10306.80",
+    "freight_brl": "560.66"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "ES",
+    "orders": 34,
+    "eligible": 31,
+    "late": 2,
+    "merchandise_brl": "4630.29",
+    "freight_brl": "796.84"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "GO",
+    "orders": 27,
+    "eligible": 24,
+    "late": 1,
+    "merchandise_brl": "2331.85",
+    "freight_brl": "668.82"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "MA",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "895.28",
+    "freight_brl": "299.95"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "MG",
+    "orders": 259,
+    "eligible": 241,
+    "late": 2,
+    "merchandise_brl": "29695.38",
+    "freight_brl": "5574.82"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "MS",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "7519.79",
+    "freight_brl": "391.15"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "MT",
+    "orders": 17,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "2988.40",
+    "freight_brl": "594.96"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "PA",
+    "orders": 25,
+    "eligible": 24,
+    "late": 0,
+    "merchandise_brl": "9901.49",
+    "freight_brl": "1056.72"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "PB",
+    "orders": 12,
+    "eligible": 11,
+    "late": 1,
+    "merchandise_brl": "2169.73",
+    "freight_brl": "374.57"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "PE",
+    "orders": 21,
+    "eligible": 20,
+    "late": 1,
+    "merchandise_brl": "2781.91",
+    "freight_brl": "538.11"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "PI",
+    "orders": 12,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "3133.79",
+    "freight_brl": "588.06"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "PR",
+    "orders": 118,
+    "eligible": 110,
+    "late": 3,
+    "merchandise_brl": "18623.53",
+    "freight_brl": "2709.05"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "RJ",
+    "orders": 254,
+    "eligible": 230,
+    "late": 8,
+    "merchandise_brl": "32466.05",
+    "freight_brl": "5654.81"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "RN",
+    "orders": 8,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "398.90",
+    "freight_brl": "249.71"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "RO",
+    "orders": 11,
+    "eligible": 9,
+    "late": 0,
+    "merchandise_brl": "1622.16",
+    "freight_brl": "429.80"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "50.80",
+    "freight_brl": "57.94"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "RS",
+    "orders": 105,
+    "eligible": 100,
+    "late": 3,
+    "merchandise_brl": "15832.61",
+    "freight_brl": "2491.41"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "SC",
+    "orders": 59,
+    "eligible": 57,
+    "late": 3,
+    "merchandise_brl": "6937.85",
+    "freight_brl": "1210.34"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "SE",
+    "orders": 12,
+    "eligible": 12,
+    "late": 0,
+    "merchandise_brl": "1861.82",
+    "freight_brl": "543.16"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "SP",
+    "orders": 654,
+    "eligible": 601,
+    "late": 18,
+    "merchandise_brl": "78687.08",
+    "freight_brl": "11200.64"
+  },
+  {
+    "month_label": "2017-02",
+    "customer_state": "TO",
+    "orders": 7,
+    "eligible": 7,
+    "late": 0,
+    "merchandise_brl": "765.60",
+    "freight_brl": "173.95"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "AC",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "455.99",
+    "freight_brl": "74.19"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "AL",
+    "orders": 10,
+    "eligible": 10,
+    "late": 2,
+    "merchandise_brl": "1174.79",
+    "freight_brl": "246.71"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "AM",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "631.39",
+    "freight_brl": "162.00"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "AP",
+    "orders": 3,
+    "eligible": 3,
+    "late": 2,
+    "merchandise_brl": "303.79",
+    "freight_brl": "109.10"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "BA",
+    "orders": 91,
+    "eligible": 87,
+    "late": 7,
+    "merchandise_brl": "15942.12",
+    "freight_brl": "2943.63"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "CE",
+    "orders": 28,
+    "eligible": 26,
+    "late": 8,
+    "merchandise_brl": "5969.98",
+    "freight_brl": "1188.86"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "DF",
+    "orders": 57,
+    "eligible": 54,
+    "late": 0,
+    "merchandise_brl": "6970.46",
+    "freight_brl": "1183.95"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "ES",
+    "orders": 48,
+    "eligible": 47,
+    "late": 0,
+    "merchandise_brl": "4985.41",
+    "freight_brl": "1016.86"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "GO",
+    "orders": 53,
+    "eligible": 47,
+    "late": 0,
+    "merchandise_brl": "8704.26",
+    "freight_brl": "1267.72"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "MA",
+    "orders": 24,
+    "eligible": 22,
+    "late": 4,
+    "merchandise_brl": "1975.79",
+    "freight_brl": "795.70"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "MG",
+    "orders": 358,
+    "eligible": 343,
+    "late": 8,
+    "merchandise_brl": "42193.09",
+    "freight_brl": "7907.80"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "MS",
+    "orders": 20,
+    "eligible": 19,
+    "late": 0,
+    "merchandise_brl": "6452.55",
+    "freight_brl": "540.35"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "MT",
+    "orders": 16,
+    "eligible": 16,
+    "late": 4,
+    "merchandise_brl": "2157.09",
+    "freight_brl": "545.46"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "PA",
+    "orders": 36,
+    "eligible": 35,
+    "late": 3,
+    "merchandise_brl": "7647.77",
+    "freight_brl": "1424.97"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "PB",
+    "orders": 16,
+    "eligible": 16,
+    "late": 1,
+    "merchandise_brl": "4387.99",
+    "freight_brl": "548.42"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "PE",
+    "orders": 45,
+    "eligible": 36,
+    "late": 1,
+    "merchandise_brl": "7192.14",
+    "freight_brl": "1809.04"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "PI",
+    "orders": 13,
+    "eligible": 13,
+    "late": 3,
+    "merchandise_brl": "2106.50",
+    "freight_brl": "530.25"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "PR",
+    "orders": 127,
+    "eligible": 121,
+    "late": 5,
+    "merchandise_brl": "15733.30",
+    "freight_brl": "2693.28"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "RJ",
+    "orders": 395,
+    "eligible": 370,
+    "late": 16,
+    "merchandise_brl": "55699.83",
+    "freight_brl": "8382.78"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "RN",
+    "orders": 13,
+    "eligible": 13,
+    "late": 3,
+    "merchandise_brl": "1741.72",
+    "freight_brl": "362.88"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "RO",
+    "orders": 16,
+    "eligible": 16,
+    "late": 2,
+    "merchandise_brl": "1864.86",
+    "freight_brl": "658.82"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 1,
+    "merchandise_brl": "270.99",
+    "freight_brl": "59.82"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "RS",
+    "orders": 151,
+    "eligible": 144,
+    "late": 2,
+    "merchandise_brl": "20129.51",
+    "freight_brl": "3500.46"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "SC",
+    "orders": 110,
+    "eligible": 104,
+    "late": 19,
+    "merchandise_brl": "18338.81",
+    "freight_brl": "2342.39"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "SE",
+    "orders": 25,
+    "eligible": 22,
+    "late": 3,
+    "merchandise_brl": "2498.60",
+    "freight_brl": "712.16"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "SP",
+    "orders": 1010,
+    "eligible": 966,
+    "late": 22,
+    "merchandise_brl": "138087.91",
+    "freight_brl": "16525.16"
+  },
+  {
+    "month_label": "2017-03",
+    "customer_state": "TO",
+    "orders": 8,
+    "eligible": 7,
+    "late": 0,
+    "merchandise_brl": "727.66",
+    "freight_brl": "171.53"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "AC",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1162.38",
+    "freight_brl": "189.13"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "AL",
+    "orders": 23,
+    "eligible": 21,
+    "late": 8,
+    "merchandise_brl": "4718.02",
+    "freight_brl": "657.15"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "AM",
+    "orders": 13,
+    "eligible": 13,
+    "late": 0,
+    "merchandise_brl": "836.38",
+    "freight_brl": "339.85"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "BA",
+    "orders": 93,
+    "eligible": 84,
+    "late": 12,
+    "merchandise_brl": "18681.82",
+    "freight_brl": "2801.58"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "CE",
+    "orders": 43,
+    "eligible": 42,
+    "late": 5,
+    "merchandise_brl": "5759.73",
+    "freight_brl": "1213.76"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "DF",
+    "orders": 35,
+    "eligible": 34,
+    "late": 0,
+    "merchandise_brl": "7527.58",
+    "freight_brl": "1070.78"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "ES",
+    "orders": 46,
+    "eligible": 45,
+    "late": 2,
+    "merchandise_brl": "5475.20",
+    "freight_brl": "977.48"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "GO",
+    "orders": 41,
+    "eligible": 38,
+    "late": 3,
+    "merchandise_brl": "5495.73",
+    "freight_brl": "1081.60"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "MA",
+    "orders": 27,
+    "eligible": 25,
+    "late": 1,
+    "merchandise_brl": "3243.42",
+    "freight_brl": "741.49"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "MG",
+    "orders": 275,
+    "eligible": 266,
+    "late": 7,
+    "merchandise_brl": "41257.46",
+    "freight_brl": "5857.79"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "MS",
+    "orders": 15,
+    "eligible": 15,
+    "late": 1,
+    "merchandise_brl": "1904.06",
+    "freight_brl": "304.38"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "MT",
+    "orders": 27,
+    "eligible": 25,
+    "late": 2,
+    "merchandise_brl": "3724.50",
+    "freight_brl": "797.23"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "PA",
+    "orders": 36,
+    "eligible": 36,
+    "late": 0,
+    "merchandise_brl": "4776.15",
+    "freight_brl": "1332.06"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "PB",
+    "orders": 20,
+    "eligible": 20,
+    "late": 3,
+    "merchandise_brl": "2957.37",
+    "freight_brl": "605.31"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "PE",
+    "orders": 40,
+    "eligible": 36,
+    "late": 3,
+    "merchandise_brl": "4259.32",
+    "freight_brl": "1126.43"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "PI",
+    "orders": 13,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "2496.93",
+    "freight_brl": "358.10"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "PR",
+    "orders": 114,
+    "eligible": 112,
+    "late": 3,
+    "merchandise_brl": "15958.09",
+    "freight_brl": "2498.04"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "RJ",
+    "orders": 338,
+    "eligible": 325,
+    "late": 21,
+    "merchandise_brl": "57889.84",
+    "freight_brl": "7146.72"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "RN",
+    "orders": 10,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "1243.87",
+    "freight_brl": "321.38"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "RO",
+    "orders": 9,
+    "eligible": 7,
+    "late": 1,
+    "merchandise_brl": "1077.58",
+    "freight_brl": "249.49"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "48.95",
+    "freight_brl": "57.94"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "RS",
+    "orders": 139,
+    "eligible": 132,
+    "late": 3,
+    "merchandise_brl": "19248.24",
+    "freight_brl": "3119.87"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "SC",
+    "orders": 105,
+    "eligible": 100,
+    "late": 9,
+    "merchandise_brl": "11762.10",
+    "freight_brl": "2232.66"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "SE",
+    "orders": 13,
+    "eligible": 13,
+    "late": 4,
+    "merchandise_brl": "2595.17",
+    "freight_brl": "744.90"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "SP",
+    "orders": 908,
+    "eligible": 873,
+    "late": 61,
+    "merchandise_brl": "132634.50",
+    "freight_brl": "16048.26"
+  },
+  {
+    "month_label": "2017-04",
+    "customer_state": "TO",
+    "orders": 14,
+    "eligible": 13,
+    "late": 2,
+    "merchandise_brl": "3192.84",
+    "freight_brl": "621.63"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "AC",
+    "orders": 8,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "2094.39",
+    "freight_brl": "277.34"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "AL",
+    "orders": 27,
+    "eligible": 26,
+    "late": 2,
+    "merchandise_brl": "4773.24",
+    "freight_brl": "956.49"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "AM",
+    "orders": 10,
+    "eligible": 8,
+    "late": 1,
+    "merchandise_brl": "1072.77",
+    "freight_brl": "248.91"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "AP",
+    "orders": 5,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "1320.38",
+    "freight_brl": "188.46"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "BA",
+    "orders": 127,
+    "eligible": 119,
+    "late": 4,
+    "merchandise_brl": "16668.42",
+    "freight_brl": "3627.62"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "CE",
+    "orders": 62,
+    "eligible": 62,
+    "late": 1,
+    "merchandise_brl": "10466.27",
+    "freight_brl": "2162.40"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "DF",
+    "orders": 64,
+    "eligible": 60,
+    "late": 0,
+    "merchandise_brl": "7953.28",
+    "freight_brl": "1296.49"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "ES",
+    "orders": 94,
+    "eligible": 90,
+    "late": 3,
+    "merchandise_brl": "13184.73",
+    "freight_brl": "2429.87"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "GO",
+    "orders": 87,
+    "eligible": 83,
+    "late": 3,
+    "merchandise_brl": "16615.97",
+    "freight_brl": "2412.39"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "MA",
+    "orders": 33,
+    "eligible": 31,
+    "late": 0,
+    "merchandise_brl": "3440.08",
+    "freight_brl": "1065.01"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "MG",
+    "orders": 428,
+    "eligible": 412,
+    "late": 7,
+    "merchandise_brl": "50158.05",
+    "freight_brl": "8877.55"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "MS",
+    "orders": 29,
+    "eligible": 26,
+    "late": 0,
+    "merchandise_brl": "3387.34",
+    "freight_brl": "571.26"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "MT",
+    "orders": 37,
+    "eligible": 37,
+    "late": 1,
+    "merchandise_brl": "6731.11",
+    "freight_brl": "949.46"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "PA",
+    "orders": 35,
+    "eligible": 35,
+    "late": 1,
+    "merchandise_brl": "5404.14",
+    "freight_brl": "1166.56"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "PB",
+    "orders": 18,
+    "eligible": 17,
+    "late": 1,
+    "merchandise_brl": "2899.21",
+    "freight_brl": "599.22"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "PE",
+    "orders": 68,
+    "eligible": 63,
+    "late": 1,
+    "merchandise_brl": "10419.70",
+    "freight_brl": "2517.33"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "PI",
+    "orders": 25,
+    "eligible": 23,
+    "late": 0,
+    "merchandise_brl": "5972.80",
+    "freight_brl": "970.89"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "PR",
+    "orders": 213,
+    "eligible": 206,
+    "late": 2,
+    "merchandise_brl": "31769.79",
+    "freight_brl": "4542.31"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "RJ",
+    "orders": 488,
+    "eligible": 466,
+    "late": 13,
+    "merchandise_brl": "74628.81",
+    "freight_brl": "10831.64"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "RN",
+    "orders": 17,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "4683.56",
+    "freight_brl": "899.31"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "RO",
+    "orders": 9,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "551.46",
+    "freight_brl": "277.42"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "233.11",
+    "freight_brl": "84.86"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "RS",
+    "orders": 208,
+    "eligible": 205,
+    "late": 1,
+    "merchandise_brl": "28407.76",
+    "freight_brl": "4609.80"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "SC",
+    "orders": 152,
+    "eligible": 146,
+    "late": 7,
+    "merchandise_brl": "23516.67",
+    "freight_brl": "3434.37"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "SE",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "681.09",
+    "freight_brl": "378.44"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "SP",
+    "orders": 1425,
+    "eligible": 1363,
+    "late": 58,
+    "merchandise_brl": "176912.68",
+    "freight_brl": "24196.87"
+  },
+  {
+    "month_label": "2017-05",
+    "customer_state": "TO",
+    "orders": 18,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "2124.33",
+    "freight_brl": "547.54"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "AC",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "385.78",
+    "freight_brl": "124.49"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "AL",
+    "orders": 10,
+    "eligible": 10,
+    "late": 3,
+    "merchandise_brl": "951.65",
+    "freight_brl": "317.32"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "AM",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "169.99",
+    "freight_brl": "34.85"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "252.70",
+    "freight_brl": "117.04"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "BA",
+    "orders": 106,
+    "eligible": 103,
+    "late": 8,
+    "merchandise_brl": "20988.57",
+    "freight_brl": "2807.77"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "CE",
+    "orders": 47,
+    "eligible": 44,
+    "late": 0,
+    "merchandise_brl": "10060.19",
+    "freight_brl": "1344.66"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "DF",
+    "orders": 70,
+    "eligible": 69,
+    "late": 1,
+    "merchandise_brl": "8325.86",
+    "freight_brl": "1511.09"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "ES",
+    "orders": 80,
+    "eligible": 79,
+    "late": 5,
+    "merchandise_brl": "10345.83",
+    "freight_brl": "1997.46"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "GO",
+    "orders": 79,
+    "eligible": 73,
+    "late": 3,
+    "merchandise_brl": "9395.26",
+    "freight_brl": "1903.82"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "MA",
+    "orders": 17,
+    "eligible": 15,
+    "late": 0,
+    "merchandise_brl": "1779.30",
+    "freight_brl": "578.93"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "MG",
+    "orders": 363,
+    "eligible": 356,
+    "late": 5,
+    "merchandise_brl": "46656.03",
+    "freight_brl": "8184.87"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "MS",
+    "orders": 27,
+    "eligible": 27,
+    "late": 0,
+    "merchandise_brl": "3807.42",
+    "freight_brl": "635.24"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "MT",
+    "orders": 25,
+    "eligible": 24,
+    "late": 1,
+    "merchandise_brl": "4326.53",
+    "freight_brl": "599.72"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "PA",
+    "orders": 38,
+    "eligible": 36,
+    "late": 2,
+    "merchandise_brl": "5730.27",
+    "freight_brl": "1188.32"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "PB",
+    "orders": 23,
+    "eligible": 22,
+    "late": 2,
+    "merchandise_brl": "6182.92",
+    "freight_brl": "1221.78"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "PE",
+    "orders": 46,
+    "eligible": 41,
+    "late": 2,
+    "merchandise_brl": "5804.58",
+    "freight_brl": "1756.87"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "PI",
+    "orders": 14,
+    "eligible": 14,
+    "late": 0,
+    "merchandise_brl": "2147.47",
+    "freight_brl": "479.49"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "PR",
+    "orders": 170,
+    "eligible": 167,
+    "late": 2,
+    "merchandise_brl": "21538.18",
+    "freight_brl": "4404.15"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "RJ",
+    "orders": 412,
+    "eligible": 399,
+    "late": 13,
+    "merchandise_brl": "54452.31",
+    "freight_brl": "8749.94"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "RN",
+    "orders": 13,
+    "eligible": 12,
+    "late": 1,
+    "merchandise_brl": "1241.36",
+    "freight_brl": "351.70"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "RO",
+    "orders": 10,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "1800.92",
+    "freight_brl": "510.14"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "RR",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "93.40",
+    "freight_brl": "81.78"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "RS",
+    "orders": 221,
+    "eligible": 215,
+    "late": 1,
+    "merchandise_brl": "23969.51",
+    "freight_brl": "4909.07"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "SC",
+    "orders": 116,
+    "eligible": 109,
+    "late": 4,
+    "merchandise_brl": "13323.33",
+    "freight_brl": "2760.27"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "SE",
+    "orders": 9,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "1456.51",
+    "freight_brl": "349.81"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "SP",
+    "orders": 1331,
+    "eligible": 1284,
+    "late": 42,
+    "merchandise_brl": "173887.55",
+    "freight_brl": "22527.92"
+  },
+  {
+    "month_label": "2017-06",
+    "customer_state": "TO",
+    "orders": 8,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "3965.18",
+    "freight_brl": "475.94"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "AC",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "618.69",
+    "freight_brl": "175.71"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "AL",
+    "orders": 17,
+    "eligible": 15,
+    "late": 7,
+    "merchandise_brl": "2336.09",
+    "freight_brl": "677.36"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "AM",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "705.60",
+    "freight_brl": "245.80"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "AP",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "259.90",
+    "freight_brl": "32.49"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "BA",
+    "orders": 155,
+    "eligible": 144,
+    "late": 7,
+    "merchandise_brl": "19289.45",
+    "freight_brl": "3812.15"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "CE",
+    "orders": 53,
+    "eligible": 53,
+    "late": 0,
+    "merchandise_brl": "7759.52",
+    "freight_brl": "2073.69"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "DF",
+    "orders": 77,
+    "eligible": 75,
+    "late": 0,
+    "merchandise_brl": "10828.02",
+    "freight_brl": "2009.67"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "ES",
+    "orders": 83,
+    "eligible": 81,
+    "late": 3,
+    "merchandise_brl": "7219.10",
+    "freight_brl": "1738.16"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "GO",
+    "orders": 77,
+    "eligible": 77,
+    "late": 3,
+    "merchandise_brl": "8923.19",
+    "freight_brl": "1653.78"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "MA",
+    "orders": 39,
+    "eligible": 37,
+    "late": 0,
+    "merchandise_brl": "6481.34",
+    "freight_brl": "1460.00"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "MG",
+    "orders": 453,
+    "eligible": 435,
+    "late": 4,
+    "merchandise_brl": "54766.97",
+    "freight_brl": "9945.76"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "MS",
+    "orders": 25,
+    "eligible": 24,
+    "late": 0,
+    "merchandise_brl": "3722.94",
+    "freight_brl": "582.90"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "MT",
+    "orders": 38,
+    "eligible": 37,
+    "late": 0,
+    "merchandise_brl": "10288.68",
+    "freight_brl": "1060.25"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "PA",
+    "orders": 39,
+    "eligible": 36,
+    "late": 3,
+    "merchandise_brl": "5459.01",
+    "freight_brl": "1310.95"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "PB",
+    "orders": 27,
+    "eligible": 26,
+    "late": 5,
+    "merchandise_brl": "4635.04",
+    "freight_brl": "1356.33"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "PE",
+    "orders": 73,
+    "eligible": 70,
+    "late": 13,
+    "merchandise_brl": "9880.42",
+    "freight_brl": "2528.96"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "PI",
+    "orders": 20,
+    "eligible": 20,
+    "late": 1,
+    "merchandise_brl": "2202.01",
+    "freight_brl": "736.76"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "PR",
+    "orders": 203,
+    "eligible": 195,
+    "late": 1,
+    "merchandise_brl": "24569.00",
+    "freight_brl": "4551.86"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "RJ",
+    "orders": 571,
+    "eligible": 547,
+    "late": 17,
+    "merchandise_brl": "78618.90",
+    "freight_brl": "12853.17"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "RN",
+    "orders": 27,
+    "eligible": 27,
+    "late": 3,
+    "merchandise_brl": "3193.99",
+    "freight_brl": "984.26"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "RO",
+    "orders": 11,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "1083.72",
+    "freight_brl": "344.92"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "RR",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "179.90",
+    "freight_brl": "45.11"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "RS",
+    "orders": 249,
+    "eligible": 242,
+    "late": 6,
+    "merchandise_brl": "29346.96",
+    "freight_brl": "5857.13"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "SC",
+    "orders": 158,
+    "eligible": 152,
+    "late": 7,
+    "merchandise_brl": "19478.90",
+    "freight_brl": "3394.97"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "SE",
+    "orders": 14,
+    "eligible": 13,
+    "late": 0,
+    "merchandise_brl": "1372.09",
+    "freight_brl": "401.10"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "SP",
+    "orders": 1604,
+    "eligible": 1543,
+    "late": 28,
+    "merchandise_brl": "184714.55",
+    "freight_brl": "27077.82"
+  },
+  {
+    "month_label": "2017-07",
+    "customer_state": "TO",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "97.50",
+    "freight_brl": "29.08"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "AC",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "637.93",
+    "freight_brl": "127.90"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "AL",
+    "orders": 18,
+    "eligible": 17,
+    "late": 3,
+    "merchandise_brl": "8972.07",
+    "freight_brl": "703.43"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "AM",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1276.60",
+    "freight_brl": "206.81"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "AP",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "289.79",
+    "freight_brl": "94.99"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "BA",
+    "orders": 158,
+    "eligible": 152,
+    "late": 5,
+    "merchandise_brl": "28921.27",
+    "freight_brl": "4420.39"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "CE",
+    "orders": 73,
+    "eligible": 73,
+    "late": 1,
+    "merchandise_brl": "10642.66",
+    "freight_brl": "2315.01"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "DF",
+    "orders": 87,
+    "eligible": 83,
+    "late": 1,
+    "merchandise_brl": "9863.81",
+    "freight_brl": "1814.14"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "ES",
+    "orders": 95,
+    "eligible": 94,
+    "late": 4,
+    "merchandise_brl": "13158.31",
+    "freight_brl": "2222.29"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "GO",
+    "orders": 93,
+    "eligible": 89,
+    "late": 2,
+    "merchandise_brl": "14402.79",
+    "freight_brl": "2927.25"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "MA",
+    "orders": 40,
+    "eligible": 38,
+    "late": 2,
+    "merchandise_brl": "6121.84",
+    "freight_brl": "1665.12"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "MG",
+    "orders": 469,
+    "eligible": 459,
+    "late": 11,
+    "merchandise_brl": "59981.30",
+    "freight_brl": "10443.26"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "MS",
+    "orders": 24,
+    "eligible": 24,
+    "late": 0,
+    "merchandise_brl": "3841.62",
+    "freight_brl": "627.02"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "MT",
+    "orders": 38,
+    "eligible": 38,
+    "late": 0,
+    "merchandise_brl": "6709.45",
+    "freight_brl": "1122.44"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "PA",
+    "orders": 60,
+    "eligible": 57,
+    "late": 0,
+    "merchandise_brl": "14765.20",
+    "freight_brl": "2390.33"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "PB",
+    "orders": 16,
+    "eligible": 16,
+    "late": 1,
+    "merchandise_brl": "2324.77",
+    "freight_brl": "728.34"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "PE",
+    "orders": 85,
+    "eligible": 83,
+    "late": 12,
+    "merchandise_brl": "13074.25",
+    "freight_brl": "2684.53"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "PI",
+    "orders": 22,
+    "eligible": 20,
+    "late": 0,
+    "merchandise_brl": "4626.40",
+    "freight_brl": "1081.22"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "PR",
+    "orders": 223,
+    "eligible": 220,
+    "late": 0,
+    "merchandise_brl": "28561.45",
+    "freight_brl": "4900.19"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "RJ",
+    "orders": 562,
+    "eligible": 537,
+    "late": 16,
+    "merchandise_brl": "78662.60",
+    "freight_brl": "12296.66"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "RN",
+    "orders": 20,
+    "eligible": 20,
+    "late": 2,
+    "merchandise_brl": "2545.41",
+    "freight_brl": "727.94"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "RO",
+    "orders": 14,
+    "eligible": 14,
+    "late": 0,
+    "merchandise_brl": "2236.88",
+    "freight_brl": "579.09"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "RS",
+    "orders": 299,
+    "eligible": 296,
+    "late": 22,
+    "merchandise_brl": "34295.24",
+    "freight_brl": "6530.92"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "SC",
+    "orders": 159,
+    "eligible": 152,
+    "late": 4,
+    "merchandise_brl": "22351.81",
+    "freight_brl": "3804.95"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "SE",
+    "orders": 20,
+    "eligible": 19,
+    "late": 2,
+    "merchandise_brl": "4821.69",
+    "freight_brl": "835.94"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "SP",
+    "orders": 1729,
+    "eligible": 1665,
+    "late": 34,
+    "merchandise_brl": "198753.97",
+    "freight_brl": "28596.81"
+  },
+  {
+    "month_label": "2017-08",
+    "customer_state": "TO",
+    "orders": 15,
+    "eligible": 15,
+    "late": 0,
+    "merchandise_brl": "2132.57",
+    "freight_brl": "385.95"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "AC",
+    "orders": 5,
+    "eligible": 5,
+    "late": 1,
+    "merchandise_brl": "1786.89",
+    "freight_brl": "242.34"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "AL",
+    "orders": 20,
+    "eligible": 19,
+    "late": 8,
+    "merchandise_brl": "4365.29",
+    "freight_brl": "826.36"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "AM",
+    "orders": 9,
+    "eligible": 9,
+    "late": 0,
+    "merchandise_brl": "1163.28",
+    "freight_brl": "355.16"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "364.60",
+    "freight_brl": "134.62"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "BA",
+    "orders": 170,
+    "eligible": 167,
+    "late": 28,
+    "merchandise_brl": "23947.30",
+    "freight_brl": "4377.91"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "CE",
+    "orders": 77,
+    "eligible": 74,
+    "late": 2,
+    "merchandise_brl": "16891.82",
+    "freight_brl": "2814.61"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "DF",
+    "orders": 97,
+    "eligible": 94,
+    "late": 7,
+    "merchandise_brl": "13319.89",
+    "freight_brl": "2194.77"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "ES",
+    "orders": 93,
+    "eligible": 93,
+    "late": 4,
+    "merchandise_brl": "11235.95",
+    "freight_brl": "2078.24"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "GO",
+    "orders": 88,
+    "eligible": 84,
+    "late": 2,
+    "merchandise_brl": "13974.54",
+    "freight_brl": "2483.15"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "MA",
+    "orders": 42,
+    "eligible": 41,
+    "late": 3,
+    "merchandise_brl": "9519.25",
+    "freight_brl": "1821.44"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "MG",
+    "orders": 507,
+    "eligible": 493,
+    "late": 5,
+    "merchandise_brl": "72840.01",
+    "freight_brl": "11541.50"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "MS",
+    "orders": 33,
+    "eligible": 32,
+    "late": 0,
+    "merchandise_brl": "4902.71",
+    "freight_brl": "666.77"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "MT",
+    "orders": 35,
+    "eligible": 34,
+    "late": 2,
+    "merchandise_brl": "6940.91",
+    "freight_brl": "1325.01"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "PA",
+    "orders": 41,
+    "eligible": 41,
+    "late": 5,
+    "merchandise_brl": "6218.39",
+    "freight_brl": "1513.35"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "PB",
+    "orders": 29,
+    "eligible": 25,
+    "late": 7,
+    "merchandise_brl": "5499.28",
+    "freight_brl": "1361.10"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "PE",
+    "orders": 76,
+    "eligible": 74,
+    "late": 6,
+    "merchandise_brl": "15077.51",
+    "freight_brl": "2580.88"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "PI",
+    "orders": 23,
+    "eligible": 22,
+    "late": 1,
+    "merchandise_brl": "3146.36",
+    "freight_brl": "765.58"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "PR",
+    "orders": 183,
+    "eligible": 176,
+    "late": 1,
+    "merchandise_brl": "22575.58",
+    "freight_brl": "3943.15"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "RJ",
+    "orders": 609,
+    "eligible": 591,
+    "late": 30,
+    "merchandise_brl": "95045.48",
+    "freight_brl": "14008.71"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "RN",
+    "orders": 24,
+    "eligible": 23,
+    "late": 3,
+    "merchandise_brl": "3445.94",
+    "freight_brl": "734.50"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "RO",
+    "orders": 16,
+    "eligible": 16,
+    "late": 0,
+    "merchandise_brl": "4197.99",
+    "freight_brl": "740.29"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "RR",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "39.99",
+    "freight_brl": "25.38"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "RS",
+    "orders": 278,
+    "eligible": 273,
+    "late": 5,
+    "merchandise_brl": "37202.05",
+    "freight_brl": "6240.05"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "SC",
+    "orders": 156,
+    "eligible": 153,
+    "late": 11,
+    "merchandise_brl": "25815.93",
+    "freight_brl": "3636.62"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "SE",
+    "orders": 16,
+    "eligible": 16,
+    "late": 2,
+    "merchandise_brl": "2815.29",
+    "freight_brl": "726.20"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "SP",
+    "orders": 1638,
+    "eligible": 1576,
+    "late": 49,
+    "merchandise_brl": "218376.33",
+    "freight_brl": "28152.94"
+  },
+  {
+    "month_label": "2017-09",
+    "customer_state": "TO",
+    "orders": 17,
+    "eligible": 16,
+    "late": 0,
+    "merchandise_brl": "3693.13",
+    "freight_brl": "706.59"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "AC",
+    "orders": 6,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "735.20",
+    "freight_brl": "222.97"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "AL",
+    "orders": 28,
+    "eligible": 28,
+    "late": 2,
+    "merchandise_brl": "5344.36",
+    "freight_brl": "997.22"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "AM",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "70.88",
+    "freight_brl": "93.68"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "AP",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "1591.85",
+    "freight_brl": "104.89"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "BA",
+    "orders": 166,
+    "eligible": 158,
+    "late": 16,
+    "merchandise_brl": "24734.20",
+    "freight_brl": "4539.45"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "CE",
+    "orders": 66,
+    "eligible": 63,
+    "late": 3,
+    "merchandise_brl": "12399.11",
+    "freight_brl": "2333.67"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "DF",
+    "orders": 98,
+    "eligible": 92,
+    "late": 3,
+    "merchandise_brl": "13093.39",
+    "freight_brl": "2211.75"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "ES",
+    "orders": 100,
+    "eligible": 100,
+    "late": 5,
+    "merchandise_brl": "10380.69",
+    "freight_brl": "2286.86"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "GO",
+    "orders": 108,
+    "eligible": 106,
+    "late": 2,
+    "merchandise_brl": "17490.05",
+    "freight_brl": "2707.69"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "MA",
+    "orders": 48,
+    "eligible": 48,
+    "late": 12,
+    "merchandise_brl": "10335.80",
+    "freight_brl": "2191.18"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "MG",
+    "orders": 560,
+    "eligible": 542,
+    "late": 5,
+    "merchandise_brl": "82012.09",
+    "freight_brl": "12541.90"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "MS",
+    "orders": 34,
+    "eligible": 33,
+    "late": 2,
+    "merchandise_brl": "6267.84",
+    "freight_brl": "1033.93"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "MT",
+    "orders": 52,
+    "eligible": 50,
+    "late": 1,
+    "merchandise_brl": "10749.01",
+    "freight_brl": "2143.87"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "PA",
+    "orders": 54,
+    "eligible": 52,
+    "late": 3,
+    "merchandise_brl": "6751.58",
+    "freight_brl": "2016.86"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "PB",
+    "orders": 30,
+    "eligible": 28,
+    "late": 0,
+    "merchandise_brl": "10284.31",
+    "freight_brl": "1313.14"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "PE",
+    "orders": 80,
+    "eligible": 77,
+    "late": 5,
+    "merchandise_brl": "17426.89",
+    "freight_brl": "3046.45"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "PI",
+    "orders": 23,
+    "eligible": 23,
+    "late": 0,
+    "merchandise_brl": "4047.04",
+    "freight_brl": "908.00"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "PR",
+    "orders": 206,
+    "eligible": 198,
+    "late": 6,
+    "merchandise_brl": "33400.66",
+    "freight_brl": "4857.57"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "RJ",
+    "orders": 668,
+    "eligible": 654,
+    "late": 45,
+    "merchandise_brl": "97252.86",
+    "freight_brl": "15355.10"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "RN",
+    "orders": 23,
+    "eligible": 23,
+    "late": 1,
+    "merchandise_brl": "4202.47",
+    "freight_brl": "1149.55"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "RO",
+    "orders": 14,
+    "eligible": 13,
+    "late": 0,
+    "merchandise_brl": "1657.95",
+    "freight_brl": "727.06"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "RR",
+    "orders": 3,
+    "eligible": 3,
+    "late": 1,
+    "merchandise_brl": "388.98",
+    "freight_brl": "136.17"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "RS",
+    "orders": 252,
+    "eligible": 244,
+    "late": 5,
+    "merchandise_brl": "37571.11",
+    "freight_brl": "6280.89"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "SC",
+    "orders": 178,
+    "eligible": 174,
+    "late": 8,
+    "merchandise_brl": "21022.55",
+    "freight_brl": "3751.21"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "SE",
+    "orders": 22,
+    "eligible": 22,
+    "late": 6,
+    "merchandise_brl": "4294.21",
+    "freight_brl": "829.08"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "SP",
+    "orders": 1793,
+    "eligible": 1723,
+    "late": 56,
+    "merchandise_brl": "227905.50",
+    "freight_brl": "30883.58"
+  },
+  {
+    "month_label": "2017-10",
+    "customer_state": "TO",
+    "orders": 13,
+    "eligible": 13,
+    "late": 0,
+    "merchandise_brl": "2808.85",
+    "freight_brl": "429.22"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "AC",
+    "orders": 5,
+    "eligible": 5,
+    "late": 1,
+    "merchandise_brl": "649.92",
+    "freight_brl": "295.24"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "AL",
+    "orders": 26,
+    "eligible": 26,
+    "late": 5,
+    "merchandise_brl": "5936.26",
+    "freight_brl": "1505.21"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "AM",
+    "orders": 10,
+    "eligible": 10,
+    "late": 0,
+    "merchandise_brl": "2635.25",
+    "freight_brl": "365.76"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "AP",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "511.88",
+    "freight_brl": "177.29"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "BA",
+    "orders": 250,
+    "eligible": 243,
+    "late": 36,
+    "merchandise_brl": "29137.89",
+    "freight_brl": "6708.84"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "CE",
+    "orders": 108,
+    "eligible": 103,
+    "late": 27,
+    "merchandise_brl": "18655.44",
+    "freight_brl": "3876.35"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "DF",
+    "orders": 168,
+    "eligible": 157,
+    "late": 18,
+    "merchandise_brl": "27759.84",
+    "freight_brl": "3947.07"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "ES",
+    "orders": 170,
+    "eligible": 168,
+    "late": 34,
+    "merchandise_brl": "24302.25",
+    "freight_brl": "4577.68"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "GO",
+    "orders": 157,
+    "eligible": 153,
+    "late": 20,
+    "merchandise_brl": "21079.19",
+    "freight_brl": "3997.05"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "MA",
+    "orders": 56,
+    "eligible": 53,
+    "late": 28,
+    "merchandise_brl": "10002.49",
+    "freight_brl": "2451.55"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "MG",
+    "orders": 943,
+    "eligible": 922,
+    "late": 66,
+    "merchandise_brl": "134288.65",
+    "freight_brl": "21617.39"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "MS",
+    "orders": 46,
+    "eligible": 44,
+    "late": 4,
+    "merchandise_brl": "6249.78",
+    "freight_brl": "1166.69"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "MT",
+    "orders": 74,
+    "eligible": 73,
+    "late": 9,
+    "merchandise_brl": "11431.70",
+    "freight_brl": "1998.67"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "PA",
+    "orders": 70,
+    "eligible": 69,
+    "late": 10,
+    "merchandise_brl": "11704.43",
+    "freight_brl": "2727.15"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "PB",
+    "orders": 30,
+    "eligible": 27,
+    "late": 5,
+    "merchandise_brl": "4567.39",
+    "freight_brl": "1374.60"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "PE",
+    "orders": 126,
+    "eligible": 125,
+    "late": 15,
+    "merchandise_brl": "19658.24",
+    "freight_brl": "4660.90"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "PI",
+    "orders": 31,
+    "eligible": 31,
+    "late": 15,
+    "merchandise_brl": "2707.81",
+    "freight_brl": "1097.58"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "PR",
+    "orders": 378,
+    "eligible": 365,
+    "late": 32,
+    "merchandise_brl": "46853.49",
+    "freight_brl": "8619.54"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "RJ",
+    "orders": 1048,
+    "eligible": 1012,
+    "late": 263,
+    "merchandise_brl": "150539.39",
+    "freight_brl": "24987.85"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "RN",
+    "orders": 44,
+    "eligible": 41,
+    "late": 8,
+    "merchandise_brl": "8469.30",
+    "freight_brl": "1581.00"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "RO",
+    "orders": 17,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "5852.16",
+    "freight_brl": "1205.31"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 1,
+    "merchandise_brl": "98.64",
+    "freight_brl": "52.82"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "RS",
+    "orders": 422,
+    "eligible": 409,
+    "late": 52,
+    "merchandise_brl": "58699.88",
+    "freight_brl": "10027.61"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "SC",
+    "orders": 303,
+    "eligible": 288,
+    "late": 43,
+    "merchandise_brl": "40312.90",
+    "freight_brl": "6685.25"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "SE",
+    "orders": 27,
+    "eligible": 26,
+    "late": 7,
+    "merchandise_brl": "5579.25",
+    "freight_brl": "1034.14"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "SP",
+    "orders": 3012,
+    "eligible": 2898,
+    "late": 202,
+    "merchandise_brl": "360251.89",
+    "freight_brl": "51391.00"
+  },
+  {
+    "month_label": "2017-11",
+    "customer_state": "TO",
+    "orders": 17,
+    "eligible": 17,
+    "late": 3,
+    "merchandise_brl": "2336.06",
+    "freight_brl": "742.86"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "AC",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1100.78",
+    "freight_brl": "308.80"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "AL",
+    "orders": 14,
+    "eligible": 12,
+    "late": 0,
+    "merchandise_brl": "2223.87",
+    "freight_brl": "456.89"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "AM",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "1029.46",
+    "freight_brl": "144.16"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "AP",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "601.90",
+    "freight_brl": "168.66"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "BA",
+    "orders": 192,
+    "eligible": 188,
+    "late": 24,
+    "merchandise_brl": "28372.59",
+    "freight_brl": "5192.69"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "CE",
+    "orders": 81,
+    "eligible": 79,
+    "late": 6,
+    "merchandise_brl": "11116.34",
+    "freight_brl": "2472.41"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "DF",
+    "orders": 131,
+    "eligible": 129,
+    "late": 6,
+    "merchandise_brl": "16965.57",
+    "freight_brl": "2966.68"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "ES",
+    "orders": 113,
+    "eligible": 108,
+    "late": 7,
+    "merchandise_brl": "12606.65",
+    "freight_brl": "2113.94"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "GO",
+    "orders": 127,
+    "eligible": 125,
+    "late": 9,
+    "merchandise_brl": "15861.82",
+    "freight_brl": "2742.36"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "MA",
+    "orders": 41,
+    "eligible": 40,
+    "late": 5,
+    "merchandise_brl": "5820.14",
+    "freight_brl": "1722.81"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "MG",
+    "orders": 691,
+    "eligible": 669,
+    "late": 23,
+    "merchandise_brl": "93138.31",
+    "freight_brl": "14563.64"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "MS",
+    "orders": 36,
+    "eligible": 34,
+    "late": 2,
+    "merchandise_brl": "5408.25",
+    "freight_brl": "806.25"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "MT",
+    "orders": 50,
+    "eligible": 49,
+    "late": 5,
+    "merchandise_brl": "9626.20",
+    "freight_brl": "1577.90"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "PA",
+    "orders": 58,
+    "eligible": 58,
+    "late": 4,
+    "merchandise_brl": "10420.23",
+    "freight_brl": "1962.17"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "PB",
+    "orders": 37,
+    "eligible": 37,
+    "late": 4,
+    "merchandise_brl": "5585.56",
+    "freight_brl": "1430.69"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "PE",
+    "orders": 103,
+    "eligible": 101,
+    "late": 8,
+    "merchandise_brl": "16128.61",
+    "freight_brl": "3590.93"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "PI",
+    "orders": 23,
+    "eligible": 23,
+    "late": 3,
+    "merchandise_brl": "2646.92",
+    "freight_brl": "861.56"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "PR",
+    "orders": 270,
+    "eligible": 260,
+    "late": 13,
+    "merchandise_brl": "30122.83",
+    "freight_brl": "5287.05"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "RJ",
+    "orders": 783,
+    "eligible": 746,
+    "late": 179,
+    "merchandise_brl": "118260.54",
+    "freight_brl": "18581.80"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "RN",
+    "orders": 30,
+    "eligible": 30,
+    "late": 2,
+    "merchandise_brl": "3168.45",
+    "freight_brl": "930.05"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "RO",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "1949.58",
+    "freight_brl": "460.78"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "RS",
+    "orders": 283,
+    "eligible": 278,
+    "late": 28,
+    "merchandise_brl": "42179.75",
+    "freight_brl": "6826.32"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "SC",
+    "orders": 193,
+    "eligible": 192,
+    "late": 8,
+    "merchandise_brl": "24234.89",
+    "freight_brl": "4135.17"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "SE",
+    "orders": 20,
+    "eligible": 20,
+    "late": 3,
+    "merchandise_brl": "3147.78",
+    "freight_brl": "904.14"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "SP",
+    "orders": 2357,
+    "eligible": 2295,
+    "late": 72,
+    "merchandise_brl": "280740.14",
+    "freight_brl": "38990.06"
+  },
+  {
+    "month_label": "2017-12",
+    "customer_state": "TO",
+    "orders": 14,
+    "eligible": 14,
+    "late": 0,
+    "merchandise_brl": "1457.01",
+    "freight_brl": "435.15"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "AC",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "882.94",
+    "freight_brl": "274.95"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "AL",
+    "orders": 37,
+    "eligible": 36,
+    "late": 12,
+    "merchandise_brl": "5134.08",
+    "freight_brl": "1351.82"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "AM",
+    "orders": 12,
+    "eligible": 12,
+    "late": 0,
+    "merchandise_brl": "2925.65",
+    "freight_brl": "507.81"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "AP",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "2393.67",
+    "freight_brl": "395.07"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "BA",
+    "orders": 239,
+    "eligible": 228,
+    "late": 15,
+    "merchandise_brl": "37066.01",
+    "freight_brl": "7220.34"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "CE",
+    "orders": 90,
+    "eligible": 77,
+    "late": 9,
+    "merchandise_brl": "13828.83",
+    "freight_brl": "3083.62"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "DF",
+    "orders": 138,
+    "eligible": 135,
+    "late": 4,
+    "merchandise_brl": "17736.97",
+    "freight_brl": "2991.34"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "ES",
+    "orders": 147,
+    "eligible": 145,
+    "late": 14,
+    "merchandise_brl": "20444.91",
+    "freight_brl": "3461.57"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "GO",
+    "orders": 146,
+    "eligible": 144,
+    "late": 7,
+    "merchandise_brl": "16879.19",
+    "freight_brl": "3311.02"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "MA",
+    "orders": 57,
+    "eligible": 55,
+    "late": 4,
+    "merchandise_brl": "8782.51",
+    "freight_brl": "2426.54"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "MG",
+    "orders": 863,
+    "eligible": 846,
+    "late": 26,
+    "merchandise_brl": "115102.76",
+    "freight_brl": "19337.35"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "MS",
+    "orders": 70,
+    "eligible": 70,
+    "late": 3,
+    "merchandise_brl": "10100.76",
+    "freight_brl": "1929.12"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "MT",
+    "orders": 85,
+    "eligible": 83,
+    "late": 3,
+    "merchandise_brl": "12274.70",
+    "freight_brl": "2379.46"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "PA",
+    "orders": 70,
+    "eligible": 69,
+    "late": 6,
+    "merchandise_brl": "14114.56",
+    "freight_brl": "2785.81"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "PB",
+    "orders": 31,
+    "eligible": 31,
+    "late": 4,
+    "merchandise_brl": "6800.29",
+    "freight_brl": "1222.23"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "PE",
+    "orders": 104,
+    "eligible": 102,
+    "late": 8,
+    "merchandise_brl": "14993.43",
+    "freight_brl": "3543.19"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "PI",
+    "orders": 48,
+    "eligible": 47,
+    "late": 5,
+    "merchandise_brl": "6724.17",
+    "freight_brl": "1853.11"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "PR",
+    "orders": 378,
+    "eligible": 371,
+    "late": 6,
+    "merchandise_brl": "44872.30",
+    "freight_brl": "7779.82"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "RJ",
+    "orders": 893,
+    "eligible": 850,
+    "late": 111,
+    "merchandise_brl": "122212.69",
+    "freight_brl": "21004.54"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "RN",
+    "orders": 46,
+    "eligible": 42,
+    "late": 1,
+    "merchandise_brl": "5807.94",
+    "freight_brl": "1401.58"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "RO",
+    "orders": 20,
+    "eligible": 20,
+    "late": 1,
+    "merchandise_brl": "2286.76",
+    "freight_brl": "803.34"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "218.99",
+    "freight_brl": "59.45"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "RS",
+    "orders": 373,
+    "eligible": 367,
+    "late": 30,
+    "merchandise_brl": "48482.98",
+    "freight_brl": "8787.83"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "SC",
+    "orders": 314,
+    "eligible": 311,
+    "late": 31,
+    "merchandise_brl": "38851.53",
+    "freight_brl": "7402.41"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "SE",
+    "orders": 20,
+    "eligible": 19,
+    "late": 1,
+    "merchandise_brl": "3060.20",
+    "freight_brl": "672.12"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "SP",
+    "orders": 3052,
+    "eligible": 2975,
+    "late": 102,
+    "merchandise_brl": "375404.50",
+    "freight_brl": "50596.88"
+  },
+  {
+    "month_label": "2018-01",
+    "customer_state": "TO",
+    "orders": 17,
+    "eligible": 16,
+    "late": 0,
+    "merchandise_brl": "2647.04",
+    "freight_brl": "689.21"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "AC",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "201.83",
+    "freight_brl": "97.39"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "AL",
+    "orders": 27,
+    "eligible": 27,
+    "late": 10,
+    "merchandise_brl": "4593.07",
+    "freight_brl": "1087.78"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "AM",
+    "orders": 8,
+    "eligible": 8,
+    "late": 1,
+    "merchandise_brl": "2028.62",
+    "freight_brl": "457.96"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "1007.90",
+    "freight_brl": "78.41"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "BA",
+    "orders": 214,
+    "eligible": 208,
+    "late": 40,
+    "merchandise_brl": "32147.51",
+    "freight_brl": "6134.87"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "CE",
+    "orders": 88,
+    "eligible": 84,
+    "late": 33,
+    "merchandise_brl": "11115.52",
+    "freight_brl": "3068.99"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "DF",
+    "orders": 172,
+    "eligible": 170,
+    "late": 20,
+    "merchandise_brl": "21205.38",
+    "freight_brl": "3523.87"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "ES",
+    "orders": 152,
+    "eligible": 149,
+    "late": 18,
+    "merchandise_brl": "17045.72",
+    "freight_brl": "3367.06"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "GO",
+    "orders": 149,
+    "eligible": 146,
+    "late": 23,
+    "merchandise_brl": "17921.00",
+    "freight_brl": "3618.63"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "MA",
+    "orders": 56,
+    "eligible": 55,
+    "late": 18,
+    "merchandise_brl": "9877.81",
+    "freight_brl": "2582.11"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "MG",
+    "orders": 804,
+    "eligible": 790,
+    "late": 66,
+    "merchandise_brl": "107648.61",
+    "freight_brl": "17565.02"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "MS",
+    "orders": 64,
+    "eligible": 64,
+    "late": 13,
+    "merchandise_brl": "8593.19",
+    "freight_brl": "1532.97"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "MT",
+    "orders": 67,
+    "eligible": 67,
+    "late": 8,
+    "merchandise_brl": "8172.69",
+    "freight_brl": "1674.59"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "PA",
+    "orders": 58,
+    "eligible": 57,
+    "late": 7,
+    "merchandise_brl": "8943.61",
+    "freight_brl": "2051.10"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "PB",
+    "orders": 35,
+    "eligible": 35,
+    "late": 3,
+    "merchandise_brl": "4750.80",
+    "freight_brl": "1592.12"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "PE",
+    "orders": 125,
+    "eligible": 121,
+    "late": 14,
+    "merchandise_brl": "17338.73",
+    "freight_brl": "3590.54"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "PI",
+    "orders": 34,
+    "eligible": 32,
+    "late": 7,
+    "merchandise_brl": "4439.72",
+    "freight_brl": "1524.84"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "PR",
+    "orders": 342,
+    "eligible": 335,
+    "late": 30,
+    "merchandise_brl": "45674.35",
+    "freight_brl": "6976.30"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "RJ",
+    "orders": 922,
+    "eligible": 879,
+    "late": 299,
+    "merchandise_brl": "117796.50",
+    "freight_brl": "20978.99"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "RN",
+    "orders": 23,
+    "eligible": 23,
+    "late": 2,
+    "merchandise_brl": "3204.87",
+    "freight_brl": "926.15"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "RO",
+    "orders": 14,
+    "eligible": 13,
+    "late": 0,
+    "merchandise_brl": "1579.38",
+    "freight_brl": "530.59"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "RR",
+    "orders": 5,
+    "eligible": 3,
+    "late": 1,
+    "merchandise_brl": "199.17",
+    "freight_brl": "184.84"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "RS",
+    "orders": 368,
+    "eligible": 363,
+    "late": 48,
+    "merchandise_brl": "46782.39",
+    "freight_brl": "8399.32"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "SC",
+    "orders": 257,
+    "eligible": 254,
+    "late": 61,
+    "merchandise_brl": "32255.05",
+    "freight_brl": "5855.21"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "SE",
+    "orders": 15,
+    "eligible": 15,
+    "late": 2,
+    "merchandise_brl": "4486.91",
+    "freight_brl": "616.19"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "SP",
+    "orders": 2703,
+    "eligible": 2632,
+    "late": 193,
+    "merchandise_brl": "312318.98",
+    "freight_brl": "43954.77"
+  },
+  {
+    "month_label": "2018-02",
+    "customer_state": "TO",
+    "orders": 21,
+    "eligible": 20,
+    "late": 9,
+    "merchandise_brl": "2849.40",
+    "freight_brl": "759.64"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "AC",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "97.80",
+    "freight_brl": "66.87"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "AL",
+    "orders": 30,
+    "eligible": 27,
+    "late": 9,
+    "merchandise_brl": "6996.10",
+    "freight_brl": "1188.49"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "AM",
+    "orders": 9,
+    "eligible": 8,
+    "late": 2,
+    "merchandise_brl": "1118.16",
+    "freight_brl": "489.08"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "AP",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "535.39",
+    "freight_brl": "169.15"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "BA",
+    "orders": 249,
+    "eligible": 235,
+    "late": 74,
+    "merchandise_brl": "36810.18",
+    "freight_brl": "8588.11"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "CE",
+    "orders": 98,
+    "eligible": 93,
+    "late": 47,
+    "merchandise_brl": "18385.26",
+    "freight_brl": "4159.49"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "DF",
+    "orders": 150,
+    "eligible": 147,
+    "late": 27,
+    "merchandise_brl": "20955.42",
+    "freight_brl": "3953.58"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "ES",
+    "orders": 134,
+    "eligible": 133,
+    "late": 55,
+    "merchandise_brl": "17391.77",
+    "freight_brl": "3212.64"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "GO",
+    "orders": 146,
+    "eligible": 141,
+    "late": 28,
+    "merchandise_brl": "19347.80",
+    "freight_brl": "4289.25"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "MA",
+    "orders": 53,
+    "eligible": 49,
+    "late": 25,
+    "merchandise_brl": "8355.74",
+    "freight_brl": "2678.02"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "MG",
+    "orders": 879,
+    "eligible": 856,
+    "late": 175,
+    "merchandise_brl": "120025.33",
+    "freight_brl": "21747.46"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "MS",
+    "orders": 59,
+    "eligible": 57,
+    "late": 23,
+    "merchandise_brl": "7398.98",
+    "freight_brl": "1634.16"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "MT",
+    "orders": 55,
+    "eligible": 52,
+    "late": 13,
+    "merchandise_brl": "8638.73",
+    "freight_brl": "1853.69"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "PA",
+    "orders": 73,
+    "eligible": 67,
+    "late": 34,
+    "merchandise_brl": "13208.78",
+    "freight_brl": "3196.60"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "PB",
+    "orders": 39,
+    "eligible": 39,
+    "late": 5,
+    "merchandise_brl": "6087.00",
+    "freight_brl": "1980.23"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "PE",
+    "orders": 108,
+    "eligible": 107,
+    "late": 22,
+    "merchandise_brl": "22861.39",
+    "freight_brl": "4159.47"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "PI",
+    "orders": 35,
+    "eligible": 34,
+    "late": 10,
+    "merchandise_brl": "6642.28",
+    "freight_brl": "1626.26"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "PR",
+    "orders": 377,
+    "eligible": 369,
+    "late": 49,
+    "merchandise_brl": "51082.01",
+    "freight_brl": "9045.09"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "RJ",
+    "orders": 907,
+    "eligible": 864,
+    "late": 298,
+    "merchandise_brl": "117848.50",
+    "freight_brl": "23163.78"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "RN",
+    "orders": 39,
+    "eligible": 38,
+    "late": 7,
+    "merchandise_brl": "7383.63",
+    "freight_brl": "1712.18"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "RO",
+    "orders": 13,
+    "eligible": 13,
+    "late": 3,
+    "merchandise_brl": "2726.89",
+    "freight_brl": "578.96"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "RR",
+    "orders": 6,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "2244.68",
+    "freight_brl": "398.96"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "RS",
+    "orders": 418,
+    "eligible": 407,
+    "late": 78,
+    "merchandise_brl": "57558.87",
+    "freight_brl": "10509.31"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "SC",
+    "orders": 252,
+    "eligible": 247,
+    "late": 48,
+    "merchandise_brl": "36672.24",
+    "freight_brl": "6468.86"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "SE",
+    "orders": 18,
+    "eligible": 17,
+    "late": 11,
+    "merchandise_brl": "2557.92",
+    "freight_brl": "946.48"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "SP",
+    "orders": 3037,
+    "eligible": 2971,
+    "late": 280,
+    "merchandise_brl": "385708.78",
+    "freight_brl": "53091.39"
+  },
+  {
+    "month_label": "2018-03",
+    "customer_state": "TO",
+    "orders": 20,
+    "eligible": 20,
+    "late": 5,
+    "merchandise_brl": "4573.81",
+    "freight_brl": "1005.82"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "AC",
+    "orders": 4,
+    "eligible": 4,
+    "late": 1,
+    "merchandise_brl": "422.98",
+    "freight_brl": "165.19"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "AL",
+    "orders": 28,
+    "eligible": 27,
+    "late": 7,
+    "merchandise_brl": "6106.23",
+    "freight_brl": "1094.98"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "AM",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "667.79",
+    "freight_brl": "225.70"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "AP",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "822.70",
+    "freight_brl": "220.10"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "BA",
+    "orders": 225,
+    "eligible": 216,
+    "late": 40,
+    "merchandise_brl": "31937.34",
+    "freight_brl": "6867.51"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "CE",
+    "orders": 100,
+    "eligible": 96,
+    "late": 23,
+    "merchandise_brl": "17349.74",
+    "freight_brl": "3623.84"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "DF",
+    "orders": 148,
+    "eligible": 146,
+    "late": 3,
+    "merchandise_brl": "18812.79",
+    "freight_brl": "3356.76"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "ES",
+    "orders": 142,
+    "eligible": 140,
+    "late": 22,
+    "merchandise_brl": "16542.57",
+    "freight_brl": "3639.07"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "GO",
+    "orders": 136,
+    "eligible": 132,
+    "late": 6,
+    "merchandise_brl": "19087.44",
+    "freight_brl": "3439.10"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "MA",
+    "orders": 46,
+    "eligible": 46,
+    "late": 6,
+    "merchandise_brl": "7929.93",
+    "freight_brl": "2093.60"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "MG",
+    "orders": 786,
+    "eligible": 778,
+    "late": 19,
+    "merchandise_brl": "111476.48",
+    "freight_brl": "19109.98"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "MS",
+    "orders": 43,
+    "eligible": 43,
+    "late": 3,
+    "merchandise_brl": "5875.85",
+    "freight_brl": "1177.29"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "MT",
+    "orders": 65,
+    "eligible": 64,
+    "late": 1,
+    "merchandise_brl": "11544.39",
+    "freight_brl": "2207.98"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "PA",
+    "orders": 71,
+    "eligible": 66,
+    "late": 20,
+    "merchandise_brl": "11649.76",
+    "freight_brl": "2839.29"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "PB",
+    "orders": 31,
+    "eligible": 28,
+    "late": 6,
+    "merchandise_brl": "4413.14",
+    "freight_brl": "1370.30"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "PE",
+    "orders": 114,
+    "eligible": 110,
+    "late": 15,
+    "merchandise_brl": "17662.61",
+    "freight_brl": "4577.86"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "PI",
+    "orders": 37,
+    "eligible": 34,
+    "late": 4,
+    "merchandise_brl": "10774.93",
+    "freight_brl": "2136.84"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "PR",
+    "orders": 386,
+    "eligible": 381,
+    "late": 5,
+    "merchandise_brl": "66638.06",
+    "freight_brl": "10480.84"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "RJ",
+    "orders": 834,
+    "eligible": 807,
+    "late": 39,
+    "merchandise_brl": "123281.40",
+    "freight_brl": "21382.32"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "RN",
+    "orders": 32,
+    "eligible": 32,
+    "late": 10,
+    "merchandise_brl": "6001.74",
+    "freight_brl": "1517.10"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "RO",
+    "orders": 11,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "3499.77",
+    "freight_brl": "585.95"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "RR",
+    "orders": 2,
+    "eligible": 2,
+    "late": 1,
+    "merchandise_brl": "712.65",
+    "freight_brl": "59.36"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "RS",
+    "orders": 349,
+    "eligible": 345,
+    "late": 12,
+    "merchandise_brl": "52500.24",
+    "freight_brl": "8924.65"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "SC",
+    "orders": 246,
+    "eligible": 245,
+    "late": 5,
+    "merchandise_brl": "44612.56",
+    "freight_brl": "7196.82"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "SE",
+    "orders": 14,
+    "eligible": 13,
+    "late": 6,
+    "merchandise_brl": "3210.42",
+    "freight_brl": "503.32"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "SP",
+    "orders": 3059,
+    "eligible": 3002,
+    "late": 51,
+    "merchandise_brl": "398822.42",
+    "freight_brl": "53175.85"
+  },
+  {
+    "month_label": "2018-04",
+    "customer_state": "TO",
+    "orders": 19,
+    "eligible": 19,
+    "late": 1,
+    "merchandise_brl": "4291.82",
+    "freight_brl": "1078.69"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "AC",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "1364.89",
+    "freight_brl": "136.53"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "AL",
+    "orders": 19,
+    "eligible": 19,
+    "late": 2,
+    "merchandise_brl": "3657.09",
+    "freight_brl": "736.01"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "AM",
+    "orders": 9,
+    "eligible": 9,
+    "late": 0,
+    "merchandise_brl": "1811.80",
+    "freight_brl": "369.99"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "AP",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "955.68",
+    "freight_brl": "234.25"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "BA",
+    "orders": 241,
+    "eligible": 237,
+    "late": 47,
+    "merchandise_brl": "35174.44",
+    "freight_brl": "7394.51"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "CE",
+    "orders": 74,
+    "eligible": 72,
+    "late": 8,
+    "merchandise_brl": "11945.51",
+    "freight_brl": "2583.82"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "DF",
+    "orders": 144,
+    "eligible": 140,
+    "late": 13,
+    "merchandise_brl": "25461.49",
+    "freight_brl": "3736.88"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "ES",
+    "orders": 134,
+    "eligible": 132,
+    "late": 21,
+    "merchandise_brl": "19004.83",
+    "freight_brl": "3416.02"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "GO",
+    "orders": 139,
+    "eligible": 136,
+    "late": 7,
+    "merchandise_brl": "24194.24",
+    "freight_brl": "3675.00"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "MA",
+    "orders": 32,
+    "eligible": 32,
+    "late": 2,
+    "merchandise_brl": "7084.04",
+    "freight_brl": "1505.51"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "MG",
+    "orders": 762,
+    "eligible": 751,
+    "late": 69,
+    "merchandise_brl": "103571.87",
+    "freight_brl": "17960.75"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "MS",
+    "orders": 45,
+    "eligible": 44,
+    "late": 4,
+    "merchandise_brl": "9981.05",
+    "freight_brl": "1159.66"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "MT",
+    "orders": 67,
+    "eligible": 66,
+    "late": 2,
+    "merchandise_brl": "12261.85",
+    "freight_brl": "2528.04"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "PA",
+    "orders": 40,
+    "eligible": 40,
+    "late": 5,
+    "merchandise_brl": "7455.64",
+    "freight_brl": "1704.91"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "PB",
+    "orders": 29,
+    "eligible": 29,
+    "late": 1,
+    "merchandise_brl": "4860.44",
+    "freight_brl": "1049.15"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "PE",
+    "orders": 106,
+    "eligible": 102,
+    "late": 12,
+    "merchandise_brl": "13774.93",
+    "freight_brl": "3013.35"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "PI",
+    "orders": 31,
+    "eligible": 30,
+    "late": 6,
+    "merchandise_brl": "6845.70",
+    "freight_brl": "1801.93"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "PR",
+    "orders": 311,
+    "eligible": 308,
+    "late": 23,
+    "merchandise_brl": "46569.48",
+    "freight_brl": "7914.14"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "RJ",
+    "orders": 833,
+    "eligible": 816,
+    "late": 56,
+    "merchandise_brl": "126972.13",
+    "freight_brl": "19675.93"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "RN",
+    "orders": 22,
+    "eligible": 22,
+    "late": 1,
+    "merchandise_brl": "4233.02",
+    "freight_brl": "765.84"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "RO",
+    "orders": 17,
+    "eligible": 17,
+    "late": 0,
+    "merchandise_brl": "2255.24",
+    "freight_brl": "902.27"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "RR",
+    "orders": 1,
+    "eligible": 1,
+    "late": 0,
+    "merchandise_brl": "89.90",
+    "freight_brl": "81.79"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "RS",
+    "orders": 351,
+    "eligible": 350,
+    "late": 10,
+    "merchandise_brl": "50841.45",
+    "freight_brl": "9241.48"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "SC",
+    "orders": 227,
+    "eligible": 226,
+    "late": 12,
+    "merchandise_brl": "35731.50",
+    "freight_brl": "6083.59"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "SE",
+    "orders": 8,
+    "eligible": 8,
+    "late": 2,
+    "merchandise_brl": "1083.18",
+    "freight_brl": "237.41"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "SP",
+    "orders": 3207,
+    "eligible": 3138,
+    "late": 136,
+    "merchandise_brl": "436596.30",
+    "freight_brl": "54781.04"
+  },
+  {
+    "month_label": "2018-05",
+    "customer_state": "TO",
+    "orders": 16,
+    "eligible": 16,
+    "late": 4,
+    "merchandise_brl": "2739.99",
+    "freight_brl": "574.34"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "AC",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "427.90",
+    "freight_brl": "169.36"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "AL",
+    "orders": 24,
+    "eligible": 24,
+    "late": 0,
+    "merchandise_brl": "3730.60",
+    "freight_brl": "1122.33"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "AM",
+    "orders": 7,
+    "eligible": 7,
+    "late": 0,
+    "merchandise_brl": "924.72",
+    "freight_brl": "286.42"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "167.48",
+    "freight_brl": "80.44"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "BA",
+    "orders": 201,
+    "eligible": 198,
+    "late": 11,
+    "merchandise_brl": "35099.48",
+    "freight_brl": "7310.74"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "CE",
+    "orders": 74,
+    "eligible": 72,
+    "late": 0,
+    "merchandise_brl": "16549.61",
+    "freight_brl": "3547.84"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "DF",
+    "orders": 150,
+    "eligible": 147,
+    "late": 1,
+    "merchandise_brl": "19985.43",
+    "freight_brl": "3718.99"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "ES",
+    "orders": 124,
+    "eligible": 123,
+    "late": 5,
+    "merchandise_brl": "17152.96",
+    "freight_brl": "3563.44"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "GO",
+    "orders": 105,
+    "eligible": 105,
+    "late": 1,
+    "merchandise_brl": "14358.06",
+    "freight_brl": "3023.25"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "MA",
+    "orders": 42,
+    "eligible": 41,
+    "late": 5,
+    "merchandise_brl": "5979.48",
+    "freight_brl": "1985.09"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "MG",
+    "orders": 717,
+    "eligible": 714,
+    "late": 1,
+    "merchandise_brl": "106078.61",
+    "freight_brl": "19694.70"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "MS",
+    "orders": 49,
+    "eligible": 49,
+    "late": 1,
+    "merchandise_brl": "8887.25",
+    "freight_brl": "1878.50"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "MT",
+    "orders": 58,
+    "eligible": 58,
+    "late": 1,
+    "merchandise_brl": "10335.29",
+    "freight_brl": "2673.26"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "PA",
+    "orders": 54,
+    "eligible": 54,
+    "late": 0,
+    "merchandise_brl": "9358.21",
+    "freight_brl": "2592.34"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "PB",
+    "orders": 28,
+    "eligible": 28,
+    "late": 1,
+    "merchandise_brl": "12993.83",
+    "freight_brl": "1227.30"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "PE",
+    "orders": 94,
+    "eligible": 91,
+    "late": 2,
+    "merchandise_brl": "14790.73",
+    "freight_brl": "3743.40"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "PI",
+    "orders": 29,
+    "eligible": 29,
+    "late": 9,
+    "merchandise_brl": "4845.70",
+    "freight_brl": "1154.26"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "PR",
+    "orders": 308,
+    "eligible": 306,
+    "late": 0,
+    "merchandise_brl": "42281.76",
+    "freight_brl": "8045.82"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "RJ",
+    "orders": 716,
+    "eligible": 707,
+    "late": 9,
+    "merchandise_brl": "102798.57",
+    "freight_brl": "19463.22"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "RN",
+    "orders": 36,
+    "eligible": 35,
+    "late": 0,
+    "merchandise_brl": "6563.45",
+    "freight_brl": "1927.38"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "RO",
+    "orders": 12,
+    "eligible": 11,
+    "late": 0,
+    "merchandise_brl": "1921.57",
+    "freight_brl": "497.40"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "RR",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1331.99",
+    "freight_brl": "310.42"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "RS",
+    "orders": 305,
+    "eligible": 304,
+    "late": 4,
+    "merchandise_brl": "44093.83",
+    "freight_brl": "8986.85"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "SC",
+    "orders": 205,
+    "eligible": 205,
+    "late": 0,
+    "merchandise_brl": "32740.72",
+    "freight_brl": "6314.55"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "SE",
+    "orders": 28,
+    "eligible": 25,
+    "late": 0,
+    "merchandise_brl": "3849.09",
+    "freight_brl": "1242.87"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "SP",
+    "orders": 2773,
+    "eligible": 2735,
+    "late": 20,
+    "merchandise_brl": "343828.57",
+    "freight_brl": "52055.02"
+  },
+  {
+    "month_label": "2018-06",
+    "customer_state": "TO",
+    "orders": 18,
+    "eligible": 18,
+    "late": 0,
+    "merchandise_brl": "4049.42",
+    "freight_brl": "937.61"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "AC",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "1469.97",
+    "freight_brl": "299.98"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "AL",
+    "orders": 23,
+    "eligible": 22,
+    "late": 4,
+    "merchandise_brl": "3956.23",
+    "freight_brl": "868.97"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "AM",
+    "orders": 18,
+    "eligible": 18,
+    "late": 0,
+    "merchandise_brl": "2004.91",
+    "freight_brl": "593.50"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "AP",
+    "orders": 6,
+    "eligible": 6,
+    "late": 0,
+    "merchandise_brl": "1350.84",
+    "freight_brl": "262.79"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "BA",
+    "orders": 250,
+    "eligible": 245,
+    "late": 15,
+    "merchandise_brl": "42646.81",
+    "freight_brl": "8158.79"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "CE",
+    "orders": 87,
+    "eligible": 84,
+    "late": 1,
+    "merchandise_brl": "14068.21",
+    "freight_brl": "3198.53"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "DF",
+    "orders": 166,
+    "eligible": 165,
+    "late": 7,
+    "merchandise_brl": "22719.93",
+    "freight_brl": "4576.94"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "ES",
+    "orders": 123,
+    "eligible": 122,
+    "late": 9,
+    "merchandise_brl": "30146.35",
+    "freight_brl": "3541.92"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "GO",
+    "orders": 115,
+    "eligible": 112,
+    "late": 5,
+    "merchandise_brl": "25253.80",
+    "freight_brl": "4121.02"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "MA",
+    "orders": 40,
+    "eligible": 39,
+    "late": 7,
+    "merchandise_brl": "6455.43",
+    "freight_brl": "1905.96"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "MG",
+    "orders": 658,
+    "eligible": 644,
+    "late": 8,
+    "merchandise_brl": "97627.71",
+    "freight_brl": "16861.65"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "MS",
+    "orders": 49,
+    "eligible": 49,
+    "late": 2,
+    "merchandise_brl": "6810.83",
+    "freight_brl": "1484.51"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "MT",
+    "orders": 47,
+    "eligible": 47,
+    "late": 0,
+    "merchandise_brl": "10599.64",
+    "freight_brl": "2046.02"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "PA",
+    "orders": 57,
+    "eligible": 57,
+    "late": 3,
+    "merchandise_brl": "13195.94",
+    "freight_brl": "2655.70"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "PB",
+    "orders": 52,
+    "eligible": 51,
+    "late": 2,
+    "merchandise_brl": "15657.68",
+    "freight_brl": "4797.43"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "PE",
+    "orders": 137,
+    "eligible": 136,
+    "late": 8,
+    "merchandise_brl": "24482.03",
+    "freight_brl": "5843.32"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "PI",
+    "orders": 32,
+    "eligible": 32,
+    "late": 2,
+    "merchandise_brl": "6933.47",
+    "freight_brl": "1537.64"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "PR",
+    "orders": 320,
+    "eligible": 314,
+    "late": 6,
+    "merchandise_brl": "47452.65",
+    "freight_brl": "8955.63"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "RJ",
+    "orders": 717,
+    "eligible": 696,
+    "late": 17,
+    "merchandise_brl": "99973.64",
+    "freight_brl": "20139.20"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "RN",
+    "orders": 29,
+    "eligible": 29,
+    "late": 0,
+    "merchandise_brl": "8415.43",
+    "freight_brl": "1264.30"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "RO",
+    "orders": 16,
+    "eligible": 16,
+    "late": 0,
+    "merchandise_brl": "4503.80",
+    "freight_brl": "745.58"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "RR",
+    "orders": 5,
+    "eligible": 5,
+    "late": 0,
+    "merchandise_brl": "1514.70",
+    "freight_brl": "445.89"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "RS",
+    "orders": 316,
+    "eligible": 308,
+    "late": 5,
+    "merchandise_brl": "43688.44",
+    "freight_brl": "9292.59"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "SC",
+    "orders": 198,
+    "eligible": 195,
+    "late": 4,
+    "merchandise_brl": "31203.58",
+    "freight_brl": "5996.29"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "SE",
+    "orders": 28,
+    "eligible": 26,
+    "late": 2,
+    "merchandise_brl": "4442.34",
+    "freight_brl": "1212.81"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "SP",
+    "orders": 2777,
+    "eligible": 2712,
+    "late": 100,
+    "merchandise_brl": "326319.19",
+    "freight_brl": "51232.43"
+  },
+  {
+    "month_label": "2018-07",
+    "customer_state": "TO",
+    "orders": 22,
+    "eligible": 22,
+    "late": 1,
+    "merchandise_brl": "2613.67",
+    "freight_brl": "1181.42"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "AC",
+    "orders": 3,
+    "eligible": 3,
+    "late": 0,
+    "merchandise_brl": "446.69",
+    "freight_brl": "157.83"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "AL",
+    "orders": 16,
+    "eligible": 16,
+    "late": 0,
+    "merchandise_brl": "2253.28",
+    "freight_brl": "660.43"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "AM",
+    "orders": 4,
+    "eligible": 4,
+    "late": 0,
+    "merchandise_brl": "380.70",
+    "freight_brl": "131.80"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "AP",
+    "orders": 2,
+    "eligible": 2,
+    "late": 0,
+    "merchandise_brl": "194.00",
+    "freight_brl": "63.40"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "BA",
+    "orders": 165,
+    "eligible": 159,
+    "late": 1,
+    "merchandise_brl": "21846.84",
+    "freight_brl": "5045.32"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "CE",
+    "orders": 57,
+    "eligible": 55,
+    "late": 0,
+    "merchandise_brl": "9457.04",
+    "freight_brl": "2424.53"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "DF",
+    "orders": 145,
+    "eligible": 143,
+    "late": 5,
+    "merchandise_brl": "19941.63",
+    "freight_brl": "3565.63"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "ES",
+    "orders": 105,
+    "eligible": 103,
+    "late": 0,
+    "merchandise_brl": "16610.04",
+    "freight_brl": "2941.23"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "GO",
+    "orders": 120,
+    "eligible": 117,
+    "late": 3,
+    "merchandise_brl": "18063.89",
+    "freight_brl": "3191.00"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "MA",
+    "orders": 30,
+    "eligible": 29,
+    "late": 2,
+    "merchandise_brl": "4246.20",
+    "freight_brl": "1079.16"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "MG",
+    "orders": 708,
+    "eligible": 700,
+    "late": 12,
+    "merchandise_brl": "95736.42",
+    "freight_brl": "18336.66"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "MS",
+    "orders": 35,
+    "eligible": 35,
+    "late": 10,
+    "merchandise_brl": "5551.43",
+    "freight_brl": "1000.52"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "MT",
+    "orders": 40,
+    "eligible": 39,
+    "late": 0,
+    "merchandise_brl": "4648.23",
+    "freight_brl": "1135.53"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "PA",
+    "orders": 44,
+    "eligible": 43,
+    "late": 0,
+    "merchandise_brl": "8928.78",
+    "freight_brl": "2037.12"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "PB",
+    "orders": 30,
+    "eligible": 28,
+    "late": 2,
+    "merchandise_brl": "7751.63",
+    "freight_brl": "1489.30"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "PE",
+    "orders": 85,
+    "eligible": 83,
+    "late": 4,
+    "merchandise_brl": "11927.03",
+    "freight_brl": "3551.26"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "PI",
+    "orders": 21,
+    "eligible": 20,
+    "late": 0,
+    "merchandise_brl": "3013.23",
+    "freight_brl": "966.61"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "PR",
+    "orders": 333,
+    "eligible": 327,
+    "late": 10,
+    "merchandise_brl": "41305.21",
+    "freight_brl": "8171.93"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "RJ",
+    "orders": 745,
+    "eligible": 723,
+    "late": 42,
+    "merchandise_brl": "95762.98",
+    "freight_brl": "17766.75"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "RN",
+    "orders": 20,
+    "eligible": 20,
+    "late": 0,
+    "merchandise_brl": "5236.37",
+    "freight_brl": "757.38"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "RO",
+    "orders": 9,
+    "eligible": 8,
+    "late": 0,
+    "merchandise_brl": "2789.78",
+    "freight_brl": "446.85"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "RS",
+    "orders": 300,
+    "eligible": 293,
+    "late": 9,
+    "merchandise_brl": "43141.60",
+    "freight_brl": "8989.91"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "SC",
+    "orders": 206,
+    "eligible": 201,
+    "late": 6,
+    "merchandise_brl": "32355.83",
+    "freight_brl": "6033.38"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "SE",
+    "orders": 23,
+    "eligible": 23,
+    "late": 0,
+    "merchandise_brl": "4558.04",
+    "freight_brl": "1042.75"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "SP",
+    "orders": 3253,
+    "eligible": 3164,
+    "late": 285,
+    "merchandise_brl": "396613.49",
+    "freight_brl": "56896.32"
+  },
+  {
+    "month_label": "2018-08",
+    "customer_state": "TO",
+    "orders": 13,
+    "eligible": 13,
+    "late": 2,
+    "merchandise_brl": "1925.97",
+    "freight_brl": "739.54"
+  },
+  {
+    "month_label": "2018-09",
+    "customer_state": "MG",
+    "orders": 4,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  },
+  {
+    "month_label": "2018-09",
+    "customer_state": "RJ",
+    "orders": 3,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  },
+  {
+    "month_label": "2018-09",
+    "customer_state": "SC",
+    "orders": 1,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  },
+  {
+    "month_label": "2018-09",
+    "customer_state": "SP",
+    "orders": 8,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": "145.00",
+    "freight_brl": "21.46"
+  },
+  {
+    "month_label": "2018-10",
+    "customer_state": "PI",
+    "orders": 1,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  },
+  {
+    "month_label": "2018-10",
+    "customer_state": "RJ",
+    "orders": 1,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  },
+  {
+    "month_label": "2018-10",
+    "customer_state": "SP",
+    "orders": 2,
+    "eligible": 0,
+    "late": 0,
+    "merchandise_brl": null,
+    "freight_brl": null
+  }
+]
